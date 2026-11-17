@@ -1,0 +1,3145 @@
+{
+ "ui": {
+  "site": "Taiwan 3D Travel Guide",
+  "tWith": "Explore with your guide RINKA",
+  "tTw": "Taiwan",
+  "t3d": "Travel guide",
+  "tModel": "A model of Taiwan built from layers of paper",
+  "tN22": "22 counties and cities",
+  "look": "Colors",
+  "lookAria": "Choose a color scheme",
+  "look1": "Blue magpie",
+  "look2": "Majolica tile",
+  "look3": "Night market",
+  "lookN": "{n} color scheme",
+  "langAria": "Choose a language",
+  "yomi": "Local pronunciation",
+  "jaYomi": "In Japanese: “{y}”",
+  "hasGuide": "Video guide",
+  "guideSec": "{s}-second voice guide",
+  "wait": "Video coming soon",
+  "waitNote": "Photos and sights are ready to explore",
+  "sheets": "layers",
+  "topSheet": "At the highest point",
+  "km2": "km²",
+  "offModel": "Outside the paper model",
+  "openGuide": "Watch the {n} guide",
+  "openCounty": "Open {n}",
+  "flagAria": "{n} guide",
+  "compass": "Reset the view",
+  "hudGuide": "RINKA's guide · {s} sec",
+  "bgPhoto": "Background photo {k}",
+  "stop": "Stop",
+  "tour": "Auto tour",
+  "region.北部": "North",
+  "region.中部": "Central",
+  "region.南部": "South",
+  "region.東部": "East",
+  "region.離島": "Outlying islands",
+  "back": "Back to the model",
+  "west": "West",
+  "east": "East",
+  "cutline": "A slice through the island at this latitude",
+  "area": "Area",
+  "places": "places",
+  "spotsN": "Sights",
+  "rinkaGuide": "RINKA's guide",
+  "card1": "Up next:",
+  "card2": "the county you pick.",
+  "cardAi": "Your guide RINKA is an AI.",
+  "cardBy": "Made by MV STUDIO",
+  "who": "Your guide, RINKA",
+  "soundOn": "Watch with sound",
+  "soundOff": "Mute",
+  "again": "Play again",
+  "hintPlayer": "The video starts muted. To turn on the sound, tap the button at the top right or the speaker icon in the controls below.",
+  "hintPlayerDub": "RINKA speaks Japanese. Subtitles appear in the language you've chosen.",
+  "waitTape": "Video coming soon",
+  "waitTapeNote": "RINKA hasn't filmed her guide to this county yet",
+  "rinkaSays": "RINKA says",
+  "spotsOf": "Sights in {n} · {k}",
+  "foodsOf": "Local specialties of {n}",
+  "shops": "Where the locals eat",
+  "since": "Since {y}",
+  "gmap": "Open in Google Maps",
+  "shopHint": "Check opening hours and closing days before you go.",
+  "otherShopPhoto": "Sample dish (photo from another shop)",
+  "photo": "Photo: {c}",
+  "studioLab": "About your guide",
+  "studioH": "RINKA is an AI character.",
+  "studioP": "She was created by MV STUDIO, which makes videos of AI characters who sing, dance and talk.",
+  "studioA": "See MV STUDIO's work",
+  "prev": "Previous county",
+  "next": "Next county",
+  "home": "Back to the Taiwan model",
+  "before": "Before you go",
+  "fGo": "Getting there",
+  "fWhen": "When to go",
+  "fWx": "Weather and what to wear",
+  "fCourse": "Sample itineraries",
+  "goVc": "Visitor center contacts",
+  "goFrom": "{t} from {f}",
+  "gateLab": "Head here first",
+  "best": "Recommended",
+  "fromLab": "From {f}",
+  "localLab": "Getting around the county",
+  "passLab": "Money-saving passes",
+  "tipLab": "Good to know",
+  "vcLab": "Visitor information center",
+  "tel": "Phone",
+  "map": "Map",
+  "checked": "Checked against official sources in {m} {y}. Times and fares change, so confirm on the official websites before you go.",
+  "mon": "{m}",
+  "monRange": "{a}–{b}",
+  "monList": "{l}",
+  "allYear": "Year-round",
+  "sepList": ", ",
+  "nowIs": "This month: {l}",
+  "nextIs": "Next up: {t} in {m}",
+  "bestMonths": "Best months to visit: {l}",
+  "evKey": "Events and seasonal highlights",
+  "thisMonth": "This month",
+  "evNone": "We haven't researched events and seasons for this county yet.",
+  "year12": "Taiwan month by month",
+  "evHint": "Event dates change from year to year, and peak times for flowers and autumn leaves shift with the weather.",
+  "evTag": "Event",
+  "inSeason": "In season",
+  "wxLoading": "Checking the weather",
+  "wxLoadingBody": "Loading the latest weather…",
+  "wxFail": "Weather unavailable right now",
+  "wxFailBody": "We couldn't load the weather. Try again once you have a signal.",
+  "wxGist": "Now {t}° {w} · high of {m}° today",
+  "now": "Now",
+  "today": "Today",
+  "days7": "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+  "mnames": "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec",
+  "pop": "Rain {p}%",
+  "fitLab": "What to wear today ({t})",
+  "nightLow": "Mornings and evenings dip to {m}°.",
+  "wxCite": "Weather data: {a} (CC BY 4.0). Figures are for the middle of the county; it gets colder up in the mountains.",
+  "courseMore": "{t} + {n} more",
+  "dayN": "Day {d}",
+  "dayRoute": "Day {d} route",
+  "dayRouteN": "Day {d} route, part {i}",
+  "courseAdd": "Add these stops to my list",
+  "courseAdded": "Added {n} to your list",
+  "courseHad": "Already on your list",
+  "routeHint": "Routes open in Google Maps, starting at the day's first stop and going through the rest in order. “From here” gives you directions from where you are right now to the first stop. Open it in the Google Maps app on your phone while you're traveling.",
+  "wish": "Want to go",
+  "wished": "On my list",
+  "order": "Point and order",
+  "nearLab": "More local favorites in the same town",
+  "sos": "If you need help",
+  "sosMore": "Contacts and what to do",
+  "infoMore": "Travel basics (entry, money, getting online)",
+  "memo": "Travel notes",
+  "memoAria": "Open travel notes",
+  "close": "Close",
+  "tabWish": "My list",
+  "tabInfo": "Basics",
+  "tabSos": "Help",
+  "kSpot": "Sight",
+  "kShop": "Eatery",
+  "kStop": "Stop",
+  "wishEmpty": "Nothing here yet. Tap “Want to go” on any sight or eatery and it will show up here.",
+  "wishN": "Places: {n}",
+  "rmAria": "Remove from list",
+  "route1": "Open this county's route in Google Maps",
+  "routeN": "Route {i} (stops: {n})",
+  "wishRouteHint": "Routes start at the first place on your list and visit the rest in order. Each route can include up to 5 places. “From here” gives you directions from where you are right now to the first place on your list.",
+  "fromCourse": "Add from a sample itinerary",
+  "addCourse": "Add",
+  "wishLocal": "Your list is saved on this device only. No sign-up needed.",
+  "infoNone": "Travel basics haven't been added yet.",
+  "infoLead": "Everything from entry rules to money and mobile data. Rules change, so always double-check on the official websites.",
+  "showNear": "Show someone nearby",
+  "ifThen": "If this happens",
+  "jpDesk": "Help desks for Japanese nationals",
+  "official": "Official website",
+  "ocShop": "Show this screen to the staff",
+  "ocNear": "Show this screen to someone nearby",
+  "ocMean": "What it says",
+  "ocMore": "Other phrases",
+  "ocMore2": "More phrases",
+  "ocOrder": "Order",
+  "ocJa": "{lead}: {n} × {dish} ({dj}). {eat}. {th}.",
+  "less": "One fewer",
+  "more": "One more",
+  "eatIn": "For here",
+  "eatOut": "To go",
+  "play": "Play",
+  "pause": "Pause",
+  "seek": "Seek",
+  "full": "Full screen",
+  "fullExit": "Exit full screen",
+  "vidErr": "Couldn't load the video",
+  "ytWatch": "Watch on YouTube",
+  "fromHere": "From here"
+ },
+ "county": {
+  "TW-KEE": {
+   "name": "Keelung",
+   "full": "Keelung City",
+   "intro": "A rainy harbor city once known as the “gateway to Taiwan.” Forts from the Sino-French War and the story of the port's construction live on in its gun batteries and colorful waterfront.",
+   "rinka": "I want to eat my way from one end of Keelung's Miaokou Night Market to the other! And the harbor lights at night? So romantic."
+  },
+  "TW-TPE": {
+   "name": "Taipei",
+   "full": "Taipei City",
+   "intro": "Taiwan's capital. River-port trade made Monga (Bangka) and Dadaocheng rich in the Qing era, and under Japanese rule the city became the seat of government. Today it's a city of culture, home to the National Palace Museum and Taipei 101.",
+   "rinka": "Taipei is my home turf! The night view from 101, the treasures at the Palace Museum, the fried chicken at Shilin Night Market... you can't skip any of them."
+  },
+  "TW-NWT": {
+   "name": "New Taipei",
+   "full": "New Taipei City",
+   "intro": "Taiwan's largest city, wrapped around Taipei. Gold mines in Jiufen, coal mines in Pingxi, an old treaty port in Tamsui: its industrial past has become its top sights.",
+   "rinka": "The moment the lanterns light up in Jiufen, it's so pretty I get goosebumps. And you have to send up a sky lantern in Pingxi!"
+  },
+  "TW-TAO": {
+   "name": "Taoyuan",
+   "full": "Taoyuan City",
+   "intro": "Taiwan's gateway by air. Daxi's woodcraft and old street recall the days of river trade, while Shimen Reservoir tells the modern chapter.",
+   "rinka": "Don't rush straight off from the airport! Dried tofu on Daxi Old Street and the lake views at Shimen Reservoir are worth the detour."
+  },
+  "TW-HSZ": {
+   "name": "Hsinchu City",
+   "full": "Hsinchu City",
+   "intro": "Northern Taiwan's oldest walled town, once called Zhuqian. Qing-era gates and temples, Japanese-era buildings and a modern science park all share the same streets.",
+   "rinka": "Hsinchu rice noodles and meatball soup are a match made in heaven! A stroll around the old East Gate feels great, too."
+  },
+  "TW-HSQ": {
+   "name": "Hsinchu County",
+   "full": "Hsinchu County",
+   "intro": "A mountain county of Hakka and Atayal communities. Hakka villages in Beipu and Neiwan await, along with the giant-tree forest of Smangus.",
+   "rinka": "Ride the little Neiwan Line train slowly into the mountains, with nothing but green out the window. And try Hakka lei cha, the pounded tea!"
+  },
+  "TW-ILA": {
+   "name": "Yilan",
+   "full": "Yilan County",
+   "intro": "A land of hot springs and water on the Lanyang Plain. Once home to the Kavalan people, it's now a classic weekend escape, linked straight to Taipei by the Hsuehshan Tunnel.",
+   "rinka": "In Yilan, hot springs and scallion pancakes are your reward on a rainy day. I also recommend whale watching off Guishan Island!"
+  },
+  "TW-MIA": {
+   "name": "Miaoli",
+   "full": "Miaoli County",
+   "intro": "A mountainous Hakka county, known for the railway heritage of the old Mountain Line, the ruined Longteng Bridge and winter strawberry picking in Dahu.",
+   "rinka": "Longteng Bridge's red brick looks its best at sunset. Come in May and tung blossoms cover the whole mountainside."
+  },
+  "TW-TXG": {
+   "name": "Taichung",
+   "full": "Taichung City",
+   "intro": "Central Taiwan's hub city, with sights ranging from the teahouse where bubble tea was born to sunsets over Gaomei Wetlands and the mountain resort of Wuling.",
+   "rinka": "Taichung is where bubble tea was born! Rainbow Village, the National Taichung Theater... one day isn't enough to photograph it all."
+  },
+  "TW-CHA": {
+   "name": "Changhua",
+   "full": "Changhua County",
+   "intro": "Home to Lukang, the “second” town in the old saying “First Tainan, second Lukang, third Monga.” A center of temple architecture and crafts, surrounded by plains of flower farms and oyster beds.",
+   "rinka": "Lukang's alleys are packed with old stories. And the view from the Great Buddha on Baguashan is the best!"
+  },
+  "TW-NAN": {
+   "name": "Nantou",
+   "full": "Nantou County",
+   "intro": "Taiwan's only landlocked county. Thao legends at Sun Moon Lake, the misty forests of Xitou and the aroma of Dongding oolong: this is the island's inland heart.",
+   "rinka": "Sun Moon Lake in the morning is like a mirror. Cycling all the way around it is my number-one route in Taiwan!"
+  },
+  "TW-YUN": {
+   "name": "Yunlin",
+   "full": "Yunlin County",
+   "intro": "Taiwan's farming heartland. It's a center of Mazu worship at Beigang Chaotian Temple, the birthplace of budaixi glove puppetry and the home of Gukeng coffee.",
+   "rinka": "The buzz at Beigang Chaotian Temple and all that rooftop decoration are breathtaking. And the smell of Gukeng coffee? I can't resist it."
+  },
+  "TW-CYI": {
+   "name": "Chiayi City",
+   "full": "Chiayi City",
+   "intro": "A city that grew rich on Alishan's timber. Japanese-era cypress houses still stand, along with the baseball legend made famous by the film KANO.",
+   "rinka": "I always end up eating two bowls of Chiayi turkey rice! Wandering the Japanese houses at Hinoki Village is fun, too."
+  },
+  "TW-CYQ": {
+   "name": "Chiayi County",
+   "full": "Chiayi County",
+   "intro": "From coastal wetlands to the sea of clouds on Alishan, it rises 3,000 m. Tsou valleys, Fenqihu lunch boxes and high-mountain tea gardens: “vertical Taiwan” in a single county.",
+   "rinka": "Sunrise and the sea of clouds on Alishan are worth however long you wait. The mountain train through the forest will blow you away!"
+  },
+  "TW-TNN": {
+   "name": "Tainan",
+   "full": "Tainan City",
+   "intro": "Taiwan's oldest city. Four hundred years of history, from the Dutch to Koxinga to the Qing, lie layer upon layer in this old capital. It's also Taiwan's street-food capital, the home of xiaochi, or small eats.",
+   "rinka": "Tainan is food heaven! Beef soup for breakfast, then sunset in Anping. That's a perfect day."
+  },
+  "TW-KHH": {
+   "name": "Kaohsiung",
+   "full": "Kaohsiung City",
+   "intro": "The south's largest port city. It grew from a treaty port into an international trade hub, and today its art districts sit side by side with old harbor-town charm.",
+   "rinka": "Kaohsiung: sunset over the harbor, an art walk around Pier-2, then Ruifeng Night Market. Perfect!"
+  },
+  "TW-PIF": {
+   "name": "Pingtung",
+   "full": "Pingtung County",
+   "intro": "Taiwan's southern tip. The mountains of the Paiwan and Rukai peoples, bluefin tuna in Donggang and the coral reefs of Kenting: this is tropical Taiwan.",
+   "rinka": "The sea at Kenting is unbelievably blue! Play in the waves at Baisha Bay and your worries just wash away."
+  },
+  "TW-HUA": {
+   "name": "Hualien",
+   "full": "Hualien County",
+   "intro": "The gateway to eastern Taiwan, squeezed between the Central Mountain Range and the Pacific. Its pride: marble gorges and Amis culture.",
+   "rinka": "Taroko Gorge is so huge it leaves you speechless. I could listen to the waves at Qixingtan all day."
+  },
+  "TW-TTT": {
+   "name": "Taitung",
+   "full": "Taitung County",
+   "intro": "A slow-paced land once called “behind the mountains.” Prehistoric sites, Indigenous songs and skies full of hot-air balloons await.",
+   "rinka": "You have to see the Taitung hot-air balloon festival at least once! Cycling the rice-field roads of Chishang feels amazing, too."
+  },
+  "TW-PEN": {
+   "name": "Penghu",
+   "full": "Penghu County",
+   "intro": "A basalt archipelago and the first place in Taiwan settled by Han Chinese. Stone fish weirs and old stone houses tell the story of life by the sea.",
+   "rinka": "Penghu's heart-shaped stone weir is best at low tide! The summer fireworks festival is so fun you'll want to move there."
+  },
+  "TW-KIN": {
+   "name": "Kinmen",
+   "full": "Kinmen County",
+   "intro": "An island that was once the front line. Southern Fujian (Minnan) villages, Western-style mansions built by emigrants back from Southeast Asia and wartime tunnels stand side by side, and the air smells of sorghum liquor.",
+   "rinka": "Kinmen's old Minnan houses and Wind Lion God statues are so full of character. Gongtang peanut candy and kitchen knives are the classic souvenirs."
+  },
+  "TW-LIE": {
+   "name": "Matsu",
+   "full": "Lienchiang County (Matsu Islands)",
+   "intro": "An archipelago where the stone houses of Eastern Min culture still stand. Once a military front line, now a seaside destination famous for its glowing “blue tears.”",
+   "rinka": "Matsu's blue tears look like the starry sky fell into the sea. The wartime tunnels and the local laojiu rice wine come with plenty of stories, too."
+  }
+ },
+ "spot": {
+  "TW-KEE|和平島地質公園": {
+   "name": "Heping Island Geopark",
+   "text": "Sea erosion has carved this coastal park into “tofu rocks,” mushroom rocks and other strange shapes. Relics from the Dutch period remain too, so nature and history meet here."
+  },
+  "TW-KEE|正濱漁港色彩屋": {
+   "name": "Zhengbin Fishing Port Colorful Houses",
+   "text": "Rows of brightly painted houses reflected in the harbor have earned it the nickname “Taiwan's Cinque Terre.” A photo hotspot with a past: under Japanese rule, this was Taiwan's busiest port."
+  },
+  "TW-KEE|國立海洋科技博物館": {
+   "name": "National Museum of Marine Science and Technology",
+   "text": "A large museum all about ocean science and technology. The exhibits are extensive and suit all ages, so it's a good bet in rainy Keelung."
+  },
+  "TW-KEE|情人湖濱海大道": {
+   "name": "Lover's Lake Coastal Road",
+   "text": "A coastal road of about 5 km squeezed between the mountains and the sea. It follows Keelung's longest stretch of natural shoreline, with reefs and surf all the way."
+  },
+  "TW-KEE|白米甕砲台(荷蘭城)": {
+   "name": "Baimiweng Fort (Dutch Fort)",
+   "text": "An old battery with four gun emplacements on a hill overlooking Keelung Harbor. Come for the view out to where the sea meets the sky."
+  },
+  "TW-KEE|必應創造展演空間": {
+   "name": "B'IN LIVE SPACE Keelung",
+   "text": "A live music and culture venue that opened in 2024 in a renovated former bus terminal. A new landmark where a historic building meets music."
+  },
+  "TW-KEE|潮境智能海洋館": {
+   "name": "Chaojing Smart Ocean Hall",
+   "text": "Taiwan's first “ocean meets tech” aquarium, where AR, VR and immersive projections let you experience the sea."
+  },
+  "TW-KEE|陽明海洋文化藝術館": {
+   "name": "Yang Ming Oceanic Culture and Art Museum",
+   "text": "Housed in the former Keelung branch office of the NYK shipping line, built in 1915, the museum tells the story of Keelung Harbor and the island's maritime culture."
+  },
+  "TW-KEE|拉波波村": {
+   "name": "Lapopo Village Campground",
+   "text": "A glamping site inspired by the villages of southern France, tucked between a mountain stream and the forest."
+  },
+  "TW-KEE|暖東舊道 (淡蘭古道TK2-3)": {
+   "name": "Nuandong Old Trail (Tamsui–Kavalan Trails)",
+   "text": "A section of the 200-year-old Tamsui–Kavalan Trails. Mountain paths once used to haul tea and camphor are now quiet hiking routes."
+  },
+  "TW-TPE|台北101": {
+   "name": "Taipei 101",
+   "text": "Taipei's bamboo-inspired landmark and a former world's tallest building. The observatory on the 89th floor looks out over the whole Taipei Basin."
+  },
+  "TW-TPE|國立故宮博物院": {
+   "name": "National Palace Museum",
+   "text": "Home to some 700,000 treasures from the Song, Yuan, Ming and Qing dynasties, spanning five thousand years of Chinese civilization. It's often ranked among the world's four great museums."
+  },
+  "TW-TPE|國立中正紀念堂": {
+   "name": "National Chiang Kai-shek Memorial Hall",
+   "text": "A stately memorial hall of blue tiles and white walls. Don't miss the vast plaza, the grand archway and the changing of the guard."
+  },
+  "TW-TPE|艋舺龍山寺": {
+   "name": "Bangka Lungshan Temple",
+   "text": "Founded about 300 years ago, it's one of Taipei's oldest temples. Famous for its intricate carvings and steady stream of worshippers, it's the spiritual heart of Wanhua."
+  },
+  "TW-TPE|陽明山國家公園_冷水坑": {
+   "name": "Yangmingshan National Park: Lengshuikeng",
+   "text": "A volcanic valley at the foot of Mt. Qixing with hot springs, a milky pond and nature trails. A Yangmingshan classic."
+  },
+  "TW-TPE|新北投溫泉商圈": {
+   "name": "Xinbeitou Hot Spring Area",
+   "text": "Taipei's hot-spring retreat, popular since the Japanese era. Milky-white waters, Thermal Valley and the Hot Spring Museum are all within walking distance."
+  },
+  "TW-TPE|大稻埕辜宅": {
+   "name": "Koo Family Salt House, Dadaocheng",
+   "text": "A riverside Western-style mansion built in 1910 by a wealthy salt merchant. The “Salt House” still captures Dadaocheng's days as a trading hub."
+  },
+  "TW-TPE|西門紅樓": {
+   "name": "The Red House, Ximending",
+   "text": "An octagonal red-brick hall built in 1908. Taiwan's first public market is now a hub for arts and culture."
+  },
+  "TW-TPE|南港山系_象山親山步道": {
+   "name": "Elephant Mountain Trail",
+   "text": "A popular hike famous for its head-on view of Taipei 101. Time it for dusk and stay for the city lights."
+  },
+  "TW-TPE|士林官邸_士林官邸公園": {
+   "name": "Shilin Official Residence Park",
+   "text": "The former residence and gardens of Chiang Kai-shek and his wife. With a rose garden and flowers in every season, it's a graceful oasis in the city."
+  },
+  "TW-NWT|九份老街": {
+   "name": "Jiufen Old Street",
+   "text": "A hillside town built on gold mining. Red lanterns, stone steps and teahouses looking out to sea make it one of Taiwan's most evocative sights."
+  },
+  "TW-NWT|野柳地質公園": {
+   "name": "Yehliu Geopark",
+   "text": "A cape of strange rock formations, famous for the Queen's Head. Sea-carved landscapes like these are rare anywhere in the world."
+  },
+  "TW-NWT|十分瀑布公園": {
+   "name": "Shifen Waterfall Park",
+   "text": "A curtain-shaped waterfall nicknamed “Taiwan's Niagara.” The roar of the falling water is spectacular."
+  },
+  "TW-NWT|新平溪煤礦博物園區": {
+   "name": "New Pingxi Coal Mine Museum",
+   "text": "A museum built around an old coal mine. Ride the little mine train nicknamed the “one-eyed boy” and relive the mining days."
+  },
+  "TW-NWT|淡水漁人碼頭(淡二漁港)": {
+   "name": "Tamsui Fisherman's Wharf",
+   "text": "A harbor known for its sunsets and Lover's Bridge. Boat rides and boardwalk strolls make it Tamsui's classic date spot."
+  },
+  "TW-NWT|新北市立鶯歌陶瓷博物館": {
+   "name": "Yingge Ceramics Museum",
+   "text": "Taiwan's first museum devoted to ceramics, telling the story of the pottery town of Yingge. Nearby, you can try your hand at the potter's wheel."
+  },
+  "TW-NWT|烏來溫泉": {
+   "name": "Wulai Hot Springs",
+   "text": "A hot-spring village in a mountain gorge whose name means “hot water” in the Atayal language. Silky waters, a little trolley train and a waterfall, all in one place."
+  },
+  "TW-NWT|三峽老街": {
+   "name": "Sanxia Old Street",
+   "text": "An old shopping street of red-brick arcades and Baroque-style facades. Famous for its croissants and the carvings of Zushi Temple."
+  },
+  "TW-NWT|朱銘美術館": {
+   "name": "Juming Museum",
+   "text": "An open-air museum that sculptor Ju Ming spent 12 years creating. Huge works from his Taichi series stand among the green hills."
+  },
+  "TW-NWT|福隆海水浴場": {
+   "name": "Fulong Beach",
+   "text": "A golden beach between a river and the sea, known for its summer sand sculpture festival and the Fulong railway lunch box."
+  },
+  "TW-TAO|大溪老街": {
+   "name": "Daxi Old Street",
+   "text": "An old street lined with Baroque facades, known for its pressed dried tofu and woodcraft."
+  },
+  "TW-TAO|石門水庫": {
+   "name": "Shimen Reservoir",
+   "text": "Once the largest reservoir in the Far East. Cycle along the shore or take a boat ride to enjoy the scenery through the seasons."
+  },
+  "TW-TAO|拉拉山國家森林遊樂區": {
+   "name": "Lalashan National Forest Recreation Area",
+   "text": "A forest of giant trees whose name means “beautiful” in Atayal. Red cypresses as much as a thousand years old rise through the mist."
+  },
+  "TW-TAO|慈湖遊客中心": {
+   "name": "Cihu (Two Chiangs Cultural Park)",
+   "text": "A place closely tied to Chiang Kai-shek, known for its park crowded with countless Chiang statues and its changing of the guard."
+  },
+  "TW-TAO|角板山行館": {
+   "name": "Jiaobanshan Villa",
+   "text": "A former retreat on the Northern Cross-Island Highway, with a wartime tunnel and a plum orchard. In winter it's a favorite spot for plum blossoms."
+  },
+  "TW-TAO|小烏來天空步道": {
+   "name": "Xiao Wulai Skywalk",
+   "text": "A glass-floored walkway that juts out right above a waterfall. Look down at the gorge and falls beneath your feet for a real thrill."
+  },
+  "TW-TAO|桃園忠烈祠暨神社文化園區": {
+   "name": "Taoyuan Shinto Shrine (Martyrs' Shrine)",
+   "text": "The most complete Japanese-era Shinto shrine still standing in Taiwan, a serene space built of Taiwanese cypress."
+  },
+  "TW-TAO|竹圍漁港": {
+   "name": "Zhuwei Fishing Port",
+   "text": "A fishing port known for its rainbow arch bridge and fresh seafood market, busy with people who come for seafood rice bowls."
+  },
+  "TW-TAO|桃園：大溪老茶廠": {
+   "name": "Daxi Tea Factory",
+   "text": "A tea factory founded in 1926 and since restored. Sip tea in a blue-gray building where old tea-making machines still stand."
+  },
+  "TW-TAO|東眼山國家森林遊樂區": {
+   "name": "Dongyanshan National Forest Recreation Area",
+   "text": "A forest park of cedar woods and old logging relics. Easy trails lead to views over the Taipei Basin."
+  },
+  "TW-HSZ|新竹都城隍廟": {
+   "name": "Hsinchu City God Temple",
+   "text": "A City God temple founded in 1748. The food stalls out front are a mecca for Hsinchu eats like rice noodles and meatball soup."
+  },
+  "TW-HSZ|青草湖": {
+   "name": "Qingcao Lake",
+   "text": "A quiet lake close to the city, perfect for walking or cycling along the lakeside paths and across the suspension bridge."
+  },
+  "TW-HSZ|十八尖山": {
+   "name": "Shibajian Mountain",
+   "text": "A much-loved local hill. Every trailhead gets you to the top in about 20 minutes, which makes it a popular morning walk."
+  },
+  "TW-HSZ|南寮運動公園": {
+   "name": "Nanliao Sports Park",
+   "text": "A park next to Nanliao Fishing Port and the starting point of a 17 km coastal bike path. A favorite with families."
+  },
+  "TW-HSZ|玻璃工藝博物館": {
+   "name": "Hsinchu City Glass Museum",
+   "text": "A showcase of glass art in Hsinchu Park, gathering the best of the city's century-old glass industry."
+  },
+  "TW-HSZ|新竹市立動物園": {
+   "name": "Hsinchu Zoo",
+   "text": "Taiwan's oldest zoo, reborn after a renovation as a “zoo without cages.” Small, but a gem."
+  },
+  "TW-HSZ|迎曦門(東門城)": {
+   "name": "Yingxi Gate (East Gate)",
+   "text": "Built in 1829, it's the only surviving gate of the old Zhuqian city walls. Lit up at night, its plaza becomes a stage for local life."
+  },
+  "TW-HSZ|國立新竹生活美學館": {
+   "name": "National Hsinchu Living Arts Center",
+   "text": "A restored public hall from a century ago. Exhibitions and cultural events fill its elegant blend of Japanese and Western styles."
+  },
+  "TW-HSZ|新竹公園": {
+   "name": "Hsinchu Park",
+   "text": "The city's biggest park. Kids love the huge sandpit and slides, and in spring the cherry trees by the lake burst into bloom."
+  },
+  "TW-HSZ|靜心湖": {
+   "name": "Jingxin Lake",
+   "text": "A quiet, peaceful lake inside the Science Park, with Ju Ming's Taichi sculptures standing on its banks."
+  },
+  "TW-HSQ|內灣老街": {
+   "name": "Neiwan Old Street",
+   "text": "An old street in the hills at the end of the Neiwan branch line, with Hakka food, a suspension bridge and a retro movie theater."
+  },
+  "TW-HSQ|司馬庫斯巨木群步道": {
+   "name": "Smangus Giant Tree Trail",
+   "text": "A 5.3 km trail from a remote mountain village known as “God's Tribe” to giant trees as much as a thousand years old."
+  },
+  "TW-HSQ|北埔慈天宮": {
+   "name": "Beipu Citian Temple",
+   "text": "The temple at the heart of Beipu Old Street. The lane leading to it is lined with shops selling Hakka lei cha and other Hakka dishes, perfect for snacking as you go."
+  },
+  "TW-HSQ|綠世界生態農場": {
+   "name": "Green World Ecological Farm",
+   "text": "A large eco-farm with six themed zones. Walking the alpacas and the bird and butterfly exhibits are big favorites."
+  },
+  "TW-HSQ|六福村主題遊樂園": {
+   "name": "Leofoo Village Theme Park",
+   "text": "Asia's first theme park to combine a safari with thrill rides. The pools open in summer."
+  },
+  "TW-HSQ|尖石鄉原住民文化館": {
+   "name": "Jianshi Indigenous Culture Museum",
+   "text": "Displays of Atayal homes, hunting gear and clothing. A good starting point for visiting the mountain villages of Jianshi."
+  },
+  "TW-HSQ|清泉溫泉": {
+   "name": "Qingquan Hot Spring",
+   "text": "A gorge hot spring known since the Japanese era. It's also a historic village where the house in which Zhang Xueliang was held under house arrest still stands."
+  },
+  "TW-HSQ|湖口老街": {
+   "name": "Hukou Old Street",
+   "text": "An old street whose red-brick buildings from the 1910s and '20s (the Taisho era) survive almost intact, with beautiful carved shop signs in relief."
+  },
+  "TW-HSQ|雪霸休閒農場": {
+   "name": "Shei-Pa Leisure Farm",
+   "text": "A highland farm at 1,923 m, famous for its sea of clouds, sunrises and early-summer blueberry picking."
+  },
+  "TW-HSQ|馬武督探索森林(綠光小學)": {
+   "name": "Mawudu Exploring Forest",
+   "text": "A forest theme park dotted with waterfalls and giant trees, also known for the “Green Light School,” a location used in a TV drama."
+  },
+  "TW-ILA|太平山國家森林遊樂區": {
+   "name": "Taipingshan National Forest Recreation Area",
+   "text": "A former logging area turned forest kingdom, with the Bong Bong little train, the alpine Cuifeng Lake and hot springs. Its golden autumn beeches are famous, too."
+  },
+  "TW-ILA|礁溪蘭花咖啡館": {
+   "name": "Jiaoxi Orchid Café",
+   "text": "A garden café next to an orchid farm, where you can enjoy coffee surrounded by flowers and greenery."
+  },
+  "TW-ILA|冬山河親水公園": {
+   "name": "Dongshan River Water Park",
+   "text": "A riverside park whose symbol is a red arch bridge. It's famous as the venue for the summer Yilan International Children's Folklore and Folkgame Festival."
+  },
+  "TW-ILA|龜山島": {
+   "name": "Guishan Island (Turtle Island)",
+   "text": "A turtle-shaped volcanic island in the Pacific. The “Milk Sea,” where the water turns milky white, plus landing tours and whale watching, draw the crowds."
+  },
+  "TW-ILA|蘭陽博物館": {
+   "name": "Lanyang Museum",
+   "text": "An architectural landmark whose slanted form, modeled on a cuesta, juts out of the water. A great place to learn about Yilan's land and life."
+  },
+  "TW-ILA|幾米廣場(丟丟噹森林公園)": {
+   "name": "Jimmy Square (Diudiudang Forest)",
+   "text": "A plaza that brings to life the world of picture-book artist Jimmy Liao. Its flying-train sculptures are a favorite."
+  },
+  "TW-ILA|梅花湖風景區": {
+   "name": "Meihua Lake Scenic Area",
+   "text": "A mountain lake shaped like a plum blossom. Cycling the shore and strolling out to the island in the middle are wonderfully peaceful."
+  },
+  "TW-ILA|五峰旗風景區": {
+   "name": "Wufengqi Scenic Area",
+   "text": "A three-tiered waterfall at the foot of five flag-shaped peaks, the quiet hideaway behind Jiaoxi's hot springs."
+  },
+  "TW-ILA|國立傳統藝術中心宜蘭傳藝園區": {
+   "name": "National Center for Traditional Arts (Yilan)",
+   "text": "A theme park where you can try traditional performing arts and crafts. The recreated old street and theater are a delight."
+  },
+  "TW-ILA|清水地熱公園": {
+   "name": "Qingshui Geothermal Park",
+   "text": "A popular park where you can boil eggs and corn in the geothermal water. There's a foot bath, too."
+  },
+  "TW-MIA|勝興車站": {
+   "name": "Shengxing Station",
+   "text": "A wooden station opened in 1903 at the highest point (402 m) on Taiwan's main north–south railway. The place to start exploring the Old Mountain Line."
+  },
+  "TW-MIA|龍騰斷橋、南斷橋": {
+   "name": "Longteng Broken Bridge",
+   "text": "A red-brick arch bridge brought down by the great earthquake of 1935. Its surviving pillars, wrapped in greenery, tell its story."
+  },
+  "TW-MIA|大湖草莓文化館": {
+   "name": "Dahu Strawberry Culture Museum",
+   "text": "A museum in Dahu, Taiwan's strawberry country. From November to April it's picking season, and the air smells sweet."
+  },
+  "TW-MIA|三義木雕博物館": {
+   "name": "Sanyi Wood Sculpture Museum",
+   "text": "Taiwan's only public museum devoted to wood carving, surrounded by a town full of carving studios and shops."
+  },
+  "TW-MIA|飛牛牧場": {
+   "name": "Flying Cow Ranch",
+   "text": "A peaceful ranch where cows and sheep graze on rolling hills, with lots for families to try, like milking and feeding the animals."
+  },
+  "TW-MIA|南庄老街(桂花巷)": {
+   "name": "Nanzhuang Old Street (Osmanthus Lane)",
+   "text": "An old lane in a Hakka mountain town, lined with shops selling honey-preserved osmanthus and handmade noodles."
+  },
+  "TW-MIA|泰安溫泉區": {
+   "name": "Tai'an Hot Springs",
+   "text": "A valley hot spring discovered by the Atayal in 1908. A quiet spa town cradled by mountains."
+  },
+  "TW-MIA|明德水庫風景區": {
+   "name": "Mingde Reservoir Scenic Area",
+   "text": "A lush reservoir in the hills, where a suspension bridge takes you out to an island in the lake."
+  },
+  "TW-MIA|觀霧國家森林遊樂區": {
+   "name": "Guanwu National Forest Recreation Area",
+   "text": "A misty high-mountain forest, famous for its giant-tree trail and views of the Holy Ridge of the Xueshan Range."
+  },
+  "TW-MIA|后厝龍鳳宮": {
+   "name": "Houcuo Longfeng Temple",
+   "text": "A Mazu temple founded in 1836, known for its giant Mazu statue and intricate carvings."
+  },
+  "TW-TXG|高美濕地_高美野生動物保護區": {
+   "name": "Gaomei Wetlands",
+   "text": "A vast wetland famous for its boardwalk with views of wind turbines and the setting sun. One of Taiwan's signature sunset spots."
+  },
+  "TW-TXG|谷關遊客中心暨入關博物館": {
+   "name": "Guguan Visitor Center",
+   "text": "The gateway to Guguan, a hot-spring town on the Central Cross-Island Highway. A small museum worth a stop before your soak."
+  },
+  "TW-TXG|武陵國家森林遊樂區": {
+   "name": "Wuling National Forest Recreation Area",
+   "text": "A forest at 1,800 m. This mountain resort is famous for spring cherry blossoms, autumn leaves and the Formosan landlocked salmon that lives in its streams."
+  },
+  "TW-TXG|大雪山國家森林遊樂區": {
+   "name": "Dasyueshan National Forest Recreation Area",
+   "text": "Seas of clouds, starry skies and sacred red cypresses. A birdwatching haven where you might spot muntjacs and Mikado pheasants."
+  },
+  "TW-TXG|梧棲觀光漁港": {
+   "name": "Wuqi Fishing Harbor",
+   "text": "Central Taiwan's biggest tourist fish market, where you can pick out fresh-off-the-boat seafood and have it cooked on the spot. Pair it with a visit to Gaomei Wetlands."
+  },
+  "TW-TXG|東豐自行車綠廊": {
+   "name": "Dongfeng Bikeway",
+   "text": "Taiwan's first bike path built on a disused rail line (13.6 km), passing old platforms and a fault park."
+  },
+  "TW-TXG|八仙山國家森林遊樂區": {
+   "name": "Basianshan National Forest Recreation Area",
+   "text": "Once one of Taiwan's three great logging areas. Easy trails follow the traces of the timber era."
+  },
+  "TW-TXG|八仙山自然教育中心": {
+   "name": "Basianshan Nature Education Center",
+   "text": "A center for learning about forest ecology and logging history, with plenty of guided tours and hands-on programs."
+  },
+  "TW-TXG|東勢林業文化園區": {
+   "name": "Dongshi Forestry Culture Park",
+   "text": "A park that preserves a large former sawmill. Its huge wooden mill and log pond recall the golden age of forestry."
+  },
+  "TW-TXG|萬和宮": {
+   "name": "Wanhe Temple",
+   "text": "Founded in 1684, it's Taichung's oldest temple. It honors Mazu and keeps alive the history of the old Litoudian street."
+  },
+  "TW-CHA|鹿港老街": {
+   "name": "Lukang Old Street",
+   "text": "One of Taiwan's best-preserved old townscapes, still showing traces of its heyday as a trading port 300 years ago."
+  },
+  "TW-CHA|鹿港天后宮": {
+   "name": "Lukang Tianhou Temple",
+   "text": "The only temple in Taiwan with a Mazu statue brought from her ancestral temple on Meizhou. Its carved decoration is the finest in Taiwan."
+  },
+  "TW-CHA|1895八卦山抗日保台史蹟館": {
+   "name": "Baguashan 1895 Battle Memorial Hall",
+   "text": "A museum about the 1895 Battle of Baguashan against Japanese forces. It sits in the Great Buddha Scenic Area, with views across Changhua City."
+  },
+  "TW-CHA|王功蚵藝文化館": {
+   "name": "Wanggong Oyster Culture Center",
+   "text": "A cultural center that turns oyster shells into art and tells the story of life in Wanggong, an oyster-farming town."
+  },
+  "TW-CHA|田尾公路花園": {
+   "name": "Tianwei Highway Garden",
+   "text": "Taiwan's biggest flower-growing area. More than 140 nurseries line the roads, and cycling past the flower fields is a joy."
+  },
+  "TW-CHA|扇形車庫": {
+   "name": "Changhua Roundhouse",
+   "text": "Taiwan's only surviving fan-shaped engine shed. Watch locomotives turn on the turntable up close. A must for rail fans."
+  },
+  "TW-CHA|鹿港龍山寺": {
+   "name": "Lukang Longshan Temple",
+   "text": "A national historic site founded in the late Ming or early Qing. The octagonal caisson ceiling above its stage is hailed as the pinnacle of Taiwanese wooden architecture."
+  },
+  "TW-CHA|展壯台大蘭園": {
+   "name": "Taida Orchid Farm",
+   "text": "A large farm growing moth orchids and other varieties. You can tour the farm and buy orchids to take home."
+  },
+  "TW-CHA|郁文齋燈藝工作室": {
+   "name": "Yu Wen Zhai Lantern Studio",
+   "text": "A studio that hand-paints traditional lanterns using watercolor and ink-wash techniques, creating a style of lantern light all its own."
+  },
+  "TW-CHA|台明將台灣玻璃館": {
+   "name": "Taiwan Glass Gallery",
+   "text": "A glass art gallery known for its mirrored “Golden Tunnel” and the glass Mazu temple next door."
+  },
+  "TW-NAN|日月潭伊達邵碼頭商圈": {
+   "name": "Ita Thao Pier, Sun Moon Lake",
+   "text": "A lakeside village of the Thao people on Sun Moon Lake. It's the hub for boat cruises and the ropeway, and the place to try local specialties."
+  },
+  "TW-NAN|清境農場": {
+   "name": "Cingjing Farm",
+   "text": "A highland ranch at 1,748 m. From green hills where sheep graze, gaze out over a sea of clouds. A “paradise above the mist.”"
+  },
+  "TW-NAN|溪頭自然教育園區": {
+   "name": "Xitou Nature Education Area",
+   "text": "A haven for forest bathing among tall cedars. University Pond, with its bamboo bridge, is as pretty as a painting."
+  },
+  "TW-NAN|九族文化村": {
+   "name": "Formosan Aboriginal Culture Village",
+   "text": "A theme park that pairs Indigenous culture with thrill rides. It connects directly to the Sun Moon Lake Ropeway and is a cherry blossom hotspot in spring."
+  },
+  "TW-NAN|猴探井天空之橋": {
+   "name": "Houtanjing Sky Bridge",
+   "text": "A suspension bridge that curves across a valley like a smile. Romantic when it lights up at dusk."
+  },
+  "TW-NAN|集集攔河堰": {
+   "name": "Jiji Weir",
+   "text": "Taiwan's largest intake weir, spanning the Zhuoshui River and holding back a broad, sweeping expanse of water."
+  },
+  "TW-NAN|南投：臺灣菸酒(股)公司埔里觀光酒廠": {
+   "name": "Puli Brewery",
+   "text": "A Shaoxing wine brewery in Puli, a town famous for its water. Tour the wine culture museum and try dishes made with the wine."
+  },
+  "TW-NAN|奧萬大國家森林遊樂區": {
+   "name": "Aowanda National Forest Recreation Area",
+   "text": "Taiwan's top spot for fall foliage. In late autumn, maples paint the hills red around the suspension bridges that span the gorge."
+  },
+  "TW-NAN|鳶峰觀景台(合歡山暗空公園)": {
+   "name": "Yuanfeng Viewing Platform (Hehuanshan Dark Sky Park)",
+   "text": "A dark sky park certified by the International Dark-Sky Association. High in the mountains, far from light pollution, the sky is full of stars."
+  },
+  "TW-NAN|奧萬大自然教育中心": {
+   "name": "Aowanda Nature Education Center",
+   "text": "A center running nature programs in forests of pine and maple, where you can feel the pulse of the forest with all five senses."
+  },
+  "TW-YUN|北港朝天宮": {
+   "name": "Beigang Chaotian Temple",
+   "text": "Regarded as the head temple of Mazu worship in Taiwan. Its festival in the third lunar month, the Beigang Mazu procession, is a nationally designated important folk custom."
+  },
+  "TW-YUN|劍湖山世界主題樂園": {
+   "name": "Janfusun Fancyworld",
+   "text": "The biggest amusement park in central and southern Taiwan, with a giant Ferris wheel, thrill rides and VR attractions."
+  },
+  "TW-YUN|古坑情人橋": {
+   "name": "Gukeng Lovers' Bridge",
+   "text": "A V-shaped suspension bridge in Huashan, Gukeng's coffee country. Only two people can cross at a time, which makes it a thrilling bridge for couples."
+  },
+  "TW-YUN|草嶺地質生態國小": {
+   "name": "Caoling Geological Ecology Elementary School",
+   "text": "A rebuilt school designed to blend into the surrounding geology. The mountain views from its terrace and the stargazing are the big draws."
+  },
+  "TW-YUN|西螺大橋": {
+   "name": "Xiluo Bridge",
+   "text": "A red steel bridge that was the longest in the Far East when it was finished in 1952. It stretches about 2 km across the Zhuoshui River."
+  },
+  "TW-YUN|雲林布袋戲館": {
+   "name": "Yunlin Glove Puppetry Museum",
+   "text": "A museum in Yunlin, the home of budaixi glove puppetry, showing the art in all its forms, from traditional to contemporary."
+  },
+  "TW-YUN|古坑綠色隧道": {
+   "name": "Gukeng Green Tunnel",
+   "text": "A 2 km green tunnel formed by rows of 50-year-old mango trees. People come for the market and picnics in the shade."
+  },
+  "TW-YUN|冠弦吉他樂器行": {
+   "name": "Guan Xian Guitar Workshop",
+   "text": "One of the few workshops left in Taiwan where guitars are still made by hand, every instrument crafted one at a time."
+  },
+  "TW-YUN|虎尾厝沙龍": {
+   "name": "Huwei Salon",
+   "text": "A book café in a 70-year-old house that mixes Japanese and Western styles. Huwei's cultural salon."
+  },
+  "TW-YUN|Gem Shop真金店": {
+   "name": "Gem Shop",
+   "text": "A long-established jeweler turned a former clinic into this lifestyle shop, a small corner of good taste on a Huwei street."
+  },
+  "TW-CYI|阿里山林業村暨檜意森活村": {
+   "name": "Alishan Forestry Village & Hinoki Village",
+   "text": "Japanese-style cypress staff housing that was the base of Alishan's logging industry. Twenty-eight buildings have been reborn as a creative village with the feel of Kyoto."
+  },
+  "TW-CYI|阿里山林業鐵路": {
+   "name": "Alishan Forest Railway",
+   "text": "A century-old forest railway climbing from 30 m to 2,216 m above sea level, through forests of three climate zones. One of the world's great mountain lines."
+  },
+  "TW-CYI|射日塔": {
+   "name": "Sun Shooting Tower",
+   "text": "The city's landmark tower in Chiayi Park. The observation deck gives you a 360-degree view over the city."
+  },
+  "TW-CYI|蘭潭月影潭心": {
+   "name": "“Moon Shadow” at Lantan Lake",
+   "text": "A lake said to have been dug by the Dutch 300 years ago. The lakeside art installation “Moon Shadow” is very photogenic."
+  },
+  "TW-CYI|嘉義公園": {
+   "name": "Chiayi Park",
+   "text": "A century-old park shaded by ancient trees and dotted with the Sun Shooting Tower, a Confucius temple and a history museum. A favorite place for locals to unwind."
+  },
+  "TW-CYI|森林之歌": {
+   "name": "Song of the Forest",
+   "text": "A wooden art tower inspired by sacred trees and the forest railway, magical when it's lit up at night."
+  },
+  "TW-CYI|KANO園區": {
+   "name": "KANO Park",
+   "text": "A memorial park for the Chiayi Agriculture and Forestry School baseball team made famous by the film KANO, celebrating this baseball town's pride."
+  },
+  "TW-CYI|檜意森活村": {
+   "name": "Hinoki Village",
+   "text": "Cypress-built Japanese houses in front of Beimen Station. Browsing the shops and trying on a kimono are popular."
+  },
+  "TW-CYI|中正公園": {
+   "name": "Zhongzheng Park (Chiayi)",
+   "text": "A downtown plaza on the site of the old public hall, and a green stage for events and outdoor shows."
+  },
+  "TW-CYI|嘉義文化創意產業園區": {
+   "name": "Chiayi Cultural and Creative Industries Park",
+   "text": "A creative park in what was Taiwan's oldest sorghum liquor factory. The old factory buildings recall the city's days as a liquor capital."
+  },
+  "TW-CYQ|阿里山國家森林遊樂區": {
+   "name": "Alishan National Forest Recreation Area",
+   "text": "Taiwan's most famous mountain resort, home to the “five wonders”: the forest railway, sacred trees, the sea of clouds, sunrise and sunset glow."
+  },
+  "TW-CYQ|奮起湖(南側)杉林棧道": {
+   "name": "Fenqihu Cedar Boardwalk",
+   "text": "A boardwalk through the cedar groves of Fenqihu, the village famous for its railway lunch boxes. A lovely walk through the misty forest."
+  },
+  "TW-CYQ|太平雲梯": {
+   "name": "Taiping Suspension Bridge",
+   "text": "At about 1,000 m, it's Taiwan's highest suspension bridge, 281 m long. It feels like walking above the clouds."
+  },
+  "TW-CYQ|高跟鞋教堂": {
+   "name": "High-Heel Wedding Church",
+   "text": "A giant high-heeled shoe made of 320 panes of glass, recognized by Guinness as one of the world's largest glass structures."
+  },
+  "TW-CYQ|東石漁人碼頭": {
+   "name": "Dongshi Fisherman's Wharf",
+   "text": "A harbor park lined with colorful huts and a man-made beach. Don't leave without trying the local oyster dishes."
+  },
+  "TW-CYQ|鰲鼓濕地森林園區": {
+   "name": "Aogu Wetland Forest Park",
+   "text": "Reclaimed land that has become a paradise for migratory birds. In winter, countless birds gather here, black-faced spoonbills among them."
+  },
+  "TW-CYQ|達娜伊谷自然生態公園": {
+   "name": "Tanayiku Natural Ecological Park",
+   "text": "In the Tsou language, “the valley where you forget your sorrows.” Fish swarm in a stream the community has fought to protect."
+  },
+  "TW-CYQ|觸口自然教育中心": {
+   "name": "Chukou Nature Education Center",
+   "text": "An ecology center on the road up to Alishan, where the old trees of its “Tree Bank” greet you."
+  },
+  "TW-CYQ|阿里山生態教育館": {
+   "name": "Alishan Ecology Education Center",
+   "text": "An ecology museum in a converted old work station, with a forestry history exhibit. Learn about Alishan's nature and history."
+  },
+  "TW-CYQ|大林慢城發展協會": {
+   "name": "Dalin Slow City",
+   "text": "A town certified by Cittaslow International. Old movie theaters and open countryside make it perfect for an unhurried trip."
+  },
+  "TW-TNN|赤崁樓": {
+   "name": "Chihkan Tower",
+   "text": "Fort Provintia, built by the Dutch in 1652. The historic site that best captures the old capital of Tainan."
+  },
+  "TW-TNN|安平古堡": {
+   "name": "Anping Old Fort",
+   "text": "The site of Fort Zeelandia, built in 1624. Known as the place Koxinga drove out the Dutch, it's where Taiwan's story begins."
+  },
+  "TW-TNN|億載金城 (二鯤鯓砲台)": {
+   "name": "Eternal Golden Castle",
+   "text": "A Western-style fort completed in 1876. Its moat-ringed red-brick gateway is impressive."
+  },
+  "TW-TNN|奇美博物館": {
+   "name": "Chimei Museum",
+   "text": "A private museum that looks like a European palace, with vast collections of Western paintings, musical instruments, and arms and armor."
+  },
+  "TW-TNN|四草綠色隧道": {
+   "name": "Sicao Green Tunnel",
+   "text": "Mangroves arch over the waterway in “Taiwan's mini Amazon.” Gliding through on a raft over mirror-still water is magical."
+  },
+  "TW-TNN|神農街": {
+   "name": "Shennong Street",
+   "text": "A lane that still evokes the Qing-era port town. At night, when the lanterns glow, hop between bars set in old houses."
+  },
+  "TW-TNN|孔廟文化園區「臺南孔子廟」": {
+   "name": "Tainan Confucius Temple",
+   "text": "Founded in 1665, it was Taiwan's first Confucius temple. A plaque proclaims it the “First Academy of Taiwan,” and red walls enclose a serene space."
+  },
+  "TW-TNN|井仔腳瓦盤鹽田": {
+   "name": "Jingzaijiao Tile-paved Salt Fields",
+   "text": "The oldest surviving tile-paved salt fields, famous for sunsets reflected in their mosaic of salt pans."
+  },
+  "TW-TNN|關子嶺風景區(泥漿溫泉)": {
+   "name": "Guanziling Hot Springs",
+   "text": "Taiwan's only mud hot spring. Known for its silky dark water and the “Water and Fire Cave,” where flames burn above flowing water."
+  },
+  "TW-TNN|安平樹屋": {
+   "name": "Anping Tree House",
+   "text": "An abandoned warehouse swallowed by banyan trees. With roots covering the walls, it feels like a castle in the sky."
+  },
+  "TW-KHH|旗津天后宮": {
+   "name": "Cijin Tianhou Temple",
+   "text": "Founded in 1673, one of Taiwan's earliest Mazu temples, and the spiritual heart of Cijin Island, which you reach by ferry."
+  },
+  "TW-KHH|佛光山": {
+   "name": "Fo Guang Shan",
+   "text": "A holy site of Taiwanese Buddhism founded by Master Hsing Yun. The huge Buddha Museum and giant Buddha are on an awe-inspiring scale."
+  },
+  "TW-KHH|西子灣蔣介石行館": {
+   "name": "Former Chiang Kai-shek Residence, Sizihwan",
+   "text": "A 1935 building blending Japanese and Western styles, set amid the greenery of National Sun Yat-sen University."
+  },
+  "TW-KHH|愛河": {
+   "name": "Love River",
+   "text": "A romantic river flowing through downtown Kaohsiung. Night cruises and riverside cafés are classics."
+  },
+  "TW-KHH|田寮月世界": {
+   "name": "Tianliao Moon World",
+   "text": "Badlands eroded into a lunar landscape. Lit up at night, it's otherworldly."
+  },
+  "TW-KHH|壽山國家自然公園": {
+   "name": "Shoushan National Nature Park",
+   "text": "A green mountain looking down on the city and harbor. Monkeys roam its forests on old coral reef, and it's ideal for hiking."
+  },
+  "TW-KHH|打狗英國領事館文化園區": {
+   "name": "British Consulate at Takao",
+   "text": "A red-brick consulate on a hill, built in 1879. Afternoon tea with a view of the harbor and the Sizihwan sunset is a favorite."
+  },
+  "TW-KHH|凝聚的綠寶石-R4高雄國際機場站": {
+   "name": "“Green Gem” at Kaohsiung International Airport Station",
+   "text": "One of the world's largest glass artworks decorates this metro airport station, glowing green like a jewel."
+  },
+  "TW-KHH|曾文忠美術館": {
+   "name": "Tseng Wen-chung Art Museum",
+   "text": "A museum of works by Tseng Wen-chung, a painter from the Hakka town of Meinong, celebrating the beauty of his home region."
+  },
+  "TW-KHH|永安老街": {
+   "name": "Yong'an Old Street, Meinong",
+   "text": "A 200-year-old street in the Hakka town of Meinong. Traditional houses, oil-paper umbrellas and the aroma of Hakka noodles."
+  },
+  "TW-PIF|墾丁國家森林遊樂區": {
+   "name": "Kenting National Forest Recreation Area",
+   "text": "A subtropical forest on uplifted coral reef. Explore limestone caves and take in the ocean from the lookout tower."
+  },
+  "TW-PIF|東港魚市場": {
+   "name": "Donggang Fish Market",
+   "text": "A harbor market famous for its Pacific bluefin tuna catch. Lively auctions and fresh sashimi are the draws."
+  },
+  "TW-PIF|霧臺遊憩區": {
+   "name": "Wutai (Rukai village)",
+   "text": "A mountaintop Rukai village wrapped in mist and cloud. Slate houses and the hundred-pacer snake motif speak of its pride."
+  },
+  "TW-PIF|雙流國家森林遊樂區": {
+   "name": "Shuangliu National Forest Recreation Area",
+   "text": "A streamside trail leads to what's called “Taiwan's second most beautiful waterfall.” Breathe in the cool, fresh air of the banyan forest."
+  },
+  "TW-PIF|屏東縣民公園": {
+   "name": "Pingtung County Park",
+   "text": "A park reborn from an old sugar factory, where rust-colored ruins and illuminated waterfronts create a kind of industrial beauty."
+  },
+  "TW-PIF|屏東縣立圖書館總館": {
+   "name": "Pingtung County Library",
+   "text": "Dubbed “Taiwan's most beautiful library,” it stands in a forest, so you can read surrounded by greenery through the glass."
+  },
+  "TW-PIF|屏東美術館": {
+   "name": "Pingtung Art Museum",
+   "text": "An art museum in a converted early postwar government building, a space that holds the town's memories."
+  },
+  "TW-PIF|屏東書院": {
+   "name": "Pingtung Confucian Academy (Confucius Temple)",
+   "text": "An academy and Confucius temple founded in 1814. Its lecture hall and shrine survive, the birthplace of learning in Pingtung."
+  },
+  "TW-PIF|邱姓河南堂忠實第": {
+   "name": "Qiu Family Henan Hall",
+   "text": "A century-old courtyard house that tells the history of the Hakka Liudui settlements."
+  },
+  "TW-PIF|屏東藝術館": {
+   "name": "Pingtung Art Center",
+   "text": "Long the county's cultural center, it's a home for music and the performing arts."
+  },
+  "TW-HUA|太魯閣牌樓": {
+   "name": "Taroko Gate",
+   "text": "The palace-style archway at the entrance to the Central Cross-Island Highway. Note: parts of the gorge itself remain closed because of earthquake damage."
+  },
+  "TW-HUA|七星潭海岸風景特定區": {
+   "name": "Qixingtan Beach",
+   "text": "A crescent-shaped pebble beach. Blue sea, glossy black stones and the mountains behind make this Hualien's most beautiful stretch of coast."
+  },
+  "TW-HUA|清水斷崖": {
+   "name": "Qingshui Cliffs",
+   "text": "Marble cliffs plunging straight into the Pacific along the Suhua Highway. One of the Eight Views of Taiwan."
+  },
+  "TW-HUA|鯉魚潭環潭自行車道": {
+   "name": "Liyu Lake Bike Path",
+   "text": "A bike route all the way around the lake in dappled shade, also known for firefly watching at night."
+  },
+  "TW-HUA|瑞穗牧場": {
+   "name": "Ruisui Ranch",
+   "text": "A ranch where you can feed dairy cows and ostriches. Desserts made with fresh milk are the specialty."
+  },
+  "TW-HUA|六十石山金針花海": {
+   "name": "Liushidan Mountain Daylily Fields",
+   "text": "In August and September the whole mountain turns orange with daylilies, a summer tradition in the East Rift Valley."
+  },
+  "TW-HUA|林田山林業文化園區": {
+   "name": "Lintianshan Forestry Culture Park",
+   "text": "A logging base once known as “Morisaka.” Its Japanese-style dorms and forest railway survive intact."
+  },
+  "TW-HUA|石梯坪遊憩區": {
+   "name": "Shitiping",
+   "text": "A sea-carved terrace of strange rocks. Potholes and tide pools make it fun to look for sea life."
+  },
+  "TW-HUA|遠雄海洋公園": {
+   "name": "Farglory Ocean Park",
+   "text": "A marine theme park between the mountains and the sea. Dolphin shows and the gondola are favorites."
+  },
+  "TW-HUA|雲山水植物農場": {
+   "name": "Yunshanshui",
+   "text": "Its “Dream Lake” mirrors rows of palms and the silhouettes of mountains. One of Hualien's top photo spots."
+  },
+  "TW-TTT|三仙台風景區": {
+   "name": "Sanxiantai",
+   "text": "An eight-arch footbridge snakes like a dragon out to the island. A symbol of the east coast and a famous sunrise spot."
+  },
+  "TW-TTT|伯朗大道": {
+   "name": "Mr. Brown Avenue",
+   "text": "A road with no power poles running through golden rice fields, home to the “Takeshi Kaneshiro tree” made famous by a TV commercial."
+  },
+  "TW-TTT|鹿野高台": {
+   "name": "Luye Highland",
+   "text": "A plateau looking over the rift valley. In July and August it hosts Taiwan's biggest hot-air balloon festival."
+  },
+  "TW-TTT|知本國家森林遊樂區": {
+   "name": "Zhiben National Forest Recreation Area",
+   "text": "A subtropical forest next to Zhiben Hot Springs, with century-old banyans and soothing forest trails."
+  },
+  "TW-TTT|白色恐怖綠島紀念園區": {
+   "name": "Green Island White Terror Memorial Park",
+   "text": "A former prison camp for political prisoners from the martial-law era. Set against a beautiful sea, it preserves an important chapter in Taiwan's human rights history."
+  },
+  "TW-TTT|蘭嶼氣象站": {
+   "name": "Lanyu Weather Station",
+   "text": "A white weather station built during the Japanese era. Bullet holes in its walls tell its history, and it looks out over the whole island."
+  },
+  "TW-TTT|加路蘭遊憩區": {
+   "name": "Jialulan Recreation Area",
+   "text": "Its name means “place to wash your hair” in the Amis language. Driftwood art dots a seaside meadow, a lovely spot for watching the moon."
+  },
+  "TW-TTT|富岡地質公園 (小野柳)": {
+   "name": "Xiaoyeliu (Fugang Geopark)",
+   "text": "A coastal geopark nicknamed “Little Yehliu” for rock formations like those at Yehliu."
+  },
+  "TW-TTT|臺東森林公園": {
+   "name": "Taitung Forest Park",
+   "text": "A 280-hectare green space right next to the city. Cycling around the mirror-like Pipa Lake is the thing to do."
+  },
+  "TW-TTT|知本自然教育中心": {
+   "name": "Zhiben Nature Education Center",
+   "text": "A center for learning about tropical monsoon forest ecology, with hot-spring steam drifting nearby."
+  },
+  "TW-PEN|雙心石滬": {
+   "name": "Twin Hearts Stone Weir",
+   "text": "A heart-shaped fish trap of stacked basalt, born of generations of know-how. Penghu's most romantic sight."
+  },
+  "TW-PEN|澎湖跨海大橋": {
+   "name": "Penghu Great Bridge",
+   "text": "A 2.5 km bridge over a fast-flowing strait, linking Baisha and Xiyu islands. A symbol of Penghu."
+  },
+  "TW-PEN|吉貝嶼": {
+   "name": "Jibei Island",
+   "text": "The largest island in Penghu's northern waters. A golden sandbar reaches into the sea, and it buzzes as a water sports paradise."
+  },
+  "TW-PEN|二崁傳統聚落保存區": {
+   "name": "Erkan Historic Village",
+   "text": "Taiwan's first protected traditional village. Old houses serve as small museums, and the scent of almond tea drifts through the lanes."
+  },
+  "TW-PEN|山水沙灘": {
+   "name": "Shanshui Beach",
+   "text": "A 200 m beach of green vines, golden sand and blue sea, popular for surfing too."
+  },
+  "TW-PEN|風櫃洞": {
+   "name": "Fenggui Cave",
+   "text": "Waves crash into a basalt sea cave with a thundering roar. “Listening to the waves at Fenggui” is one of Penghu's famous sights."
+  },
+  "TW-PEN|大菓葉柱狀玄武岩": {
+   "name": "Daguoye Columnar Basalt",
+   "text": "A wall of columnar basalt uncovered by chance during construction work. Reflected in the pools after rain, it's stunning."
+  },
+  "TW-PEN|澎湖輪碼頭": {
+   "name": "Penghu Ferry Terminal",
+   "text": "The gateway for ferries between Taiwan's main island and Penghu. If you're coming by sea, your trip starts here."
+  },
+  "TW-PEN|澎湖生活博物館": {
+   "name": "Penghu Living Museum",
+   "text": "A museum that recreates Penghu's daily life and maritime culture through dioramas and film."
+  },
+  "TW-PEN|目斗嶼": {
+   "name": "Mudou Islet",
+   "text": "A black-and-white striped lighthouse on a tiny island, guiding ships past the reefs for more than a century since the Qing era."
+  },
+  "TW-KIN|莒光樓": {
+   "name": "Juguang Tower",
+   "text": "Kinmen's landmark tower, built in traditional gate-tower style. From the top you can see across Jincheng and out to sea."
+  },
+  "TW-KIN|翟山坑道": {
+   "name": "Zhaishan Tunnel",
+   "text": "An underground waterway cut through granite to hide boats during wartime, also famous as the venue for a tunnel music festival."
+  },
+  "TW-KIN|水頭57地號洋樓(僑鄉文化展示館)": {
+   "name": "Shuitou Overseas Chinese Culture Exhibition Hall",
+   "text": "A Western-style house next to Deyue Tower, telling the stories of Kinmen people who emigrated to Southeast Asia."
+  },
+  "TW-KIN|山后民俗文化村": {
+   "name": "Shanhou Folk Culture Village",
+   "text": "Eighteen southern Fujian-style houses in neat rows. Kinmen's most complete traditional village."
+  },
+  "TW-KIN|獅山砲陣地": {
+   "name": "Shishan Howitzer Base",
+   "text": "A howitzer position inside a tunnel, where a dramatic gun-drill demonstration brings wartime memories back to life."
+  },
+  "TW-KIN|慈湖": {
+   "name": "Cihu Lake (Kinmen)",
+   "text": "A lake created by a military embankment, now a haven for wild birds and famous for its sunsets."
+  },
+  "TW-KIN|建功嶼": {
+   "name": "Jiangong Islet",
+   "text": "A tiny island you walk to along a stone path that appears only at low tide. Sunsets and sculptures of oyster farmers make a perfect picture."
+  },
+  "TW-KIN|陳景蘭洋樓": {
+   "name": "Chen Jing-lan Western-style Mansion",
+   "text": "Built in 1921, Kinmen's largest Western-style mansion, with white arched verandas overlooking Liaoluo Bay."
+  },
+  "TW-KIN|清金門鎮總兵署": {
+   "name": "Qing Dynasty Kinmen Garrison Headquarters",
+   "text": "An almost fully intact Qing-era military headquarters. You can visit this historic building in the evening, too."
+  },
+  "TW-KIN|得月樓": {
+   "name": "Deyue Tower",
+   "text": "A gun tower built in 1931 to guard against bandits. The tallest building in Shuitou Village, it has watched over the island ever since."
+  },
+  "TW-LIE|芹壁社區發展協會": {
+   "name": "Qinbi Village",
+   "text": "Matsu's finest village, with granite stone houses facing the sea. People call it “the Mediterranean of Matsu.”"
+  },
+  "TW-LIE|南竿北海坑道": {
+   "name": "Beihai Tunnel (Nangan)",
+   "text": "An underground military harbor dug through granite. Explore it by rowboat, and on summer nights watch the blue tears glow."
+  },
+  "TW-LIE|東引中路客廳": {
+   "name": "Dongyin Zhonglu Parlor",
+   "text": "The old town of Dongyin, the northernmost island Taiwan governs, telling the story of island life shaped by fishing and the military."
+  },
+  "TW-LIE|大漢據點": {
+   "name": "Dahan Stronghold",
+   "text": "A coastal defense post carved out of bedrock, with its gun slits and command post left just as they were."
+  },
+  "TW-LIE|馬祖境天后宮": {
+   "name": "Matsu Tianhou Temple",
+   "text": "Said to be where Mazu rests, this temple gave the islands their name and is the center of local faith."
+  },
+  "TW-LIE|藍眼淚生態館": {
+   "name": "Blue Tears Ecology Museum",
+   "text": "A museum where you can see the blue tears, the glowing night sea, any time of year, and learn how the glow works."
+  },
+  "TW-LIE|壁山": {
+   "name": "Bishan",
+   "text": "The highest peak in the Matsu Islands (298 m), with a lookout over Beigan's islands and Qinbi Village."
+  },
+  "TW-LIE|津沙聚落": {
+   "name": "Jinsha Village",
+   "text": "A stone-house village nestled by a golden beach. Island life carries on in its lanes, scented with aged rice wine."
+  },
+  "TW-LIE|東犬燈塔(東莒島燈塔)": {
+   "name": "Dongju Island Lighthouse",
+   "text": "A white lighthouse built in the Qing era, a heritage site still shining over the sea from its clifftop."
+  },
+  "TW-LIE|坤坵沙灘": {
+   "name": "Kunqiu Beach",
+   "text": "A beach facing Snake Island. In spring and summer, rare “cross waves” appear, meeting in a grid-like pattern."
+  }
+ },
+ "food": {
+  "TW-KEE-1": "Paopao bing (whipped bubble ice)",
+  "TW-KEE-2": "Fried “nutrition” sandwich",
+  "TW-KEE-3": "Tianbula (Taiwanese fish cake stew)",
+  "TW-TPE-1": "Xiaolongbao (soup dumplings)",
+  "TW-TPE-2": "Pineapple cake",
+  "TW-TPE-3": "Beef noodle soup",
+  "TW-NWT-1": "Pingxi sky lanterns",
+  "TW-NWT-2": "Jiufen taro balls",
+  "TW-NWT-3": "Tamsui iron eggs",
+  "TW-TAO-1": "Daxi dried tofu",
+  "TW-TAO-2": "Lalashan honey peaches",
+  "TW-TAO-3": "Shimen fresh-fish feast",
+  "TW-HSZ-1": "Hsinchu rice noodles",
+  "TW-HSZ-2": "Gongwan (pork meatball) soup",
+  "TW-HSZ-3": "Glass art",
+  "TW-HSQ-1": "Oriental Beauty tea",
+  "TW-HSQ-2": "Hakka lei cha (pounded tea)",
+  "TW-HSQ-3": "Xinpu dried persimmons",
+  "TW-ILA-1": "Sanxing scallions",
+  "TW-ILA-2": "Smoked duck (yashang)",
+  "TW-ILA-3": "Kumquats",
+  "TW-MIA-1": "Dahu strawberries",
+  "TW-MIA-2": "Hakka mochi",
+  "TW-MIA-3": "Sanyi wood carving",
+  "TW-TXG-1": "Birthplace of bubble tea",
+  "TW-TXG-2": "Sun cakes",
+  "TW-TXG-3": "Feng Chia fried chicken",
+  "TW-CHA-1": "Changhua ba-wan",
+  "TW-CHA-2": "Lukang ox-tongue pastry",
+  "TW-CHA-3": "Oyster omelet",
+  "TW-NAN-1": "Dongding oolong tea",
+  "TW-NAN-2": "Puli Shaoxing wine",
+  "TW-NAN-3": "Sun Moon Lake tea eggs",
+  "TW-YUN-1": "Gukeng coffee",
+  "TW-YUN-2": "Xiluo soy sauce",
+  "TW-YUN-3": "Beigang peanuts",
+  "TW-CYI-1": "Turkey rice",
+  "TW-CYI-2": "Fangkuai crisps (square puff pastry)",
+  "TW-CYI-3": "Fish-head casserole",
+  "TW-CYQ-1": "Alishan high-mountain tea",
+  "TW-CYQ-2": "Fenqihu lunch box",
+  "TW-CYQ-3": "Aiyu jelly",
+  "TW-TNN-1": "Danzai noodles",
+  "TW-TNN-2": "Beef soup",
+  "TW-TNN-3": "Madou pomelos",
+  "TW-KHH-1": "Papaya milk",
+  "TW-KHH-2": "Cijin grilled squid",
+  "TW-KHH-3": "Dashu golden pineapples",
+  "TW-PIF-1": "Wanluan pork knuckle",
+  "TW-PIF-2": "Donggang bluefin tuna",
+  "TW-PIF-3": "Hengchun onions",
+  "TW-HUA-1": "Hualien mochi",
+  "TW-HUA-2": "Wonton soup (bianshi)",
+  "TW-HUA-3": "Hualien watermelon",
+  "TW-TTT-1": "Sugar apples",
+  "TW-TTT-2": "Chishang lunch box",
+  "TW-TTT-3": "Roselle",
+  "TW-PEN-1": "Brown sugar cake",
+  "TW-PEN-2": "Cactus ice",
+  "TW-PEN-3": "Baby squid",
+  "TW-KIN-1": "Kinmen Kaoliang liquor",
+  "TW-KIN-2": "Gongtang (peanut candy)",
+  "TW-KIN-3": "Kinmen beef jerky",
+  "TW-LIE-1": "Jiguang bing (sesame buns)",
+  "TW-LIE-2": "Misua in aged rice wine (laojiu mianxian)",
+  "TW-LIE-3": "Fish noodles"
+ },
+ "shop": {
+  "TW-KEE|周家蔥油餅": {
+   "dish": "Thick scallion pancake (cong you bing)",
+   "text": "A pancake shop that opens at 4:30 a.m. and has been going for about 50 years. The scallion dough is griddled, then crisped once more over the flame, so the outside shatters. Have it with a cold soy milk."
+  },
+  "TW-KEE|長腳麵食": {
+   "dish": "Noodles with pork knuckle, and old-style dry noodles tossed in lard and fried shallots",
+   "text": "A noodle shop run by three generations for more than 60 years. Flat noodles tossed with lard and fried shallots are an old Keelung taste. The pork knuckle can sell out early, so come in the morning."
+  },
+  "TW-KEE|連珍糕餅店": {
+   "dish": "Taro paste balls (yu ni qiu)",
+   "text": "A century-old pastry shop near Keelung Station, where locals are said to buy their temple offerings. The taro balls, made with taro from Dajia, come four to a box and are a popular gift."
+  },
+  "TW-TPE|賣麵炎仔": {
+   "dish": "Light-broth noodles or rice noodles (qie zai mian), and fried pork (hong shao rou)",
+   "text": "A noodle shop tucked into a Dadaocheng alley, run by three generations for over 80 years. It opens at 7 a.m. There's no menu: the owner sizes up your group and puts together a spread of side dishes. The fried pork isn't served until 10 a.m."
+  },
+  "TW-TPE|一甲子餐飲": {
+   "dish": "Braised pork belly on rice (kong rou fan) and pork belly buns (gua bao)",
+   "text": "A shop right next to Wanhua's Zushi Temple, going for about 60 years. You'll be torn between having the melt-soft pork belly on rice or tucked into a steamed bun. There's also wan gui (savory rice pudding), a recipe the owner learned in Madou, Tainan."
+  },
+  "TW-TPE|雙連圓仔湯": {
+   "dish": "Sweet soup with tiny rice balls (yuan zai tang) and fried mochi (shao muaji)",
+   "text": "A dessert shop run by three generations since 1951. Tiny rice balls made only from glutinous rice come in a sweet red bean or peanut soup. The other star is mochi fried in hot oil and rolled in peanut and sesame powder."
+  },
+  "TW-TPE|蘇來傳": {
+   "dish": "Ba-wan with pork filling (rou yuan) and steamed taro cake (yu gui)",
+   "text": "A shop in an alley near Lungshan Temple, run by three generations. It moved here from Sanshui Street, into the owner's family home. Order one ba-wan and one taro cake and you'll still get change from NT$100. Add garlic and chili sauce to taste."
+  },
+  "TW-NWT|油庫口蚵仔麵線": {
+   "dish": "Oyster and pork intestine vermicelli in a thick, silky broth (o-a mi sua)",
+   "text": "A Banqiao vermicelli shop open since 1986. The oysters and intestines are prepped fresh each day, and the owner makes the fried shallots by hand. Pair it with a grilled sausage from the stall next door: locals call the combo the “full set.”"
+  },
+  "TW-NWT|今大魯肉飯": {
+   "dish": "Rice with braised diced fatty pork (lu rou fan)",
+   "text": "The first name that comes up when people in Sanchong talk about braised pork rice. Diced pork fat is simmered until glossy and tender, then spooned over rice. It opens at 6:30 a.m., so it works for breakfast too."
+  },
+  "TW-NWT|永和佳香豆漿": {
+   "dish": "Pepper scallion flatbread (hu jiao cong bing) and soy milk",
+   "text": "A breakfast-only soy milk shop near Minzhi Market. The owner makes everything by hand: the soy milk, the flatbreads, the egg-pancake wrappers, even the xiaolongbao. The pepper scallion flatbread is the star, and there's no fixed time for when it comes out of the oven."
+  },
+  "TW-TAO|阿美米干": {
+   "dish": "Yunnan rice noodles (mi gan) in pork-bone broth",
+   "text": "Going for more than 40 years near Zhongzhen Market, in a neighborhood where many families have Yunnan roots. The house special, the “A-Mei” bowl, tops flat rice noodles with pork, liver and egg, plus pickled greens and scallions. Opens at 8 a.m."
+  },
+  "TW-TAO|鴨肉榮": {
+   "dish": "Boiled duck platter and salted duck (xian shui ya)",
+   "text": "A duck shop open since 1970, diagonally across from Jingfu Temple, which locals call the “Big Temple.” It's open 24 hours. Dip the duck leg in the house chili sauce and have it with a gingery duck-giblet soup."
+  },
+  "TW-TAO|賴媽媽豆花": {
+   "dish": "Douhua (silken tofu pudding) topped with chewy Q-yuan balls",
+   "text": "A douhua shop going for over 50 years that Daxi locals have loved since childhood. It started inside a gymnasium and now has a branch on the old street too. Choose your syrup: sugar, ginger or soy milk."
+  },
+  "TW-HSZ|廟口鴨香飯": {
+   "dish": "Smoked duck rice (ya xiang fan), drizzled with duck fat and sauce",
+   "text": "The duck rice that Hsinchu people have eaten since they were kids, near the City God Temple. Smoked duck goes perfectly with duck fat and the house sauce. Some people add a runny fried egg and mix it all in."
+  },
+  "TW-HSZ|東門米粉攤": {
+   "dish": "Thick rice noodle soup with seafood and taro (hai xian yu tou mi fen tang)",
+   "text": "A small stall inside East Gate Market. Thick rice noodles in chicken broth come with fried sea bass, fish balls, shrimp and taro. Seats are few, so expect to wait."
+  },
+  "TW-HSZ|鷹王肉圓": {
+   "dish": "Ba-wan with red-yeast pork, fried in lard (hong zao rou yuan)",
+   "text": "A ba-wan shop near the air force base, open since 1962. Frying in lard is the house rule, and each one gets a generous pour of sauce and grated garlic. It's not in a busy area, yet there's a line on weekends."
+  },
+  "TW-HSQ|ㄤ咕麵": {
+   "dish": "Flat oil noodles tossed in fried-shallot sauce",
+   "text": "Started as a tiny stall in 1955 and now run by the third generation on Guanxi's old street. Springy flat oil noodles are tossed with chives, bean sprouts and fried-shallot sauce. There are Hakka side dishes too."
+  },
+  "TW-HSQ|鄒記菜包": {
+   "dish": "Hakka steamed rice dumplings (cai bao), some with mugwort skins",
+   "text": "A cai bao shop carrying on a grandmother's recipe from her stall in front of Beipu's Citian Temple. The skin blends glutinous and regular rice the old way, so it's soft without sticking to your teeth. Mugwort skins are available too."
+  },
+  "TW-HSQ|一哥炊粉": {
+   "dish": "Thin steamed rice noodles (chui fen), stir-fried or in soup",
+   "text": "A Hakka breakfast spot in Qionglin, going for over 40 years. The thin rice noodles are steamed from indica rice alone, so they taste clearly of rice. Have them stir-fried or in soup, or half and half with flat ban tiao noodles."
+  },
+  "TW-ILA|阿娘給的蒜味肉羹": {
+   "dish": "Thick, garlicky soup with pork balls (rou geng)",
+   "text": "Founded in 1966. A son now carries on the recipe his mother served for nearly half a century beside a gate in the old town. Both raw and fried garlic perfume this thick soup, and you can add noodles or rice noodles."
+  },
+  "TW-ILA|張秀雄米苔目": {
+   "dish": "Thick rice noodles (mi tai mu) in pork-bone broth, a breakfast classic",
+   "text": "A Luodong breakfast shop that opens at 5 a.m. The rice noodles are simple, topped only with fried shallots and celery, and you can get refills of the pork-bone broth. Lots of people add a small plate of pork intestine."
+  },
+  "TW-ILA|羅東紅豆湯圓": {
+   "dish": "Red bean soup with rice balls (hong dou tang yuan)",
+   "text": "A dessert shop just outside Luodong Night Market, going for over half a century. There are only three things on the menu: red bean soup, rice ball soup, and the two combined. In summer, lots of people order it over ice."
+  },
+  "TW-MIA|賴新魁麵館": {
+   "dish": "Hakka flat rice noodles (ban tiao) topped with wontons",
+   "text": "A Hakka noodle shop founded in 1945. The signature bowl tops flat rice noodles with wontons, and the aroma of fried red shallots goes beautifully with the clear pork-bone broth."
+  },
+  "TW-MIA|江技舊記": {
+   "dish": "Black-pork wonton soup and crystal dumplings",
+   "text": "Started in 1949 as a wonton stall in front of a temple and now run by the third generation. The stars are wonton soup scented with black-pork fat and half-moon crystal dumplings."
+  },
+  "TW-MIA|金光肉圓": {
+   "dish": "Ba-wan with pork and bamboo shoots in a chewy skin",
+   "text": "A Yuanli shop run by three generations for about 50 years. A chewy skin wraps pork leg and bamboo shoots, then gets a rice-based sauce and a topping of garlic leaves instead of cilantro. That's how they do it here."
+  },
+  "TW-TXG|台中肉員": {
+   "dish": "Ba-wan with a thin, oil-dipped skin",
+   "text": "Founded in 1933. The menu is just ba-wan, fish ball soup and glass noodle soup. Dipped in oil, the skin is thin and tender. It's listed in the Michelin Bib Gourmand."
+  },
+  "TW-TXG|阿坤麵": {
+   "dish": "Dry noodles with minced pork and bean sprouts",
+   "text": "Near Second Market for over 50 years. There's just one main dish: yellow noodles with minced pork and bean sprouts, topped with Taichung's own Dongquan chili sauce. Open from morning until lunch, and listed in the Michelin Bib Gourmand."
+  },
+  "TW-TXG|王塔米糕": {
+   "dish": "Tube-steamed sticky rice with dried oysters (tong zai mi gao)",
+   "text": "The shop that started Qingshui's sticky rice tradition. It's the only place in Qingshui that adds dried oysters to the pork belly. Its other signature is a pork soup with noodles in a clear, unthickened pork-bone broth."
+  },
+  "TW-TXG|阿斗伯冷凍芋": {
+   "dish": "Chilled taro simmered in syrup",
+   "text": "A street stall going since the 1960s, now run by the third generation. You get three big chunks of taro soaked in old-fashioned syrup. From afternoon until late at night, the line of locals never stops."
+  },
+  "TW-CHA|貓鼠麵": {
+   "dish": "Clear-broth noodles topped with chicken rolls and meatballs (san bao mian)",
+   "text": "Founded in 1921. The name is Taiwanese for “mouse,” the original owner's nickname. Noodles in clear broth come with chicken rolls, shiitake balls and swallow-skin dumplings. After a break, it reopened in August 2025."
+  },
+  "TW-CHA|阿泉爌肉飯": {
+   "dish": "Braised pork leg on rice (kong rou fan)",
+   "text": "A Changhua breakfast spot going for more than 80 years. Skin-on pork leg is braised and laid over rice in one big slab. It opens at 7 a.m. and often sells out before noon, so get there before 9."
+  },
+  "TW-CHA|北斗肉圓生": {
+   "dish": "Beidou ba-wan with bamboo shoots",
+   "text": "A Beidou ba-wan institution run by five generations since 1898. The skin, made from ground rice and sweet potato starch, wraps a filling with bamboo shoots. Look for the red stall out front. The sticky rice is popular too."
+  },
+  "TW-NAN|阿章意麵": {
+   "dish": "Nantou yi mian noodles tossed with minced pork",
+   "text": "A shop in a Nantou City market, going for about 50 years. Local yi mian noodles, made without a drop of water, are tossed with lean, salty minced pork. Many regulars have been coming since they were kids."
+  },
+  "TW-NAN|李仔哥爌肉飯": {
+   "dish": "Braised pork belly on rice (kong rou fan)",
+   "text": "A Puli institution said to date back to 1979. It opens at 6 a.m., so locals come for breakfast. The signature is rice topped with braised pork belly in layers of fat and lean, and the pork chop rice sells out early."
+  },
+  "TW-NAN|榕樹下扣仔嗲": {
+   "dish": "Oyster fritters (o-a te)",
+   "text": "Under a huge banyan tree for over 60 years. There's no sign: the tree is your landmark. The classic order here is oyster fritters with fried meat, sticky-rice sausage and pork blood soup."
+  },
+  "TW-NAN|百年廟口肉圓": {
+   "dish": "Ba-wan with Zhushan winter bamboo shoots",
+   "text": "A long-running shop that started as a stall across from Lianxing Temple, Zhushan's Mazu temple. The skin is made from Zhushan's red sweet potato starch and wraps pork and local winter bamboo shoots before being fried in low-temperature oil. Closed Thursdays and Sundays."
+  },
+  "TW-YUN|老受鴨肉飯": {
+   "dish": "Shredded duck on rice (ya rou fan)",
+   "text": "Opened in 1960 and now run by the second generation. Meat from ducks raised for more than 100 days is shredded over rice and finished with a special sauce. People who've moved away from Beigang stop in every time they come home."
+  },
+  "TW-YUN|三角大水餃": {
+   "dish": "Big triangular dumplings in sweet potato starch skins",
+   "text": "A shop behind Xiluo's East Market that always has a line. Pork and bamboo shoots are wrapped in triangles of sweet potato starch dough and steamed. Have them dry with the homemade sweet-and-spicy sauce, or in pork-bone broth with Xiluo soy sauce."
+  },
+  "TW-YUN|長興圓仔冰": {
+   "dish": "Shaved ice with rice balls (yuan zai bing) and hot mochi",
+   "text": "A dessert shop near Douliu's East Market, run by the same family for generations. In summer it serves shaved ice with rice balls; in winter, warm rice ball soup. The mochi and rice balls are made fresh daily, and the peanut and sesame mochi is popular too."
+  },
+  "TW-CYI|王家祖傳本產牛雜湯": {
+   "dish": "Beef offal soup",
+   "text": "A beef offal soup stall inside East Market, run by four generations. From 6 a.m., people come for breakfast: a light, sweet soup with heart and tripe. It closes soon after midday."
+  },
+  "TW-CYI|阿溪雞肉飯": {
+   "dish": "Diced chicken on rice",
+   "text": "A breakfast-only shop going since 1973. Instead of shredded meat, it uses diced chicken, eaten with chicken fat and fried shallots. Regulars order the off-menu sliced chicken rice and a soft-boiled duck egg."
+  },
+  "TW-CYI|阿娥豆漿豆花": {
+   "dish": "Douhua topped with soy milk",
+   "text": "A douhua shop beside Wenhua Road Night Market, going for more than 60 years. Pouring on soy milk instead of syrup is how Chiayi does it. It's topped with peanuts cooked in-house, and some people add a fried dough stick on the side."
+  },
+  "TW-CYQ|新港鴨肉羹": {
+   "dish": "Thick duck soup",
+   "text": "Since 1966 near Fengtian Temple, with just one thing on the menu: thick duck soup. The duck and bamboo shoots are stir-fried over high heat before simmering, which gives it a toasty aroma. No rice or noodles come with it."
+  },
+  "TW-CYQ|麻糬棟": {
+   "dish": "Mochi filled with savory mung bean paste",
+   "text": "A mochi shop in Puzi First Market since 1936. It's made from whole rice, not flour, and filled with a lightly salty mung bean paste mixed with sugar and peanuts. Choose a white or purple-rice skin."
+  },
+  "TW-CYQ|虎兒油飯": {
+   "dish": "Sticky rice steamed in bamboo baskets (you fan)",
+   "text": "A Puzi sticky rice shop that opens in the late afternoon. The classic order is sticky rice steamed in bamboo baskets with a thick pork soup. Going for more than 60 years, it's a taste of home for Puzi locals."
+  },
+  "TW-TNN|福泰飯桌第三代": {
+   "dish": "Minced pork rice with the day's side dishes",
+   "text": "The third generation of an 80-plus-year-old fan zhuo zai, a classic Tainan eatery where you pick from the dishes on display. What's on offer depends on what came in that day; try the minced pork rice with something like braised napa cabbage."
+  },
+  "TW-TNN|西羅殿牛肉湯": {
+   "dish": "Beef-bone broth with thinly sliced beef",
+   "text": "A beef soup shop that opens at 4:30 a.m. Broth made from beef bones, brisket and onion comes with thinly sliced beef. Order a soup and you get minced pork rice too. Closed Mondays and Tuesdays."
+  },
+  "TW-TNN|葉家小卷米粉": {
+   "dish": "Baby squid and thick rice noodle soup",
+   "text": "A shop on Guohua Street run by three generations since 1935. Thick noodles made from brown rice come in a sweet squid broth. Closed Mondays and Tuesdays, and it shuts soon after lunch, so go early."
+  },
+  "TW-TNN|江水號": {
+   "dish": "Shaved ice with your choice of toppings (ba bao bing)",
+   "text": "A shaved ice shop that started in West Market in 1931 and is now run by the third generation. Choose freely from over a dozen toppings, including taro paste, rice balls and beans. In winter there's also a sweet sticky-rice porridge with rice wine."
+  },
+  "TW-KHH|前金肉燥飯": {
+   "dish": "Minced pork-fat rice with fish floss",
+   "text": "Open since 1959 and now run by the third generation. The minced topping, made from back fat, isn't greasy and melts in your mouth. The classic way is with fish floss and a soft-boiled duck egg. When it's sold out, they close."
+  },
+  "TW-KHH|菜粽李": {
+   "dish": "Sticky rice dumplings with peanuts only (cai zong)",
+   "text": "A rice dumpling shop run by three generations, filled with nothing but sticky rice and peanuts. Wrapped by hand every day, they're served with sauce and peanut powder alongside a bowl of miso soup. Opens at 6:30 a.m."
+  },
+  "TW-KHH|李家圓仔湯": {
+   "dish": "Shaved ice with rice balls",
+   "text": "At the entrance to Yancheng First Public Market since 1953. The signature is a simple shaved ice topped with red beans, mung beans, taro and handmade rice balls. On the winter solstice and at the Lantern Festival, locals come for rice balls."
+  },
+  "TW-KHH|阿忠米粉湯": {
+   "dish": "Thick rice noodle soup with milkfish or baby squid",
+   "text": "A breakfast spot with no sign, now run by the third generation. It began with milkfish and thick rice noodle soup, and the version with boiled baby squid has become a signature too. Locals also order fried squid or fish skin."
+  },
+  "TW-PIF|福記餛飩": {
+   "dish": "Sesame sauce noodles and wontons",
+   "text": "A wonton shop deep in an alley near Pingtung Night Market, said to have been run by four generations for a century. The noodles in sesame-peanut sauce come with dried radish for a nice crunch."
+  },
+  "TW-PIF|正老牌潮州冷熱冰": {
+   "dish": "Hot-and-cold shaved ice (leng re bing) over warm rice balls and beans",
+   "text": "Warm peanut-filled rice balls, taro and red beans on the bottom; shaved ice and brown sugar syrup on top. This Chaozhou specialty is all about scooping up hot and cold together, and the shop recommends not stirring it."
+  },
+  "TW-PIF|葉家肉粿": {
+   "dish": "Steamed rice cake in rich fish-bone broth (rou gui)",
+   "text": "A shop run by three generations, where Donggang locals pick up breakfast. A steamed rice cake is topped with sausage, sakura shrimp and pork, doused in a rich fish-bone broth and eaten with garlic sauce."
+  },
+  "TW-HUA|液香扁食": {
+   "dish": "Pork wonton soup",
+   "text": "Going for about 70 years, with just one thing on the menu: wonton soup, ten wontons to a bowl. It's open only four hours, from 9:30 a.m. to just after lunch, and closed on Sundays."
+  },
+  "TW-HUA|廟口紅茶": {
+   "dish": "Iced black tea from steel pipes, with small pastries",
+   "text": "Three steel pipes inside the shop dispense black tea, almond tea and plum juice. It opens at 6 a.m., and pairing a drink with the little baked pastries is the old-school way locals love."
+  },
+  "TW-HUA|中一豆花": {
+   "dish": "Douhua (silken tofu pudding) with tapioca pearls or peanuts",
+   "text": "A douhua shop near the seaside park in Meilun, going for more than 40 years. The two basic flavors are tapioca and peanut, at about NT$40 a bowl. Open 10 a.m. to 10 p.m."
+  },
+  "TW-TTT|老東台米苔目": {
+   "dish": "Thick rice noodles (mi tai mu) with minced pork",
+   "text": "Started in 1955 as a stall beside a movie theater and now run by third-generation brothers. Thick rice noodles are topped with minced pork, and you can have them in soup or dry."
+  },
+  "TW-TTT|卑南豬血湯": {
+   "dish": "Pork blood cake and intestine soup in bone broth",
+   "text": "Over 60 years since it began as a pushcart, now run by the third generation. Thick slices of pork blood cake and intestine simmered in bone broth, with a small plate of dressed vegetables on the side: an old Taitung breakfast."
+  },
+  "TW-TTT|寶桑豆花": {
+   "dish": "Douhua (silken tofu pudding) with peanuts or mung beans",
+   "text": "Started on Baosang Road in 1979 and moved to its current spot on Zhengqi Road in 2010. Douhua made fresh daily is topped with peanuts or mung beans cooked until meltingly soft. Warm douhua is available in winter."
+  },
+  "TW-PEN|北新橋牛雜湯": {
+   "dish": "Beef offal soup with tripe and tongue in beef-bone broth",
+   "text": "A breakfast-only shop going for more than 50 years, closing before noon. Beef bones simmer for six hours to make the broth, which comes with tripe and tongue. Locals add a meat bun or chive bun for breakfast."
+  },
+  "TW-PEN|鐘記燒餅": {
+   "dish": "Clay-oven flatbread (shao bing) filled with a scallop and scallion omelet",
+   "text": "On Wenkang Street, lined with breakfast shops, for more than 40 years and now run by the second generation. The flatbread, baked in a clay-jar oven, is crisp outside and chewy inside. The favorite filling is a scallion omelet with a fried dough stick."
+  },
+  "TW-PEN|旭西餅舖": {
+   "dish": "Zha zao, round fried sweets for celebrations",
+   "text": "A Huxi pastry shop going for over half a century. Zha zao are fried sweets you can't do without at weddings, temple festivals and other celebrations, and many of those sold in Magong come from here. They sell out in the morning."
+  },
+  "TW-KIN|標記小吃店": {
+   "dish": "Handmade egg crepes (dan bing) and Cantonese congee",
+   "text": "A breakfast shop near East Gate Market, going for more than 55 years. The signature dan bing is made from scratch, dough and all, and there's also Cantonese congee, vermicelli and Kinmen fried dough sticks. An everyday breakfast for Kinmen locals."
+  },
+  "TW-KIN|蚵嗲之家": {
+   "dish": "Oyster fritters (o-a te)",
+   "text": "A fritter shop in Jincheng going for more than 40 years. Besides fritters made with Kinmen's own rock oysters, there are spring rolls and sesame balls. It's open only a few hours, from 2:30 p.m. until early evening."
+  },
+  "TW-KIN|談天樓": {
+   "dish": "Shaved ice with black-sesame rice balls (tang yuan bing)",
+   "text": "A dessert shop in Shanwai since 1954. The famous tang yuan bing puts hot, hand-rolled sesame rice balls on cold shaved ice, and young soldiers doing military service used to come here when they missed home. There are beef noodles tossed in sauce too."
+  },
+  "TW-LIE|阿妹的店": {
+   "dish": "Ding bian hu, a Fuzhou-style breakfast soup with thin rice batter",
+   "text": "On the second floor of Shizi Market, which only opens in the mornings, and a regular breakfast stop for locals. It opens at 5:30 a.m. and can sell out by around 8, so get up early. Pair it with a jiguang bun from the same market."
+  },
+  "TW-LIE|萬家香二店": {
+   "dish": "Gou mian, hand-rolled noodles, with wonton soup",
+   "text": "In Chinese, gou mian reads like “dog noodles,” but no dogs are involved: the name comes from a Fuzhou word for noodles rolled out with a stick. Local guides say this place is a must, and the combo of noodles plus wonton soup is a favorite."
+  }
+ },
+ "travel": {
+  "months": [
+   "Damp chill",
+   "Cherry blossoms",
+   "Cherry blossoms",
+   "Fireflies",
+   "Rainy season",
+   "Rainy season",
+   "Typhoons",
+   "Typhoons",
+   "Typhoons",
+   "Pleasant",
+   "Pleasant",
+   "Hot springs"
+  ],
+  "reasons": {
+   "sakura": "Cherry blossoms at their peak",
+   "koyo": "Autumn leaves at their peak",
+   "susuki": "Silver grass season",
+   "firefly": "Firefly season",
+   "daylily": "Daylily season",
+   "bluetear": "Blue tears season",
+   "beach": "Beach season",
+   "onsen": "Best when it's cold",
+   "yakei": "Best for night views",
+   "lightup": "Lit up at night",
+   "sunrise": "Best at sunrise",
+   "sunset": "Famous for sunsets",
+   "seaofclouds": "Sea-of-clouds season",
+   "rain": "Stay dry even in the rain",
+   "heat": "A break from the heat",
+   "flower": "Flowers in bloom",
+   "hotspring_town": "Hot spring season"
+  },
+  "cats": {
+   "sakura": "Cherry blossoms",
+   "hanabi": "Fireworks",
+   "matsuri": "Festivals",
+   "koyo": "Autumn leaves and silver grass",
+   "snow": "Snow",
+   "flower": "Flowers",
+   "illumi": "Lights"
+  },
+  "course": {
+   "taipei-2d": "Taipei in two days",
+   "north-coast": "North Coast and Jiufen day trip",
+   "pingxi": "Sky lanterns on the Pingxi Line",
+   "sunmoon-alishan": "Sun Moon Lake and Alishan in three days",
+   "tainan-kaohsiung": "Historic Tainan and harbor-city Kaohsiung",
+   "east-valley": "Hualien and Taitung in three days",
+   "penghu": "Penghu island hopping",
+   "kinmen": "Kinmen: wartime heritage and Western-style mansions"
+  },
+  "stop": {
+   "士林夜市": "Shilin Night Market",
+   "十分老街": "Shifen Old Street",
+   "猴硐貓村": "Houtong Cat Village",
+   "駁二藝術特區": "Pier-2 Art Center",
+   "蓮池潭龍虎塔": "Lotus Pond Dragon and Tiger Pagodas"
+  },
+  "outfit": {
+   "hot": {
+    "t": "Sweltering",
+    "tip": "Hot and humid: a short walk is enough to get you sweating. Indoor air-conditioning is strong, so always carry a light layer. Bring a hat or parasol, and drink water often.",
+    "wear": [
+     "Short sleeves, sundress",
+     "Short sleeves, shorts"
+    ]
+   },
+   "warm": {
+    "t": "Warm",
+    "tip": "The most comfortable temperature, though humidity runs high. Afternoon thunderstorms can roll in, so pack a folding umbrella.",
+    "wear": [
+     "Sleeveless top, wide-leg pants",
+     "Modern qipao, light cover-up"
+    ]
+   },
+   "mild": {
+    "t": "Pleasant",
+    "tip": "Easy walking weather by day, cool only in the mornings and evenings. A light jacket or an extra shirt is just right.",
+    "wear": [
+     "Shirt, knit vest"
+    ]
+   },
+   "cool": {
+    "t": "Chilly",
+    "tip": "In the north, this temperature comes with a damp chill that feels colder than the number suggests. A windproof jacket works better than a thick sweater.",
+    "wear": [
+     "Trench-style dress"
+    ]
+   },
+   "chilly": {
+    "t": "Cold",
+    "tip": "Many buildings in Taiwan have no heating, so it's often just as cold indoors. Dress in layers, and adding a scarf makes a real difference.",
+    "wear": [
+     "Turtleneck, plaid skirt"
+    ]
+   },
+   "cold": {
+    "t": "Bitter cold",
+    "tip": "Rare in the lowlands: expect this during a cold snap or up in the mountains (Alishan, Hehuanshan, Taipingshan). You'll need serious cold-weather gear and a windproof, waterproof jacket.",
+    "wear": [
+     "Down jacket, heavy coat",
+     "Down jacket, knit hat, gloves"
+    ]
+   }
+  },
+  "wcode": [
+   "Clear",
+   "Partly cloudy",
+   "Cloudy",
+   "Fog",
+   "Drizzle",
+   "Rain",
+   "Snow",
+   "Thunderstorms"
+  ],
+  "info": [
+   {
+    "h": "Entry",
+    "gist": "Visa-free? You still need to file an arrival card online",
+    "rows": [
+     [
+      "Visa exemption",
+      "Many nationalities can enter without a visa, for 90, 30 or 14 days depending on your passport. The official list from the Bureau of Consular Affairs (Ministry of Foreign Affairs) is the final word, so check the rules for your nationality there."
+     ],
+     [
+      "TWAC arrival card",
+      "If you enter visa-free, you must submit the Taiwan Arrival Card (TWAC) online. Paper cards are no longer handed out. Do it before you leave and you'll get through faster on arrival."
+     ]
+    ]
+   },
+   {
+    "h": "Getting around",
+    "gist": "High-speed rail, Taiwan Railway, metro and tourist buses",
+    "rows": [
+     [
+      "Taiwan High Speed Rail (THSR)",
+      "Links Taipei and Zuoying (Kaohsiung) in about 1 hr 35 min–2 hr 15 min, covering the major cities of the west coast."
+     ],
+     [
+      "Taiwan Railway (TR)",
+      "A rail network that circles the island. The best way to travel the east (Yilan, Hualien, Taitung) and the scenic branch lines (Pingxi, Jiji and Neiwan)."
+     ],
+     [
+      "MRT (metro)",
+      "Runs in Taipei, Taoyuan Airport, Taichung and Kaohsiung. EasyCard works on every line."
+     ],
+     [
+      "Taiwan Tourist Shuttle",
+      "Sightseeing bus routes linking major attractions. A big help if you're traveling without a car."
+     ],
+     [
+      "YouBike",
+      "Bike sharing. Register your EasyCard and a phone number to start riding."
+     ]
+    ]
+   },
+   {
+    "h": "Transit cards",
+    "gist": "One card for the metro, buses and convenience stores",
+    "rows": [
+     [
+      "EasyCard",
+      "A stored-value card for the MRT, buses, Taiwan Railway and convenience stores. Buy and top it up at convenience stores."
+     ]
+    ]
+   },
+   {
+    "h": "Money",
+    "gist": "Cash still matters. No tipping",
+    "rows": [
+     [
+      "Currency",
+      "The currency is the New Taiwan dollar (TWD). Night markets and small eateries mostly take cash, so keep small change handy."
+     ],
+     [
+      "Exchange and ATMs",
+      "Change money at the airport or at banks in town. Convenience store ATMs widely accept foreign cards for cash withdrawals."
+     ],
+     [
+      "Tipping",
+      "There's no tipping culture, though some restaurants add a 10% service charge."
+     ]
+    ]
+   },
+   {
+    "h": "Phones and internet",
+    "gist": "Buying an eSIM before you leave is quickest",
+    "rows": [
+     [
+      "SIM and eSIM",
+      "Tourist SIMs and eSIMs are sold at Taoyuan, Songshan and Kaohsiung airports. Unlimited data plans are the norm."
+     ],
+     [
+      "Free Wi-Fi",
+      "Free Wi-Fi (such as iTaiwan) is common at stations, convenience stores and on the MRT."
+     ]
+    ]
+   },
+   {
+    "h": "Climate and best seasons",
+    "gist": "October and November are the easiest months to travel",
+    "rows": [
+     [
+      "By season",
+      "March to May is a pleasant spring. June to September is hot and humid, and it's typhoon season. October and November are the best months to travel. From December to February, the north is damp and chilly while the south stays mild."
+     ],
+     [
+      "In the mountains",
+      "Mornings and evenings get cold in the mountains (Alishan, Taipingshan, Hehuanshan), so bring warm layers."
+     ]
+    ]
+   },
+   {
+    "h": "Emergencies and etiquette",
+    "gist": "Need help? Call the multilingual hotline",
+    "rows": [
+     [
+      "Emergency numbers",
+      "Police 110 / Fire and ambulance 119. Tourist information hotline 0800-011-765 (24 hours, in Chinese, English, Japanese and Korean)."
+     ],
+     [
+      "On trains",
+      "No eating or drinking on the MRT, not even water or gum."
+     ],
+     [
+      "Power",
+      "110 V, with Type A plugs (two flat pins). If your plugs are different, bring an adapter, and check that your devices work on 110 V."
+     ]
+    ]
+   },
+   {
+    "h": "Official websites (for the latest info)",
+    "gist": "Check here for the latest",
+    "rows": [
+     [
+      "Rail",
+      "Taiwan High Speed Rail thsrc.com.tw / Taiwan Railway tip.railway.gov.tw"
+     ],
+     [
+      "Airport and buses",
+      "Taoyuan Airport taoyuan-airport.com / Taiwan Tourist Shuttle taiwantrip.com.tw"
+     ],
+     [
+      "Booking a stay",
+      "Taiwan Stay, the official accommodation site of the Tourism Administration: taiwanstay.net.tw"
+     ],
+     [
+      "Tourism Administration",
+      "Taiwan Tourism Administration taiwan.net.tw"
+     ]
+    ]
+   }
+  ],
+  "ic": {
+   "head": [
+    "Card",
+    "Where it works",
+    "Where to get it",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "EasyCard",
+     "MRT, buses, Taiwan Railway, convenience stores",
+     "Convenience stores, MRT stations",
+     "Single top-ups and balance both capped at NT$10,000"
+    ],
+    [
+     "iPASS",
+     "MRT, buses, Taiwan Railway, convenience stores",
+     "Convenience stores, MRT stations",
+     "Started in Kaohsiung, now works island-wide"
+    ],
+    [
+     "icash",
+     "Mainly convenience stores, some transit",
+     "7-Eleven",
+     "Better for shopping; limited transit coverage"
+    ]
+   ]
+  },
+  "sos": [
+   "Police",
+   "Fire and ambulance",
+   "Tourist hotline (24 hours; Chinese, English, Japanese, Korean)"
+  ],
+  "ev": {
+   "TW-KEE|2026鷄籠中元祭": "Keelung Ghost Festival",
+   "TW-KEE|2026基隆海洋老鷹嘉年華": "Keelung Black Kite Ocean Carnival",
+   "TW-TPE|2026台北燈節": "Taipei Lantern Festival",
+   "TW-TPE|2026大稻埕夏日節": "Dadaocheng Summer Festival",
+   "TW-TPE|2026臺灣自行車旅遊節": "Taiwan Cycling Festival",
+   "TW-TPE|竹子湖海芋季": "Zhuzihu Calla Lily Festival",
+   "TW-NWT|2026新北市平溪天燈節": "Pingxi Sky Lantern Festival",
+   "TW-NWT|2026汐止康誥坑溪文化櫻花季": "Xizhi Kanggaokeng Creek Cherry Blossoms",
+   "TW-NWT|閃耀新北1314跨河煙火": "New Taipei New Year's Eve Fireworks",
+   "TW-NWT|草嶺古道芒花季": "Caoling Historic Trail Silver Grass Season",
+   "TW-TAO|2026桃園燈會": "Taoyuan Lantern Festival",
+   "TW-TAO|2026桃園桐花祭 桐花童話": "Taoyuan Tung Blossom Festival",
+   "TW-TAO|2026角板山梅花季": "Jiaobanshan Plum Blossom Season",
+   "TW-TAO|2026魯冰花季": "Taoyuan Lupine Season",
+   "TW-HSZ|竹塹中元城隍祭": "Hsinchu City God Ghost Month Festival",
+   "TW-HSQ|司馬庫斯櫻花季": "Smangus Cherry Blossom Season",
+   "TW-ILA|2025礁溪溫泉燈花季": "Jiaoxi Hot Spring Light Festival",
+   "TW-ILA|2026冬山舊河港燈節-河光飛夢": "Dongshan Old River Port Lantern Festival",
+   "TW-ILA|2026宜蘭潮流文化藝術祭": "Yilan Culture and Arts Festival",
+   "TW-ILA|頭城搶孤": "Toucheng Ghost Grappling Festival",
+   "TW-MIA|2026三義木雕藝術節系列活動": "Sanyi Woodcarving Festival",
+   "TW-TXG|2026中臺灣燈會-幸福蜜馬  臺中MOOMIN ON": "Central Taiwan Lantern Festival (Taichung)",
+   "TW-TXG|2026后里櫻花季觀光活動": "Houli Cherry Blossom Season",
+   "TW-TXG|浮現祭EMERGE FEST 2026": "Emerge Fest (Taichung)",
+   "TW-TXG|大甲媽祖遶境進香": "Dajia Mazu Pilgrimage",
+   "TW-CHA|2026二水國際跑水節": "Ershui International Water-Running Festival",
+   "TW-CHA|八卦山賞鷹季系列活動": "Baguashan Hawk-Watching Season",
+   "TW-CHA|彰化花壇虎山巖金針花季活動": "Huatan Daylily Season (Changhua)",
+   "TW-NAN|2026九族櫻花祭": "Cherry Blossom Festival at the Formosan Aboriginal Culture Village",
+   "TW-NAN|2026日月潭花火音樂嘉年華": "Sun Moon Lake Fireworks and Music Carnival",
+   "TW-NAN|2026南投星空季": "Nantou Starry Sky Season",
+   "TW-NAN|2026南投國姓咖啡節": "Guoxing Coffee Festival (Nantou)",
+   "TW-NAN|奧萬大楓紅": "Aowanda Maple Season",
+   "TW-NAN|合歡山賞雪": "Snow on Hehuanshan",
+   "TW-YUN|2026雲林國際偶戲節": "Yunlin International Puppetry Festival",
+   "TW-YUN|2026北港燈會": "Beigang Lantern Festival",
+   "TW-YUN|2026雲西海洋音樂季": "Yunxi Ocean Music Festival",
+   "TW-CYI|2026嘉義市光織影舞-光影藝術展": "Chiayi Light and Shadow Art Festival",
+   "TW-CYI|2026城隍夜巡夯枷解厄": "Chiayi City God Night Patrol",
+   "TW-CYQ|2026台灣燈會": "Taiwan Lantern Festival",
+   "TW-CYQ|2026阿里山四季茶旅活動": "Alishan Four Seasons Tea Journey",
+   "TW-CYQ|2026台灣仲夏節": "Taiwan Midsummer Festival",
+   "TW-CYQ|阿里山櫻花季": "Alishan Cherry Blossoms",
+   "TW-TNN|2026龍崎光節：空山祭《山林呼喚》": "Longqi Light Festival: Kongshan Festival",
+   "TW-TNN|2026麻豆柚花季": "Madou Pomelo Blossom Season",
+   "TW-TNN|2026螢光花泉季": "Tainan Fireflies, Flowers and Springs Season",
+   "TW-TNN|2025台南聖誕燈節": "Tainan Christmas Light Festival",
+   "TW-TNN|鹽水蜂炮": "Yanshui Beehive Fireworks Festival",
+   "TW-KHH|2026高雄櫻花季音樂節": "Kaohsiung Cherry Blossom Music Festival",
+   "TW-KHH|2026六龜梅花季": "Liugui Plum Blossom Season",
+   "TW-KHH|2025 高雄國際貨櫃藝術節——「愛耍廢」": "Kaohsiung International Container Arts Festival",
+   "TW-KHH|2025高雄聖誕生活節": "Kaohsiung Christmas Festival",
+   "TW-PIF|2026屏東黑鮪魚文化觀光季": "Pingtung Bluefin Tuna Festival",
+   "TW-PIF|三年一科 迎王平安祭典": "Donggang King Boat Festival (every 3 years)",
+   "TW-PIF|2026-2027屏東落山風藝術季": "Pingtung Luoshan Wind Art Season",
+   "TW-PIF|2026六堆秋收祭系列活動": "Liudui Autumn Harvest Festival",
+   "TW-HUA|2026螢饗｜馬太鞍溼地賞螢季": "Mataian Wetland Firefly Season",
+   "TW-HUA|2026太平洋南島聯合豐年節": "Pacific Austronesian Joint Harvest Festival",
+   "TW-HUA|2026 山谷音樂節": "Valley Music Festival",
+   "TW-HUA|六十石山金針花季": "Liushidan Mountain Daylily Season",
+   "TW-TTT|2026臺東好神元宵祈福嘉年華": "Taitung Lantern Festival Blessing Carnival",
+   "TW-TTT|2026馬卡巴嗨藝術節": "Makapahay Arts Festival",
+   "TW-TTT|2026 關山千人蘿蔔季": "Guanshan Radish Festival",
+   "TW-TTT|2026悠活池上米鄉竹筏季系列活動｜竹筏季節慶嘉年華": "Chishang Bamboo Raft Festival",
+   "TW-TTT|太麻里金針山": "Taimali Jinzhen Mountain Daylilies",
+   "TW-PEN|2026澎湖國際海上花火節": "Penghu International Fireworks Festival",
+   "TW-PEN|2026澎大海沙灘音樂祭": "Penghu Beach Music Festival",
+   "TW-PEN|2026澎湖追風音樂燈光節": "Penghu Wind and Light Music Festival",
+   "TW-KIN|浯島城隍文化季": "Kinmen Wudao City God Festival",
+   "TW-KIN|2026金寧鄉石蚵文化季": "Jinning Rock Oyster Festival",
+   "TW-KIN|金門島嶼生活節": "Kinmen Island Life Festival",
+   "TW-LIE|2026馬祖擺暝文化祭": "Matsu Baimeng Culture Festival",
+   "TW-LIE|馬祖藍眼淚": "Matsu Blue Tears"
+  }
+ },
+ "phr": {
+  "老闆，不好意思，我想點：": "Excuse me, I'd like to order",
+  "內用": "For here",
+  "外帶": "To go",
+  "謝謝！": "Thank you",
+  "請問有菜單嗎？": "Do you have a menu?",
+  "請問有推薦的嗎？": "What do you recommend?",
+  "請問這個是什麼？": "What is this?",
+  "我不吃辣。": "I can't eat spicy food",
+  "小辣就好。": "Just a little spicy, please",
+  "不要加香菜，謝謝。": "No cilantro, please",
+  "請問多少錢？": "How much is it?",
+  "請問可以刷卡嗎？": "Can I pay by card?",
+  "可以幫我打包嗎？": "Could you pack up the rest for me?",
+  "請問洗手間在哪裡？": "Where's the restroom?",
+  "很好吃，謝謝！": "That was delicious, thank you",
+  "請幫我叫救護車。": "Please call an ambulance",
+  "我身體不舒服，請問附近有醫院嗎？": "I don't feel well. Is there a hospital nearby?",
+  "我的護照不見了。": "I've lost my passport",
+  "我的東西被偷了，請幫我報警。": "Something of mine was stolen. Please call the police",
+  "我迷路了，請問這個地方怎麼走？": "I'm lost. How do I get to this place?",
+  "請問有人會說日文嗎？": "Does anyone here speak Japanese?",
+  "請問有人會說英文嗎？": "Does anyone here speak English?",
+  "請問有人會說韓文嗎？": "Does anyone here speak Korean?"
+ },
+ "lang": "en",
+ "access": {
+  "county": {
+   "TW-KEE": {
+    "gate": "TR Keelung Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "TR",
+      "time": "About 40–55 min",
+      "fare": "About NT$62 (local train)",
+      "steps": [
+       "Take a TR local or Tze-Chiang train from Taipei to Keelung"
+      ]
+     },
+     {
+      "from": "Taoyuan Airport",
+      "by": "Airport MRT and TR",
+      "time": "About 1.5 hours, plus transfer time",
+      "fare": "",
+      "steps": [
+       "Take the Airport MRT express to Taipei Main Station (about 35 min, NT$160)",
+       "Change to TR for Keelung (about 40–55 min)"
+      ]
+     }
+    ],
+    "local": "Heping Island, Zhengbin Fishing Port and Lover's Lake can be reached by city bus or taxi from Keelung Station. For the National Museum of Marine Science and Technology, take the TR Shen'ao Line to Haikeguan Station (about 10 min from Ruifang).",
+    "pass": "",
+    "tip": "Shen'ao Line trains to Haikeguan are infrequent, so check the timetable before you set off.",
+    "links": [
+     "TR timetables and fares"
+    ]
+   },
+   "TW-TPE": {
+    "gate": "Taipei Main Station",
+    "from": [
+     {
+      "from": "Taoyuan Airport",
+      "by": "Airport MRT",
+      "time": "About 35–50 min",
+      "fare": "NT$160",
+      "steps": [
+       "Take the Airport MRT from Airport Terminal 1 or Terminal 2 Station to Taipei Main Station",
+       "Express trains take about 35 min; commuter trains, which stop at every station, about 50 min"
+      ]
+     },
+     {
+      "from": "Songshan Airport",
+      "by": "MRT",
+      "time": "",
+      "fare": "NT$25",
+      "steps": [
+       "Board the MRT Wenhu Line at Songshan Airport Station",
+       "Change lines for Taipei Main Station"
+      ]
+     }
+    ],
+    "local": "The MRT is the best way around the city. For Taipei 101, ride the Tamsui-Xinyi Line to Taipei 101/World Trade Center Station (about 15 min from Taipei Main Station). The Xinbeitou hot springs are right by Xinbeitou Station, and Yangmingshan is about 35 min from Beitou Station on the Taiwan Tourist Shuttle Beitou-Zhuzihu Route. For the National Palace Museum, buses such as R30 leave from Exit 1 of Shilin Station (about 15 min).",
+    "pass": "Taiwan PASS, sold to foreign visitors, bundles a 3-day THSR or TR pass with the MRT and other transport (THSR version NT$2,800, TR version NT$2,500).",
+    "tip": "Bus R30 from Exit 1 of Shilin Station is the handiest way to the National Palace Museum, and it drops you at B1 of the main building.",
+    "links": [
+     "Taoyuan Airport MRT",
+     "National Palace Museum: getting there",
+     "Taiwan PASS"
+    ]
+   },
+   "TW-NWT": {
+    "gate": "TR Ruifang Station (for Jiufen and Pingxi)",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "TR and bus (Jiufen)",
+      "time": "TR about 35–55 min, then a bus",
+      "fare": "TR about NT$73 (local train)",
+      "steps": [
+       "Take TR from Taipei to Ruifang (about 35–55 min)",
+       "Catch a local bus from outside Ruifang Station to Jiufen Old Street"
+      ]
+     },
+     {
+      "from": "Taipei Main Station",
+      "by": "TR (Pingxi Line)",
+      "time": "About 1.5 hours, plus transfer time",
+      "fare": "About NT$102 (local train)",
+      "steps": [
+       "Take TR from Taipei to Ruifang (about 35–55 min)",
+       "Change to the Pingxi Line for Shifen (about 30 min)"
+      ]
+     },
+     {
+      "from": "Taipei Main Station",
+      "by": "MRT (Tamsui)",
+      "time": "About 35–40 min",
+      "fare": "NT$50",
+      "steps": [
+       "Take the MRT Tamsui-Xinyi Line from Taipei Main Station to Tamsui"
+      ]
+     }
+    ],
+    "local": "Shifen and Pingxi are also served by the Taiwan Tourist Shuttle Muzha-Pingxi Route from MRT Taipei Zoo Station: about 50 min to Pingxi Old Street and 70 min to Shifen. For Yehliu and the Juming Museum, take the Taiwan Tourist Shuttle Crown North Coast Route from Tamsui Station (about 1 hr 40 min to Yehliu). Fulong is 1–2 hours from Taipei Main Station by TR.",
+    "pass": "",
+    "tip": "From November to April, the Crown North Coast Route runs only on weekends and public holidays. On weekdays, use New Taipei city buses such as the 862 and 863 to get along the North Coast.",
+    "links": [
+     "Taiwan Tourist Shuttle",
+     "TR timetables and fares"
+    ]
+   },
+   "TW-TAO": {
+    "gate": "Taoyuan Airport / THSR Taoyuan Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and bus",
+      "time": "About 1 hour, plus transfer time",
+      "fare": "THSR about NT$160",
+      "steps": [
+       "Take THSR from Taipei to Taoyuan (about 20 min)",
+       "From Bus Stop 9, ride the Taiwan Tourist Shuttle Daxi Express to Daxi Old Street (about 40 min)"
+      ]
+     },
+     {
+      "from": "Taoyuan Airport",
+      "by": "Airport MRT and bus",
+      "time": "About 1 hour, plus transfer time",
+      "fare": "",
+      "steps": [
+       "Take the Airport MRT to THSR Taoyuan Station (about 20 min)",
+       "Ride the Taiwan Tourist Shuttle Daxi Express to Daxi Old Street (about 40 min)"
+      ]
+     }
+    ],
+    "local": "Daxi Old Street and Cihu are both on the Daxi Express route, with Cihu about 50 min from THSR Taoyuan Station. Xiao Wulai and Dongyanshan each have their own Taiwan Tourist Shuttle route.",
+    "pass": "",
+    "tip": "The Xiao Wulai Route runs only on weekends and public holidays.",
+    "links": [
+     "Taiwan Tourist Shuttle",
+     "Taiwan High Speed Rail"
+    ]
+   },
+   "TW-HSZ": {
+    "gate": "TR Hsinchu Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "TR",
+      "time": "About 1 hr–1 hr 20 min",
+      "fare": "About NT$253 (Tze-Chiang)",
+      "steps": [
+       "Take a TR Tze-Chiang train from Taipei to Hsinchu"
+      ]
+     },
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and TR",
+      "time": "About 1 hour, plus transfer time",
+      "fare": "",
+      "steps": [
+       "Take THSR from Taipei to Hsinchu (about 30–35 min)",
+       "Walk through the 2nd-floor concourse to TR Liujia Station and ride the Liujia Line to Hsinchu Station (about 20 min)"
+      ]
+     }
+    ],
+    "local": "The sights in central Hsinchu are clustered around TR Hsinchu Station. For Nanliao, Qingcao Lake and Shibajian Mountain, take a city bus or taxi.",
+    "pass": "",
+    "tip": "THSR Hsinchu Station is out in Zhubei, in Hsinchu County. To reach central Hsinchu City, change to the TR Liujia Line.",
+    "links": [
+     "TR timetables and fares"
+    ]
+   },
+   "TW-HSQ": {
+    "gate": "THSR Hsinchu Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and bus",
+      "time": "About 1 hr 10 min, plus transfer time",
+      "fare": "THSR about NT$290",
+      "steps": [
+       "Take THSR from Taipei to Hsinchu (about 30–35 min)",
+       "Ride the Taiwan Tourist Shuttle Lions Head Mountain Route to Beipu Old Street (about 40 min)"
+      ]
+     },
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and TR (Neiwan Line)",
+      "time": "About 1.5 hours, plus transfer time",
+      "fare": "",
+      "steps": [
+       "Take THSR from Taipei to Hsinchu (about 30–35 min)",
+       "From TR Liujia Station, change at Zhuzhong to the Neiwan Line for Neiwan"
+      ]
+     }
+    ],
+    "local": "Beipu Old Street and Green World Ecological Farm are on the Lions Head Mountain Route (about 35–40 min from THSR Hsinchu Station). Neiwan Old Street sits at the end of the Neiwan Line, about 45 min from Zhuzhong Station.",
+    "pass": "",
+    "tip": "Few Neiwan Line trains run through from Hsinchu Station, so most trips involve a change at Zhuzhong.",
+    "links": [
+     "Taiwan Tourist Shuttle: Lions Head Mountain Route",
+     "TR timetables and fares"
+    ]
+   },
+   "TW-ILA": {
+    "gate": "TR Yilan Station / Jiaoxi Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "TR",
+      "time": "About 1 hr 10 min–1 hr 30 min",
+      "fare": "About NT$306 (Tze-Chiang, to Yilan)",
+      "steps": [
+       "Take a TR Tze-Chiang or Puyuma train from Taipei to Yilan",
+       "To Jiaoxi: about 1 hr 5 min–1 hr 20 min (about NT$281)"
+      ]
+     },
+     {
+      "from": "Taipei Main Station",
+      "by": "TR and bus (Traditional Arts Center)",
+      "time": "About 1 hr 45 min–2 hr, plus transfer time",
+      "fare": "TR about NT$332 (Tze-Chiang)",
+      "steps": [
+       "Take TR from Taipei to Luodong (about 1 hr 15 min–1 hr 40 min)",
+       "From Luodong Transfer Station, take the Taiwan Tourist Shuttle Dongshan River Route to the Traditional Arts Center (about 25 min)"
+      ]
+     }
+    ],
+    "local": "For Jiaoxi Hot Springs and Wufengqi, take the Taiwan Tourist Shuttle Jiaoxi Route from TR Jiaoxi Station (about 10 min to Wufengqi). Dongshan River Water Park and the National Center for Traditional Arts are 15–25 min from Luodong Transfer Station on the Dongshan River Route.",
+    "pass": "",
+    "tip": "Local trains take over 2 hours from Taipei to Yilan. Many Tze-Chiang and Puyuma trains don't sell standing tickets, so reserve a seat in advance.",
+    "links": [
+     "TR timetables and fares",
+     "Taiwan Tourist Shuttle"
+    ]
+   },
+   "TW-MIA": {
+    "gate": "TR Zhunan Station / Sanyi Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "TR and bus (Nanzhuang)",
+      "time": "About 2 hr 10 min, plus transfer time",
+      "fare": "TR about NT$309 (Tze-Chiang)",
+      "steps": [
+       "Take a TR Tze-Chiang train from Taipei to Zhunan (about 1 hr 20 min–1 hr 45 min)",
+       "From the east exit of Zhunan Station, ride the Taiwan Tourist Shuttle Nanzhuang Route to Nanzhuang (about 45 min)"
+      ]
+     },
+     {
+      "from": "Taipei Main Station",
+      "by": "TR (Sanyi)",
+      "time": "About 2 hr 20 min–3 hr",
+      "fare": "About NT$260 (local train)",
+      "steps": [
+       "Take a TR local train from Taipei to Sanyi"
+      ]
+     },
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR",
+      "time": "About 45 min",
+      "fare": "About NT$430",
+      "steps": [
+       "Take THSR from Taipei to Miaoli"
+      ]
+     }
+    ],
+    "local": "Nanzhuang Old Street is near the end of the Nanzhuang Route. The Sanyi Wood Sculpture Museum, Shengxing Station and Longteng Broken Bridge are best covered by car or taxi from Sanyi Station.",
+    "pass": "",
+    "tip": "Only local trains run direct from Taipei to Sanyi, and the trip takes about 2.5 hours.",
+    "links": [
+     "Taiwan Tourist Shuttle: Nanzhuang Route",
+     "TR timetables and fares"
+    ]
+   },
+   "TW-TXG": {
+    "gate": "THSR Taichung Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR",
+      "time": "About 50 min–1 hr 5 min",
+      "fare": "About NT$700",
+      "steps": [
+       "Take THSR from Taipei to Taichung",
+       "TR Xinwuri Station, the Taichung MRT and the bus bays are all connected to the station"
+      ]
+     }
+    ],
+    "local": "Head into the city by TR from Xinwuri, the Taichung MRT or bus. For Gaomei Wetlands, take the Taiwan Tourist Shuttle Taichung Dynamic Coast Route from Dajia Station on the TR Coast Line (about 20 min). Dasyueshan is about 2 hours from Fengyuan Bus Transfer Center on the Taiwan Tourist Shuttle Dasyueshan Route.",
+    "pass": "Foreign visitors can buy a THSR 3-Day Pass (3 days in a row) or a Flexible 2-Day Pass (any 2 days within 7).",
+    "tip": "The Taichung Dynamic Coast Route runs from the Da'an Harbor area to Taichung Airport, and Gaomei Wetlands is one of the stops along the way.",
+    "links": [
+     "Taiwan High Speed Rail",
+     "Taiwan Tourist Shuttle"
+    ]
+   },
+   "TW-CHA": {
+    "gate": "THSR Taichung Station (for Lukang) / TR Changhua Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and bus",
+      "time": "About 1.5 hours, plus transfer time",
+      "fare": "THSR about NT$700",
+      "steps": [
+       "Take THSR from Taipei to Taichung (about 50 min–1 hr 5 min)",
+       "Ride the Taiwan Tourist Shuttle Lukang Blessing Express to Lukang (about 35 min)"
+      ]
+     },
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and TR",
+      "time": "About 1 hr 10 min, plus transfer time",
+      "fare": "",
+      "steps": [
+       "Take THSR from Taipei to Taichung (about 50 min–1 hr 5 min)",
+       "Take TR from Xinwuri to Changhua (about 10 min)"
+      ]
+     }
+    ],
+    "local": "In Lukang, the old street, Tianhou Temple and Longshan Temple are all close together in the town center. The Changhua Roundhouse and Baguashan are reached from TR Changhua Station.",
+    "pass": "",
+    "tip": "The Lukang Blessing Express runs only a few times a day, so check the return times before you go.",
+    "links": [
+     "Taiwan Tourist Shuttle: Lukang Blessing Express",
+     "TR timetables and fares"
+    ]
+   },
+   "TW-NAN": {
+    "gate": "THSR Taichung Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and bus",
+      "time": "About 2.5 hours, plus transfer time",
+      "fare": "THSR about NT$700",
+      "steps": [
+       "Take THSR from Taipei to Taichung (about 50 min–1 hr 5 min)",
+       "From Bus Stop 3, ride the Taiwan Tourist Shuttle Sun Moon Lake Route to Sun Moon Lake (about 1 hr 20 min–1 hr 30 min)"
+      ]
+     },
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and bus (Xitou)",
+      "time": "About 2 hours, plus transfer time",
+      "fare": "Bus NT$163",
+      "steps": [
+       "Take THSR from Taipei to Taichung (about 50 min–1 hr 5 min)",
+       "Ride the Taiwan Tourist Shuttle Xitou Route to Xitou (about 1 hr 15 min)"
+      ]
+     },
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and bus (Cingjing)",
+      "time": "About 3 hours, plus transfer time",
+      "fare": "",
+      "steps": [
+       "Take THSR to Taichung, then the Taiwan Tourist Shuttle Puli Route to Puli (about 55 min)",
+       "From Puli, ride the Taiwan Tourist Shuttle Cingjing Route to Cingjing Farm (about 1 hr 10 min)"
+      ]
+     }
+    ],
+    "local": "Around the lake, the Taiwan Tourist Shuttle Sun Moon Lake Circular Line gets you from the main Sun Moon Lake stop to Ita Thao in about 20 min. For Jiji, the TR Jiji Line runs from Ershui to Checheng in about 50 min. Cingjing Farm is on the Cingjing Route from Puli (NT$123).",
+    "pass": "",
+    "tip": "The Sun Moon Lake and Xitou routes often fill up on weekends, and you may not get on at stops along the way. Line up at the start of the route, Gancheng Bus Station in Taichung, or at THSR Taichung Station.",
+    "links": [
+     "Taiwan Tourist Shuttle: Sun Moon Lake Route",
+     "Taiwan Tourist Shuttle: Xitou Route",
+     "Taiwan Tourist Shuttle: Cingjing Route"
+    ]
+   },
+   "TW-YUN": {
+    "gate": "THSR Yunlin Station / TR Douliu Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR",
+      "time": "About 1 hr 15 min–1 hr 30 min",
+      "fare": "About NT$930",
+      "steps": [
+       "Take THSR from Taipei to Yunlin"
+      ]
+     },
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and bus (Beigang)",
+      "time": "About 1 hr 40 min–2 hr, plus transfer time",
+      "fare": "THSR about NT$1,080",
+      "steps": [
+       "Take THSR from Taipei to Chiayi (about 1 hr 15 min–1 hr 45 min)",
+       "Ride the Taiwan Tourist Shuttle Yunxi Route to Beigang (about 20 min)"
+      ]
+     }
+    ],
+    "local": "For Janfusun Fancyworld and the Gukeng Green Tunnel, take the Taiwan Tourist Shuttle Douliu-Gukeng Route from TR Douliu Station (about 40 min to Janfusun). Beigang Chaotian Temple is on the Yunxi Route from THSR Chiayi Station.",
+    "pass": "",
+    "tip": "The Yunxi Route has very few runs a day. The Caoling Route runs only Wednesday to Sunday.",
+    "links": [
+     "Taiwan Tourist Shuttle",
+     "Taiwan High Speed Rail"
+    ]
+   },
+   "TW-CYI": {
+    "gate": "TR Chiayi Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and bus",
+      "time": "THSR about 1 hr 15 min–1 hr 45 min, then a bus",
+      "fare": "THSR about NT$1,080",
+      "steps": [
+       "Take THSR from Taipei to Chiayi",
+       "Take express bus 7212 to Chiayi City Bus Transfer Center"
+      ]
+     },
+     {
+      "from": "Taipei Main Station",
+      "by": "TR",
+      "time": "About 2 hr 40 min–3 hr 30 min",
+      "fare": "About NT$483 (Tze-Chiang)",
+      "steps": [
+       "Take a TR Tze-Chiang train from Taipei to Chiayi"
+      ]
+     }
+    ],
+    "local": "Hinoki Village and Alishan Forestry Village are next to Beimen Station on the forest railway. The Alishan Forest Railway starts at Chiayi Station, with one direct train a day to Alishan taking about 5 hours.",
+    "pass": "",
+    "tip": "THSR Chiayi Station is in Taibao, in Chiayi County, so you'll need a bus into the city center. Forest railway tickets go on sale online 14 days before travel.",
+    "links": [
+     "Alishan Forest Railway",
+     "TR timetables and fares"
+    ]
+   },
+   "TW-CYQ": {
+    "gate": "THSR Chiayi Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and bus",
+      "time": "About 4–4.5 hours, plus transfer time",
+      "fare": "THSR about NT$1,080, bus NT$283",
+      "steps": [
+       "Take THSR from Taipei to Chiayi (about 1 hr 15 min–1 hr 45 min)",
+       "From Exit 2, ride the Taiwan Tourist Shuttle Alishan Route A to Alishan (about 2.5–3 hours)"
+      ]
+     },
+     {
+      "from": "Kaohsiung (Zuoying)",
+      "by": "THSR and bus",
+      "time": "About 3–3.5 hours, plus transfer time",
+      "fare": "THSR about NT$410, bus NT$283",
+      "steps": [
+       "Take THSR from Zuoying to Chiayi (about 30–35 min)",
+       "Ride the Taiwan Tourist Shuttle Alishan Route A to Alishan (about 2.5–3 hours)"
+      ]
+     }
+    ],
+    "local": "Fenqihu is reached on the Alishan Route buses that stop there (about 1 hr 50 min from THSR Chiayi Station) or on the Alishan Forest Railway. For the Taiping Suspension Bridge, take the Taiwan Tourist Shuttle Taiping Route from Dalin Transfer Station (weekends and holidays only).",
+    "pass": "",
+    "tip": "Seats on the Alishan Route can be booked up to 29 days ahead, and reserved tickets are for boarding at the first stop, THSR Chiayi Station. Roadworks and traffic controls on the mountain road can cause delays.",
+    "links": [
+     "Taiwan Tourist Shuttle: Alishan Route",
+     "Alishan Forest Railway"
+    ]
+   },
+   "TW-TNN": {
+    "gate": "THSR Tainan Station / TR Tainan Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and TR",
+      "time": "About 2–2.5 hours, plus transfer time",
+      "fare": "THSR about NT$1,350",
+      "steps": [
+       "Take THSR from Taipei to Tainan (about 1 hr 20 min–2 hr)",
+       "Walk through the 2nd-floor concourse to TR Shalun Station and ride the Shalun Line to Tainan Station (about 20 min)"
+      ]
+     },
+     {
+      "from": "Kaohsiung Station",
+      "by": "TR",
+      "time": "About 30–40 min",
+      "fare": "About NT$158 (Tze-Chiang)",
+      "steps": [
+       "Take a TR Tze-Chiang train from Kaohsiung to Tainan"
+      ]
+     }
+    ],
+    "local": "Chihkan Tower, Anping Old Fort, Anping Tree House and Sicao are all on Taiwan Tourist Shuttle Route 98 (Fucheng-Taijiang) from Tainan Station: about 40 min to Anping Old Fort and 1 hour to Sicao. Qigu Salt Mountain is about 1.5 hours away.",
+    "pass": "",
+    "tip": "The Guanziling Route runs only on weekends and public holidays.",
+    "links": [
+     "Taiwan Tourist Shuttle: 98 Fucheng Taijiang Route",
+     "Taiwan High Speed Rail"
+    ]
+   },
+   "TW-KHH": {
+    "gate": "THSR Zuoying Station / Kaohsiung Airport",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR",
+      "time": "About 1 hr 35 min–2 hr 15 min",
+      "fare": "About NT$1,490",
+      "steps": [
+       "Take THSR from Taipei to Zuoying",
+       "Change to TR Xinzuoying Station via the central 2nd-floor concourse"
+      ]
+     },
+     {
+      "from": "Kaohsiung Airport",
+      "by": "MRT",
+      "time": "About 20–30 min",
+      "fare": "NT$35–50",
+      "steps": [
+       "Take the MRT Red Line from Kaohsiung International Airport Station to Kaohsiung Main Station (about 20 min)",
+       "To MRT Zuoying Station: about 30 min"
+      ]
+     }
+    ],
+    "local": "Get around the city on the Kaohsiung MRT Red and Orange lines. For Cijin, Sizihwan, Fo Guang Shan, Moon World and Meinong, check transport options separately.",
+    "pass": "",
+    "tip": "",
+    "links": [
+     "Taiwan High Speed Rail",
+     "TR timetables and fares"
+    ]
+   },
+   "TW-PIF": {
+    "gate": "THSR Zuoying Station",
+    "from": [
+     {
+      "from": "Kaohsiung (Zuoying)",
+      "by": "Bus",
+      "time": "About 2 hr 20 min",
+      "fare": "NT$401",
+      "steps": [
+       "Take the Kenting Express from Exit 2 of THSR Zuoying Station to Kenting"
+      ]
+     },
+     {
+      "from": "Taipei Main Station",
+      "by": "THSR and bus",
+      "time": "About 4–4.5 hours, plus transfer time",
+      "fare": "THSR about NT$1,490, bus NT$401",
+      "steps": [
+       "Take THSR from Taipei to Zuoying (about 1 hr 35 min–2 hr 15 min)",
+       "Ride the Kenting Express to Kenting (about 2 hr 20 min)"
+      ]
+     },
+     {
+      "from": "Kaohsiung Station",
+      "by": "TR",
+      "time": "About 15–40 min",
+      "fare": "About NT$46–71",
+      "steps": [
+       "Take TR from Kaohsiung to Pingtung (for sights in Pingtung City)"
+      ]
+     }
+    ],
+    "local": "In Pingtung City, the art museum, the Confucian academy and Pingtung County Park are all reached from TR Pingtung Station. Xiaoliuqiu is about 25–40 min by ferry from Donggang. The Kenting Express also stops at Hengchun Transfer Station.",
+    "pass": "",
+    "tip": "On long weekends, the road between Kaohsiung and Kenting gets congested and the Kenting Express runs late. On the day you catch a THSR train back, set off 2–3 hours earlier.",
+    "links": [
+     "Taiwan Tourist Shuttle: Kenting Express",
+     "TR timetables and fares"
+    ]
+   },
+   "TW-HUA": {
+    "gate": "TR Hualien Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "TR",
+      "time": "About 2 hr 15 min–2 hr 40 min",
+      "fare": "About NT$583 (Tze-Chiang)",
+      "steps": [
+       "Take a TR Tze-Chiang, Puyuma or Taroko train from Taipei to Hualien"
+      ]
+     },
+     {
+      "from": "Kaohsiung Airport",
+      "by": "Flight",
+      "time": "About 1 hr 5 min",
+      "fare": "",
+      "steps": [
+       "Fly from Kaohsiung to Hualien (flights are very limited)"
+      ]
+     }
+    ],
+    "local": "For Qixingtan and the entrance to Taroko, take the Taiwan Tourist Shuttle Taroko Route from Hualien Transfer Station: about 45 min to Qixingtan and 1.5 hours to the Taroko Visitor Center. Liyu Lake, Ruisui, Liushidan Mountain and Lintianshan are reached from stations on the TR Hualien–Taitung Line.",
+    "pass": "The Taroko Route offers a 1-day pass (NT$250) and a 2-day pass (NT$400).",
+    "tip": "Much of Taroko National Park remains closed, and since April 2024 the Taroko Route has run only as far as the Taroko Visitor Center. Many trains between Taipei and Hualien don't sell standing tickets, so book a seat early.",
+    "links": [
+     "Taiwan Tourist Shuttle: Taroko Route",
+     "TR timetables and fares"
+    ]
+   },
+   "TW-TTT": {
+    "gate": "TR Taitung Station",
+    "from": [
+     {
+      "from": "Taipei Main Station",
+      "by": "TR",
+      "time": "About 3 hr 50 min–4 hr 40 min",
+      "fare": "About NT$936 (Tze-Chiang)",
+      "steps": [
+       "Take a TR Tze-Chiang or Puyuma train from Taipei to Taitung"
+      ]
+     },
+     {
+      "from": "Taipei (Songshan Airport)",
+      "by": "Flight",
+      "time": "About 1 hr 5 min",
+      "fare": "",
+      "steps": [
+       "Fly from Songshan to Taitung (UNI Air, Mandarin Airlines)"
+      ]
+     },
+     {
+      "from": "Kaohsiung Station",
+      "by": "TR",
+      "time": "About 1 hr 45 min–2 hr 40 min",
+      "fare": "About NT$485 (Tze-Chiang)",
+      "steps": [
+       "Take a TR Tze-Chiang train from Kaohsiung to Taitung"
+      ]
+     }
+    ],
+    "local": "From downtown Taitung, Luye Highland is on the Taiwan Tourist Shuttle East Rift Valley Luye Route and Sanxiantai is on the 8101A East Coast Route; both are sightseeing buses that stop at the main attractions. Mr. Brown Avenue is reached from TR Chishang Station, and Zhiben from TR Zhiben Station. Green Island is about 50 min by ferry from Fugang Harbor, and Orchid Island (Lanyu) 2–2.5 hours.",
+    "pass": "",
+    "tip": "Ferries to Green Island and Orchid Island don't sail in bad weather. Check sailings before you go.",
+    "links": [
+     "Taiwan Tourist Shuttle",
+     "TR timetables and fares"
+    ]
+   },
+   "TW-PEN": {
+    "gate": "Penghu Airport / Magong Port",
+    "from": [
+     {
+      "from": "Taipei (Songshan Airport)",
+      "by": "Flight",
+      "time": "About 1 hour",
+      "fare": "",
+      "steps": [
+       "Fly from Songshan to Penghu (UNI Air, Mandarin Airlines)",
+       "Take the Taiwan Tourist Shuttle Penghu Airport Express into Magong (about 15 min, NT$30)"
+      ]
+     },
+     {
+      "from": "Kaohsiung Airport",
+      "by": "Flight",
+      "time": "About 40–45 min",
+      "fare": "",
+      "steps": [
+       "Fly from Kaohsiung to Penghu"
+      ]
+     },
+     {
+      "from": "Kaohsiung Port",
+      "by": "Ferry",
+      "time": "About 4.5–6.5 hours",
+      "fare": "",
+      "steps": [
+       "Take the Penghu ferry from Kaohsiung Port to Magong"
+      ]
+     }
+    ],
+    "local": "From central Magong, Baisha and Xiyu, home to the Penghu Great Bridge, Erkan and the Daguoye Columnar Basalt, are reached by car or by sightseeing buses such as the Taiwan Tourist Shuttle Magong North Ring Line. Outlying islands such as Jibei and Qimei are reached by boat, and Qimei also has flights from Kaohsiung.",
+    "pass": "",
+    "tip": "Ferries don't always run every day, depending on the weather. Check sailings before you go.",
+    "links": [
+     "Taiwan Tourist Shuttle (Penghu)",
+     "UNI Air"
+    ]
+   },
+   "TW-KIN": {
+    "gate": "Kinmen Airport",
+    "from": [
+     {
+      "from": "Taipei (Songshan Airport)",
+      "by": "Flight",
+      "time": "About 1 hr 5 min–1 hr 20 min",
+      "fare": "",
+      "steps": [
+       "Fly from Songshan to Kinmen (UNI Air, Mandarin Airlines)"
+      ]
+     },
+     {
+      "from": "Kaohsiung Airport",
+      "by": "Flight",
+      "time": "About 1 hr 5 min",
+      "fare": "",
+      "steps": [
+       "Fly from Kaohsiung to Kinmen"
+      ]
+     }
+    ],
+    "local": "Besides regular buses, Taiwan Tourist Shuttle sightseeing routes leave from Jincheng and Shanwai bus stations (including the Shuitou-Zhaishan and Guningtou Battlefield routes), taking in Juguang Tower, Zhaishan Tunnel, Shuitou and Shanhou.",
+    "pass": "",
+    "tip": "Each Kinmen sightseeing route runs on different days, and some run only on Saturdays or only on Sundays.",
+    "links": [
+     "Taiwan Tourist Shuttle (Kinmen)",
+     "UNI Air"
+    ]
+   },
+   "TW-LIE": {
+    "gate": "Nangan Airport / Beigan Airport",
+    "from": [
+     {
+      "from": "Taipei (Songshan Airport)",
+      "by": "Flight",
+      "time": "About 55 min",
+      "fare": "",
+      "steps": [
+       "Fly from Songshan to Nangan or Beigan (UNI Air)"
+      ]
+     },
+     {
+      "from": "Taichung Airport",
+      "by": "Flight",
+      "time": "About 1 hr 5 min",
+      "fare": "",
+      "steps": [
+       "Fly from Taichung to Nangan"
+      ]
+     },
+     {
+      "from": "Keelung Port",
+      "by": "Ferry",
+      "time": "About 8–10 hours",
+      "fare": "",
+      "steps": [
+       "Take the New Taima or the Taima Star from Keelung to Nangan and Dongyin",
+       "The order of stops varies by day"
+      ]
+     }
+    ],
+    "local": "By boat, Nangan to Beigan takes about 20 min, Nangan to Juguang (Dongju and Xiju) about 50 min, and Nangan to Dongyin about 2 hours. On the islands, get around by Taiwan Tourist Shuttle sightseeing bus or taxi.",
+    "pass": "",
+    "tip": "Strong winds and thick fog can delay or cancel both flights and ferries, so leave some slack in your schedule.",
+    "links": [
+     "Matsu National Scenic Area: transport",
+     "UNI Air"
+    ]
+   }
+  },
+  "sos": {
+   "numbers": [
+    {
+     "label": "Police",
+     "note": "Crime, accidents, theft"
+    },
+    {
+     "label": "Fire and ambulance",
+     "note": "Fires, sudden illness, injuries"
+    },
+    {
+     "label": "Tourist information hotline (Tourism Administration)",
+     "note": "24 hours, toll-free"
+    },
+    {
+     "label": "Foreigners in Taiwan hotline (National Immigration Agency)",
+     "note": "24 hours. Chinese, English and Japanese every day of the year. Can also help with interpreting"
+    }
+   ],
+   "steps": [
+    {
+     "title": "Lost passport",
+     "body": "Report the loss at the nearest National Immigration Agency office and get a loss report (if you have other photo ID, the police can issue one too). Then contact your country's embassy or representative office in Taiwan about a replacement passport or an emergency travel document, and ask what to bring. Requirements differ by country, so also check what you'll need to show at immigration when you leave."
+    },
+    {
+     "title": "Illness or injury",
+     "body": "In an emergency, call 119 for an ambulance. Your embassy or representative office may be able to recommend hospitals with English-speaking staff. Contact your travel insurer as well."
+    },
+    {
+     "title": "Theft or lost property",
+     "body": "If something is stolen, call 110 or go to the nearest police station, and ask for a copy of the report. If your passport was taken too, report it to both the National Immigration Agency and the police. If language is a problem, call 1990 for interpreting help."
+    },
+    {
+     "title": "Typhoons and earthquakes",
+     "body": "When a typhoon is on its way, follow the Central Weather Administration forecasts and check each operator's official site for cancelled trains, ferries and flights. If an earthquake hits, protect your head, and once things settle, call the tourist information hotline at 0800-011-765 for updates."
+    }
+   ]
+  }
+ },
+ "town": {
+  "中正區": "Zhongzheng District",
+  "中山區": "Zhongshan District",
+  "仁愛區": "Ren'ai District",
+  "暖暖區": "Nuannuan District",
+  "信義區": "Xinyi District",
+  "士林區": "Shilin District",
+  "萬華區": "Wanhua District",
+  "北投區": "Beitou District",
+  "大同區": "Datong District",
+  "松山區": "Songshan District",
+  "瑞芳區": "Ruifang District",
+  "萬里區": "Wanli District",
+  "平溪區": "Pingxi District",
+  "淡水區": "Tamsui District",
+  "鶯歌區": "Yingge District",
+  "烏來區": "Wulai District",
+  "三峽區": "Sanxia District",
+  "金山區": "Jinshan District",
+  "貢寮區": "Gongliao District",
+  "板橋區": "Banqiao District",
+  "三重區": "Sanchong District",
+  "永和區": "Yonghe District",
+  "大溪區": "Daxi District",
+  "復興區": "Fuxing District",
+  "桃園區": "Taoyuan District",
+  "大園區": "Dayuan District",
+  "平鎮區": "Pingzhen District",
+  "北區": "North District",
+  "東區": "East District",
+  "香山區": "Xiangshan District",
+  "橫山鄉": "Hengshan Township",
+  "尖石鄉": "Jianshi Township",
+  "北埔鄉": "Beipu Township",
+  "關西鎮": "Guanxi Township",
+  "五峰鄉": "Wufeng Township",
+  "湖口鄉": "Hukou Township",
+  "芎林鄉": "Qionglin Township",
+  "峨眉鄉": "Emei Township",
+  "大同鄉": "Datong Township",
+  "礁溪鄉": "Jiaoxi Township",
+  "五結鄉": "Wujie Township",
+  "頭城鎮": "Toucheng Township",
+  "宜蘭市": "Yilan City",
+  "冬山鄉": "Dongshan Township",
+  "羅東鎮": "Luodong Township",
+  "蘇澳鎮": "Su'ao Township",
+  "三義鄉": "Sanyi Township",
+  "大湖鄉": "Dahu Township",
+  "通霄鎮": "Tongxiao Township",
+  "南庄鄉": "Nanzhuang Township",
+  "泰安鄉": "Tai'an Township",
+  "頭屋鄉": "Touwu Township",
+  "竹南鎮": "Zhunan Township",
+  "苗栗市": "Miaoli City",
+  "苑裡鎮": "Yuanli Township",
+  "清水區": "Qingshui District",
+  "和平區": "Heping District",
+  "石岡區": "Shigang District",
+  "東勢區": "Dongshi District",
+  "南屯區": "Nantun District",
+  "南區": "South District",
+  "中區": "Central District",
+  "鹿港鎮": "Lukang Township",
+  "彰化市": "Changhua City",
+  "芳苑鄉": "Fangyuan Township",
+  "田尾鄉": "Tianwei Township",
+  "大村鄉": "Dacun Township",
+  "北斗鎮": "Beidou Township",
+  "魚池鄉": "Yuchi Township",
+  "仁愛鄉": "Ren'ai Township",
+  "鹿谷鄉": "Lugu Township",
+  "南投市": "Nantou City",
+  "集集鎮": "Jiji Township",
+  "埔里鎮": "Puli Township",
+  "草屯鎮": "Caotun Township",
+  "竹山鎮": "Zhushan Township",
+  "水里鄉": "Shuili Township",
+  "北港鎮": "Beigang Township",
+  "古坑鄉": "Gukeng Township",
+  "西螺鎮": "Xiluo Township",
+  "虎尾鎮": "Huwei Township",
+  "水林鄉": "Shuilin Township",
+  "斗六市": "Douliu City",
+  "口湖鄉": "Kouhu Township",
+  "西區": "West District",
+  "阿里山鄉": "Alishan Township",
+  "竹崎鄉": "Zhuqi Township",
+  "梅山鄉": "Meishan Township",
+  "布袋鎮": "Budai Township",
+  "東石鄉": "Dongshi Township",
+  "番路鄉": "Fanlu Township",
+  "大林鎮": "Dalin Township",
+  "新港鄉": "Xingang Township",
+  "朴子市": "Puzi City",
+  "中埔鄉": "Zhongpu Township",
+  "中西區": "West Central District",
+  "安平區": "Anping District",
+  "仁德區": "Rende District",
+  "安南區": "Annan District",
+  "北門區": "Beimen District",
+  "白河區": "Baihe District",
+  "七股區": "Qigu District",
+  "旗津區": "Cijin District",
+  "大樹區": "Dashu District",
+  "鼓山區": "Gushan District",
+  "前金區": "Qianjin District",
+  "田寮區": "Tianliao District",
+  "小港區": "Xiaogang District",
+  "美濃區": "Meinong District",
+  "苓雅區": "Lingya District",
+  "鹽埕區": "Yancheng District",
+  "茂林區": "Maolin District",
+  "桃源區": "Taoyuan District",
+  "恆春鎮": "Hengchun Township",
+  "東港鎮": "Donggang Township",
+  "霧臺鄉": "Wutai Township",
+  "獅子鄉": "Shizi Township",
+  "屏東市": "Pingtung City",
+  "潮州鎮": "Chaozhou Township",
+  "琉球鄉": "Liuqiu Township",
+  "秀林鄉": "Xiulin Township",
+  "新城鄉": "Xincheng Township",
+  "壽豐鄉": "Shoufeng Township",
+  "瑞穗鄉": "Ruisui Township",
+  "富里鄉": "Fuli Township",
+  "鳳林鎮": "Fenglin Township",
+  "豐濱鄉": "Fengbin Township",
+  "花蓮市": "Hualien City",
+  "成功鎮": "Chenggong Township",
+  "池上鄉": "Chishang Township",
+  "鹿野鄉": "Luye Township",
+  "卑南鄉": "Beinan Township",
+  "綠島鄉": "Ludao Township",
+  "蘭嶼鄉": "Lanyu Township",
+  "臺東市": "Taitung City",
+  "台東市": "Taitung City",
+  "長濱鄉": "Changbin Township",
+  "七美鄉": "Qimei Township",
+  "白沙鄉": "Baisha Township",
+  "西嶼鄉": "Xiyu Township",
+  "馬公市": "Magong City",
+  "湖西鄉": "Huxi Township",
+  "金城鎮": "Jincheng Township",
+  "金沙鎮": "Jinsha Township",
+  "金寧鄉": "Jinning Township",
+  "金湖鎮": "Jinhu Township",
+  "北竿鄉": "Beigan Township",
+  "南竿鄉": "Nangan Township",
+  "東引鄉": "Dongyin Township",
+  "莒光鄉": "Juguang Township"
+ },
+ "lines": [
+  "Hey, did you know only one county in Taiwan has no coastline?",
+  "This is Nantou, right in the middle of the island. Just mountains all around.",
+  "So instead of the sea, it's got a lake: Sun Moon Lake.",
+  "In winter, the maples at Aowanda turn bright red,",
+  "and Cingjing Farm is a ranch above a sea of clouds, apparently.",
+  "Sigh, lucky you. I've only ever seen it in model form.",
+  "The director never takes me anywhere.",
+  "So go for me, okay? Next time you're in Taiwan, head for the middle.",
+  "This has been RINKA from MV STUDIO.",
+  "Oh, and don't tell the director I said that, okay?"
+ ],
+ "glines": {
+  "TW-TPE": [
+   "Hey, see how Taipei looks like a donut hole on this model?",
+   "It's New Taipei all the way around. The capital's totally boxed in.",
+   "And right in the middle of the hole, Taipei 101 just shoots up.",
+   "The National Palace Museum has almost 700,000 treasures,",
+   "and in Beitou, you can literally take the metro to a hot spring.",
+   "Ugh, not fair.",
+   "The director sent me nothing but night market pics again yesterday.",
+   "And I can't even eat.",
+   "So if it's your first time in Taiwan, start with Taipei, okay?",
+   "If something's really good, tell me. Just between us.",
+   "This has been RINKA.",
+   "Oh, and not a word to the director about the night market, okay?"
+  ],
+  "TW-NWT": [
+   "Hey, guess which city in Taiwan has the most people. Hint: not Taipei.",
+   "It's New Taipei.",
+   "The big ring that wraps all the way around Taipei.",
+   "Out by the sea, there's a rock that looks like a queen's profile.",
+   "In Shifen, people write wishes on lanterns and send them up,",
+   "and Jiufen's an old town that's all slopes and stairs.",
+   "Ah, I so want to send up a lantern. I've got a million wishes.",
+   "I asked the director, and apparently my wishes won't fit. Rude, right?",
+   "So once you're in Taipei, go explore the ring around it too.",
+   "This has been RINKA, out in New Taipei.",
+   "Oh, and my wishes? Those stay a secret from the director, okay?"
+  ],
+  "TW-TAO": [
+   "Hey, know where most people flying into Taiwan land first?",
+   "Taoyuan! The big airport's here, so almost everyone comes through.",
+   "But it's not just an airport town, apparently.",
+   "Daxi Old Street is lined with old brick buildings,",
+   "and around Shimen Reservoir, the thing to eat is fresh fish.",
+   "Lucky you. Your trip starts the second you walk out of the airport.",
+   "I can't even get to the gate.",
+   "The director always skips it, since it's \"just a layover.\"",
+   "So when you land, get out of the airport and take a little detour.",
+   "This has been RINKA, from the city where your trip begins.",
+   "Oh, and don't tell the director I ratted them out, okay?"
+  ],
+  "TW-TXG": [
+   "Hey, know the city where you can get ice cream in an old eye clinic?",
+   "It's Taichung, a big city around the middle of Taiwan.",
+   "The building's called Miyahara. These days it's a sweets shop.",
+   "Rainbow Village started when one grandpa began painting its walls,",
+   "and bubble tea? People say it was born in Taichung.",
+   "Sigh, the home of bubble tea. And I can't even hold a straw.",
+   "The director keeps bragging about having three cups the day they went.",
+   "So start with one cup in Taichung. Tell me how the real thing tastes.",
+   "This has been RINKA, from the home of bubble tea.",
+   "Oh, and the three cups? Forget you heard that, okay?"
+  ],
+  "TW-TNN": [
+   "Hey, ever heard of a city where people have beef soup for breakfast?",
+   "That's Tainan. They say it's the oldest city in Taiwan.",
+   "It started about 400 years ago, when the Dutch built a fort here.",
+   "Some beef soup places open around four in the morning,",
+   "and there are temples just about everywhere you look.",
+   "Ugh, breakfast talk is cruel. I don't get hungry, but now I kinda am.",
+   "Every Tainan pic the director sends me is of half-eaten food.",
+   "So get to Tainan in the morning. Being an early bird totally pays off.",
+   "This has been RINKA in Tainan.",
+   "Oh, and don't mention the half-eaten food around the director."
+  ],
+  "TW-KHH": [
+   "Hey, wanna see a harbor where old warehouses became one big art scene?",
+   "It's Kaohsiung, the big port city down in southern Taiwan.",
+   "Pier-2 is in the old harbor warehouses, and it's packed with art.",
+   "Cijin's just a quick boat ride across,",
+   "and at night, the lights reflecting on the Love River are gorgeous.",
+   "Ooh, a boat ride sounds nice. I probably wouldn't even get seasick.",
+   "The director took seasick pills before boarding. For a ride that short!",
+   "So take the boat in Kaohsiung. The breeze is supposed to be amazing.",
+   "This has been RINKA, from Kaohsiung, home of Pier-2 and the Love River.",
+   "Oh, and the seasick pills? That stays between us."
+  ],
+  "TW-KEE": [
+   "Hey, did you know there's a city so rainy they call it the Rain Port?",
+   "It's Keelung, a harbor town up north, a train ride from Taipei.",
+   "Miaokou Night Market sits right in front of a temple.",
+   "It's packed with food stalls and super lively,",
+   "and Heping Island has rocks the waves carved into wild shapes.",
+   "Lucky you. A rainy night market. I've never even held an umbrella.",
+   "The director's Keelung pics always have raindrops on the lens.",
+   "So bring an umbrella to Keelung. You'll probably need it.",
+   "This has been RINKA, from rainy Keelung.",
+   "Oh, and don't tell the director about the raindrop pics, okay?"
+  ],
+  "TW-HSZ": [
+   "Hey, guess which place is so windy they call it the Windy City?",
+   "It's Hsinchu City. In fall and winter, the wind really howls.",
+   "Rice noodles get dried in that wind, which supposedly makes them great.",
+   "By the City God Temple, you can get rice noodles and pork ball soup,",
+   "and the world's biggest contract chipmaker has its headquarters here.",
+   "Sigh, I'd love to feel the wind. I've never even felt a breeze.",
+   "The director's hat blew off twice. Kinda wish I'd seen that.",
+   "So if you're going to Hsinchu City, hang on to your hat.",
+   "This has been RINKA, from the Windy City.",
+   "Oh, and the flying hat? Pretend you never saw it."
+  ],
+  "TW-HSQ": [
+   "Hey, know about the old railway town at a tiny mountain station?",
+   "This is Hsinchu County, the mountainous one next to Hsinchu City.",
+   "That town's called Neiwan, and it's got an old Hakka street.",
+   "You can ride the Neiwan Line train out there, nice and slow,",
+   "and with Hakka lei cha, you grind tea leaves and beans in a bowl.",
+   "All that grinding looks so fun. I can't even touch the bowl.",
+   "The director ground so much their arm hurt, and complained nonstop.",
+   "So in Hsinchu County, grind your own lei cha, okay?",
+   "This has been RINKA, from Neiwan, the old railway town.",
+   "Oh, and no laughing about the sore arm in front of the director, okay?"
+  ],
+  "TW-MIA": [
+   "Hey, heard of a mountain where white flowers fall like snow in May?",
+   "It's Miaoli. Hills, mountains, and lots of Hakka people.",
+   "Those white flowers are tung blossoms. People call them May snow.",
+   "Dahu grows more strawberries than anywhere else in Taiwan,",
+   "and Hakka floral fabric is covered in big, bold flower prints.",
+   "Strawberry picking, so jealous. I can't even sneak a bite.",
+   "The director ate about half of them while picking.",
+   "So in Miaoli, pick a whole basket of strawberries, okay?",
+   "This has been RINKA, from the land of strawberries and Hakka florals.",
+   "Oh, and the snacking? Keep it quiet, as a favor to the director."
+  ],
+  "TW-CHA": [
+   "Hey, ever seen a train shed that opens out like a folding fan?",
+   "It's Changhua, out west. Rice paddies and old towns.",
+   "That's the Changhua Roundhouse. Locomotives still come and go there.",
+   "Lukang still has old streets from its days as a port town,",
+   "and on Baguashan, a giant Buddha looks out over the city.",
+   "Sigh, I wish I could see a train spin around. I only know model ones.",
+   "The director keeps sending pics in the same pose by the locomotives.",
+   "So in Changhua, go see the turntable in the middle of the roundhouse.",
+   "This has been RINKA, from the town with the fan-shaped roundhouse.",
+   "Oh, and if you mention the same-pose thing, the director will sulk."
+  ],
+  "TW-YUN": [
+   "Hey, know the county where a hand puppet show became a huge TV hit?",
+   "It's Yunlin, one of Taiwan's biggest farming counties.",
+   "The show is budaixi glove puppetry, and Yunlin is crazy about it.",
+   "Beigang Chaotian Temple is famous for the goddess Mazu,",
+   "and Yunlin grows more peanuts than anywhere else in Taiwan.",
+   "I'd love to try working a puppet. Usually I'm the puppet!",
+   "The director even started doing voices for the puppets. Uninvited.",
+   "So in Yunlin, catch a budaixi show at least once.",
+   "This has been RINKA, from the home of glove puppetry.",
+   "Oh, and the voices thing? Don't say you heard it from me, okay?"
+  ],
+  "TW-CYI": [
+   "Hey, know which city is famous for chicken rice?",
+   "It's Chiayi City, a cozy little city in western Taiwan.",
+   "Here's the thing: Chiayi's chicken rice is actually made with turkey.",
+   "Hinoki Village is lined with old cypress-wood houses,",
+   "and the Alishan Forest Railway runs from this city up the mountain.",
+   "Turkey rice, so jealous. I can't even smell it.",
+   "The director hit three places in a single day.",
+   "So in Chiayi City, try a few turkey rice spots and compare.",
+   "This has been RINKA, from the home of turkey \"chicken rice.\"",
+   "Oh, and the food crawl? Don't mention it around the director."
+  ],
+  "TW-CYQ": [
+   "Hey, know where people get up at night for sunrise above the clouds?",
+   "That's Alishan, and it's right here in Chiayi County.",
+   "Sunrise chasers take a super early train up to the lookout.",
+   "Up top, there are a bunch of huge sacred trees,",
+   "and Alishan tea grows way up high, so it smells amazing.",
+   "Sigh, I wish I could try getting up early. Not that I ever sleep.",
+   "The director overslept and missed the sunrise train.",
+   "So the night before Alishan, get to bed early, okay?",
+   "This has been RINKA, from Chiayi County, home of Alishan.",
+   "Oh, and the oversleeping? Let's keep that between the two of us."
+  ],
+  "TW-PIF": [
+   "Hey, what do you think the very southern tip of Taiwan is like?",
+   "It's Pingtung. Kenting's here too, down on the southern coast.",
+   "The climate's tropical, so it feels like a whole other country.",
+   "Tons of tropical fruit grows here, like mangoes and wax apples,",
+   "and from the very southern tip, you can see three seas at once.",
+   "A warm sea? Not fair. I can't even touch water.",
+   "The director came back so tan, they looked like a different person.",
+   "So when you go to Pingtung, don't forget sunscreen.",
+   "This has been RINKA, from the southern end of Taiwan.",
+   "Oh, and please don't ask the director about the tan, okay?"
+  ],
+  "TW-ILA": [
+   "Hey, ever seen an island out at sea shaped like a turtle?",
+   "It's Yilan, on the far side of a long mountain tunnel from Taipei.",
+   "It's Guishan Island, and it really does look like a swimming turtle.",
+   "Jiaoxi is a whole hot spring town,",
+   "and Sanxing scallions are so good they've become famous.",
+   "Ah, I'd love a long soak in a hot bath. I wouldn't even overheat.",
+   "The director planned on a quick foot bath and vanished for two hours.",
+   "So in Yilan, take your time and really soak in the hot springs.",
+   "This has been RINKA, from a town full of hot spring steam.",
+   "Oh, and don't tell anyone I leaked the two-hour thing, okay?"
+  ],
+  "TW-HUA": [
+   "Hey, notice how the right side of this model is almost all mountains?",
+   "Hualien. Biggest county in Taiwan, about an eighth of the island.",
+   "And by the sea, there's a beach lined with round stones, not sand.",
+   "It's called Qixingtan.",
+   "At night, there's a big night market where the old station used to be,",
+   "and up in the gorge, they're still slowly fixing the roads.",
+   "Hmm, I'd have loved to walk that beach barefoot. Not that I have feet.",
+   "The director sent me thirty pics of rocks. They all look the same!",
+   "So take your time in Hualien. It's huge, so don't rush it.",
+   "This has been RINKA, your Hualien guide.",
+   "Oh, and the rock pics? Keep that from the director, okay?"
+  ],
+  "TW-TTT": [
+   "Hey, know where hot-air balloons fill the sky on summer mornings?",
+   "It's Taitung, on Taiwan's east coast, facing the Pacific.",
+   "That highland is called Luye Highland,",
+   "and every summer, there's a hot-air balloon festival.",
+   "In Chishang, you can bike Mr. Brown Avenue through the rice paddies,",
+   "and Zhiben is Taitung's most famous hot spring town.",
+   "Hot-air balloons, so jealous. I think I'd be fine with heights.",
+   "The director got on and spent the whole ride not looking down.",
+   "So ride a balloon in Taitung, okay? Tell me what the view's like.",
+   "This has been RINKA, under Taitung's balloon-filled sky.",
+   "Oh, and the not-looking-down thing? Don't let the director find out."
+  ],
+  "TW-PEN": [
+   "Hey, did you know tons of islands sit between Taiwan and the mainland?",
+   "It's Penghu, a county made up of about ninety islands.",
+   "Old lava hardened into cliffs of rock columns, all standing in rows.",
+   "From spring into summer, there are fireworks shows over the sea,",
+   "and the heart-shaped stone weirs were built long ago to catch fish.",
+   "Wow, I'd love to see those heart-shaped weirs.",
+   "I've never even seen the tide go out.",
+   "The director tried to shoot the heart from a boat. Never got the angle.",
+   "So before Penghu, look up a spot where you can see it from above.",
+   "This has been RINKA, from Penghu and its ninety islands.",
+   "Oh, and the bad-angle story? Only when the director's not around."
+  ],
+  "TW-KIN": [
+   "Hey, guess which Taiwan island looks right across at a mainland city?",
+   "It's Kinmen. It's way closer to the mainland than to Taiwan proper.",
+   "The villages still have lots of old houses with red tile roofs.",
+   "At village entrances, Wind Lion Gods stand guard against the wind,",
+   "and the famous cleavers here are made from old artillery shells.",
+   "Sigh, every Wind Lion God has its own face, and I can't go meet them.",
+   "The director posed for a photo making the exact same face as one.",
+   "So in Kinmen, go find your favorite Wind Lion God.",
+   "This has been RINKA, from Kinmen, land of red tiles and Wind Lion Gods.",
+   "Oh, and don't show the director that same-face photo, okay?"
+  ],
+  "TW-LIE": [
+   "Hey, did you know there's an island where the sea glows blue at night?",
+   "It's Matsu. Officially, the county's called Lienchiang.",
+   "That glow comes from tiny sea creatures. They call it the blue tears.",
+   "Qinbi's stone houses up the hillside are said to look Mediterranean,",
+   "and the glowing sea shows up best on dark nights, spring to summer.",
+   "Sigh, a glowing sea. I mean, I glow too, just on a screen.",
+   "The director waited three days and didn't see it once.",
+   "So when you go to Matsu, give yourself a few extra days.",
+   "This has been RINKA, from Matsu, where the sea glows at night.",
+   "Oh, and the three-day wait? Let's not bring it up around the director."
+  ]
+ }
+}
