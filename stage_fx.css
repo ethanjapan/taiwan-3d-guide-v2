@@ -1,0 +1,76 @@
+/* 舞台の動き(実験 2026-11-15)。html に fx2 が付いた時だけ効く(?fx=0 と「動きを減らす」設定では付かない= 元のまま)
+   1 模型から県へ: 県の形の穴を通って入る / 2 題字で紙を重ねて模型を組む / 3 模型の画面の札を畳む / 4 読む場所を小さな模型で示す */
+
+:root { --fxver: 1115m; }                                 /* 版の印(stage_fx.js の VER と同じ値にする) */
+
+/* ---------- 1. 模型から県へ ---------- */
+html.fx-diving #map { display: block !important; z-index: 40; pointer-events: none; will-change: transform, opacity; }
+html.fx-diving #map .hud, html.fx-diving #map .dock > :not(.ghost), html.fx-diving #compass, html.fx-diving #pins,
+html.fx-diving #looks, html.fx-diving #langs, html.fx-diving #memo, html.fx-diving #fxmenu { opacity: 0 !important; transition: opacity .16s !important; }
+html.fx-diving .hero .top, html.fx-diving .hero .cap, html.fx-diving .hero .ttl, html.fx-diving #lkslot { opacity: 0; }
+html.fx-hold #cbody .cutline rect { animation-play-state: paused; }      /* 穴が開くまで、断面の段を寝かせておく */
+#fxfly { position: fixed; z-index: 60; margin: 0; white-space: nowrap; pointer-events: none; transform-origin: 0 0; will-change: transform; }
+
+/* ---------- 2. 題字で模型を組む ---------- */
+html.fx2 #title { justify-content: flex-end; padding-bottom: 9svh; }      /* 字は下・模型は上(舞台の県名と同じ位置に字を置く) */
+html.fx-tbg #title { background: transparent; }                         /* 題字が払われ終わるまで透かしたままにする(途中で青い地が戻ると模型を隠す) */
+html.fx-title #map .plane { transform: translate3d(var(--ftx, 0px), var(--fty, 0px), 0) rotateX(0deg) rotateZ(0deg) scale(var(--fs, 1)) !important;
+  transform-origin: 55% 50% !important; transition: none !important; opacity: 1 !important; }
+html.fx-title #mapimg, html.fx-title #tint, html.fx-title #lift, html.fx-title #pins { opacity: 0; }
+html.fx-title .plane::before, html.fx-title .plane::after { opacity: 0; }
+html.fx-title .sway { animation: none; }
+html.fx-title #map .hud, html.fx-title #map .dock, html.fx-title #compass, html.fx-title #looks, html.fx-title #langs, html.fx-title #memo, html.fx-title #fxmenu { opacity: 0 !important; pointer-events: none; }
+html.fx-reveal #map .hud, html.fx-reveal #map .dock, html.fx-reveal #compass, html.fx-reveal #looks, html.fx-reveal #langs, html.fx-reveal #memo, html.fx-reveal #fxmenu { transition: opacity .5s .55s; }
+html.fx-reveal #mapimg, html.fx-reveal #tint, html.fx-reveal .plane::before, html.fx-reveal .plane::after { transition: opacity .3s; }
+html.fx-reveal #lift, html.fx-reveal #pins { transition: opacity .4s .75s; }
+.plane > canvas.fxl { filter: var(--mapf); pointer-events: none; will-change: transform, opacity; backface-visibility: hidden; }
+#fxcover { position: absolute; inset: 0; z-index: 2; background: var(--bg); transition: opacity .8s ease; pointer-events: none; }
+#fxcount { position: absolute; right: 16px; top: calc(14px + env(safe-area-inset-top)); text-align: right; color: var(--sub); font-family: var(--num); font-weight: 900; line-height: .9; }
+#fxcount b { display: block; font-size: 72px; font-variant-numeric: tabular-nums; }
+#fxcount small { display: block; margin-top: 6px; font-family: var(--lab); font-size: 11px; font-weight: 700; letter-spacing: .2em; color: var(--ink); }
+
+/* ---------- 3. 模型の画面の札を畳む ---------- */
+#fxmenu { display: none; }
+html.fx2.onmap #fxmenu { display: flex; position: fixed; z-index: 21; left: 0; top: calc(79px + env(safe-area-inset-top)); align-items: center; background: var(--lo); color: var(--ink);
+  padding: 11px 13px 11px 14px; border: 0; cursor: pointer; }
+#fxmenu i { display: block; position: relative; width: 17px; height: 12px; border-top: 2px solid currentColor; border-bottom: 2px solid currentColor; box-sizing: border-box; }
+#fxmenu i::after { content: ""; position: absolute; left: 0; right: 0; top: 3px; border-top: 2px solid currentColor; }
+html.fx-open #fxmenu { background: var(--ink); color: var(--lo); }
+html.fx2.onmap:not(.fx-open) #looks, html.fx2.onmap:not(.fx-open) #langs, html.fx2.onmap:not(.fx-open) #memo, html.fx2.onmap:not(.fx-open) #hudB > span { display: none !important; }
+html.fx2.onmap.fx-open #looks { top: calc(115px + env(safe-area-inset-top)); }
+html.fx2.onmap.fx-open #langs { top: calc(147px + env(safe-area-inset-top)); }
+html.fx2.onmap.fx-open #memo { top: calc(183px + env(safe-area-inset-top)) !important; }
+
+/* ---------- 4. 読む場所を小さな模型で示す(名所の写真の隅に貼る。画面には固定しない) ---------- */
+html.fx2 .spot .pic { position: relative; }
+.fxm { position: absolute; z-index: 1; right: 10px; bottom: 10px; background: center / 100% 100% no-repeat; transform: rotate(-4deg); filter: drop-shadow(0 5px 6px rgba(0, 0, 0, .55)); pointer-events: none; }
+.spot.c .fxm { right: 5px; bottom: 5px; }
+.fxm u { position: absolute; width: 12px; height: 12px; margin: -6px 0 0 -6px; border-radius: 50%; background: var(--sub); box-shadow: 0 0 0 2.5px var(--lo); }
+.spot.c .fxm u { width: 8px; height: 8px; margin: -4px 0 0 -4px; box-shadow: 0 0 0 2px var(--lo); }
+.fxm u.far { background: var(--lo); box-shadow: 0 0 0 2.5px var(--sub); }
+.spot.fx-in .fxm u { animation: fxping .9s cubic-bezier(.2, .8, .2, 1) .3s both; }
+@keyframes fxping { from { transform: scale(3.4); opacity: 0; } }
+
+/* ---------- 6. 県から模型へ戻る(1 の逆) ---------- */
+html.fx-leaving #map { display: block !important; z-index: 40; pointer-events: none; will-change: opacity; }
+html.fx-leaving #map .hud, html.fx-leaving #map .dock > :not(.ghost), html.fx-leaving #compass, html.fx-leaving #pins, html.fx-leaving #fxmenu { opacity: 0 !important; transition: none !important; }
+html.fx-leaving .lift > * { transition: none !important; }                /* 持ち上げた県を、上げた高さにすぐ置く(穴の形と合わせるため) */
+html.fx-back #map .hud, html.fx-back #map .dock > :not(.ghost), html.fx-back #compass, html.fx-back #pins { transition: opacity .45s .34s; }
+html.fx-back #fxmenu { animation: fxfade .45s .34s both; }
+@keyframes fxfade { from { opacity: 0; } }
+#fxplug { position: fixed; inset: 0; z-index: 39; touch-action: none; }   /* 穴の下に敷く県の画。県の画面を押せなくする役も兼ねる */
+#fxplug canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+#fxplug canvas.t { filter: var(--mapf); }
+#fxplug canvas.c { opacity: .6; }
+#fxfloor { position: fixed; left: 0; top: 0; width: 0; height: 0; z-index: 38; opacity: 0; pointer-events: none; }
+#fxfloor i { position: fixed; left: 0; right: 0; background: var(--bg); }
+
+/* ---------- 真上から県へ寄っている間(html.fx-flat)は、寄った倍率で描くと重い物を外す ---------- */
+/* Safari は、模型の板の中の物を「寄った倍率」(小さな市で 40 倍)で描き直す。ぼかしや影や字のある物はそこで 0.6〜1.5 秒かかり、
+   その間は画面が固まるか、古い低解像度の絵が見える(2026-11-15 に iPhone のシミュレータで測った)。写真と canvas は引き伸ばすだけなので軽い
+   - 持ち上げた県の影(blur 5px) / 板の厚みと板の下の影(box-shadow 70px) / 柱と旗(字と枠) */
+html.fx-flat .lift .shade { filter: none !important; opacity: 0 !important; }
+html.fx2 .lift .shade { transition: transform .9s cubic-bezier(.2, .9, .2, 1.15), opacity .4s; }
+html.fx2 .plane::before, html.fx2 .plane::after { transition: opacity .4s; }
+html.fx-flat .plane::before, html.fx-flat .plane::after { opacity: 0; visibility: hidden; transition: opacity .2s, visibility 0s .2s; }
+html.fx-flat #pins { visibility: hidden !important; }

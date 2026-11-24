@@ -1,0 +1,72 @@
+/* guide-player.css — 3D 観光案内の共通プレーヤーの見た目(2026-11-15)
+ * ★正本= 作業フォルダ/_parts/guide-player/。各サイトの写し(<サイト>/parts/)は sync.sh が上書きするので、写しを直接直さない。
+ * サイト側は、置き場の要素(GuidePlayer.mount の el)に次の変数を渡すだけ(渡さなければ既定の色):
+ *   --gp-panel   操作の帯と字幕の地の色          --gp-ink      その上の字の色
+ *   --gp-accent  再生位置の線とつまみの色        --gp-dim      時間の字の色
+ *   --gp-hot     「音を出して見る」の地の色      --gp-on-hot   その字の色
+ *   --gp-ratio   画の縦横(既定 9 / 16)          --gp-stage-radius / --gp-bar-radius   角の丸め
+ *   --gp-label-font  名札と時間の字体           --gp-sub-size  字幕の字の大きさ
+ */
+.gp { position: relative; }
+.gp-stage { position: relative; aspect-ratio: var(--gp-ratio, 9 / 16); overflow: hidden; background: #000; border-radius: var(--gp-stage-radius, 0); cursor: pointer; }
+.gp-v { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.gp-ov { position: absolute; inset: 0; opacity: 0; pointer-events: none; }
+.gp-ov.on { opacity: 1; }
+.gp-who { position: absolute; left: 0; top: 18px; background: var(--gp-ink, #f4f1e6); color: var(--gp-panel, #0d1d66); padding: 6px 10px 7px 14px; font-family: var(--gp-label-font, inherit); font-size: 12px; font-weight: 700; letter-spacing: .12em; pointer-events: none; }
+
+/* 右上の札: 音なしの間だけ出す。押すと今の位置のまま音が出て、札は消える */
+.gp-snd { position: absolute; right: 0; top: 18px; display: flex; align-items: center; gap: 9px; min-height: 44px; padding: 11px 14px; border: 0; cursor: pointer; font: inherit; font-size: 13px; font-weight: 900; letter-spacing: .06em; background: var(--gp-hot, #ff4a2b); color: var(--gp-on-hot, #fff6ea); box-shadow: 0 6px 18px -8px rgba(0, 0, 0, .6); }
+.gp-snd svg { width: 18px; height: 18px; flex: none; }
+.gp.gp-sound .gp-snd, .gp.gp-ended .gp-snd { display: none; }
+
+/* 止めている間の真ん中の印・読み込み中の輪・読めない時の文言 */
+.gp-big { position: absolute; left: 50%; top: 42%; width: 72px; height: 72px; margin: -36px 0 0 -36px; display: grid; place-items: center; border-radius: 50%; background: color-mix(in srgb, var(--gp-panel, #0d1d66) 82%, transparent); color: var(--gp-ink, #f4f1e6); pointer-events: none; opacity: 0; transform: scale(.85); transition: opacity .18s, transform .18s; }
+.gp-big svg { width: 30px; height: 30px; margin-left: 4px; }
+.gp.gp-paused:not(.gp-ended):not(.gp-error) .gp-big { opacity: 1; transform: none; }
+.gp-spin { position: absolute; left: 50%; top: 42%; width: 44px; height: 44px; margin: -22px 0 0 -22px; border-radius: 50%; border: 4px solid color-mix(in srgb, var(--gp-ink, #f4f1e6) 30%, transparent); border-top-color: var(--gp-accent, #ffd53e); opacity: 0; pointer-events: none; animation: gp-spin .8s linear infinite; transition: opacity .2s .25s; }
+.gp.gp-wait .gp-spin { opacity: 1; } .gp.gp-wait .gp-big { opacity: 0; }
+@keyframes gp-spin { to { transform: rotate(360deg); } }
+.gp-err { position: absolute; left: 9%; right: 9%; top: 38%; display: none; padding: 12px 14px; background: var(--gp-panel, #0d1d66); color: var(--gp-ink, #f4f1e6); font-size: 13px; font-weight: 900; line-height: 1.6; text-align: center; pointer-events: none; }
+.gp.gp-error .gp-err { display: block; }
+
+.gp-again { position: absolute; left: 9%; bottom: 13%; display: none; align-items: center; gap: 9px; min-height: 44px; border: 0; cursor: pointer; font: inherit; font-size: 13px; font-weight: 900; padding: 12px 16px; background: var(--gp-panel, #0d1d66); color: var(--gp-ink, #f4f1e6); }
+.gp-again svg { width: 16px; height: 16px; flex: none; }
+.gp.gp-ended .gp-again { display: inline-flex; }
+.gp-sub { position: absolute; left: 0; right: 0; bottom: 0; padding: 12px 14px 14px; min-height: 78px; background: var(--gp-panel, #0d1d66); color: var(--gp-ink, #f4f1e6); font-size: var(--gp-sub-size, 17px); font-weight: 900; line-height: 1.5; pointer-events: none; }
+.gp-sub:empty { display: none; }
+
+/* 操作の帯(画の下・画には重ねない= 字幕を隠さない)。再生 / バー / 時間 / 音 / 全画面 */
+.gp-bar { display: flex; align-items: center; gap: 4px; padding: 6px 6px; background: var(--gp-panel, #0d1d66); color: var(--gp-ink, #f4f1e6); border-top: 2px solid color-mix(in srgb, var(--gp-ink, #f4f1e6) 14%, transparent); border-radius: var(--gp-bar-radius, 0); }
+.gp-pp, .gp-mute, .gp-fs { flex: none; width: 44px; height: 44px; display: grid; place-items: center; padding: 0; border: 0; background: transparent; color: inherit; cursor: pointer; border-radius: 4px; }
+.gp-pp svg, .gp-mute svg { width: 22px; height: 22px; } .gp-fs svg { width: 20px; height: 20px; }
+.gp-mute[aria-pressed="true"] { color: var(--gp-accent, #ffd53e); }   /* 音なし= 色で知らせる */
+.gp-tm { flex: none; min-width: 5.6em; padding: 0 4px; text-align: center; font-family: var(--gp-label-font, inherit); font-size: 12px; font-weight: 700; letter-spacing: .02em; font-variant-numeric: tabular-nums; color: var(--gp-dim, currentColor); white-space: nowrap; }
+.gp-seek { flex: 1; min-width: 0; height: 44px; margin: 0 4px; padding: 0; background: transparent; cursor: pointer; -webkit-appearance: none; appearance: none; touch-action: none; }
+.gp-seek::-webkit-slider-runnable-track { height: 5px; border-radius: 3px; background: linear-gradient(to right, var(--gp-accent, #ffd53e) var(--gp-p, 0%), color-mix(in srgb, var(--gp-ink, #f4f1e6) 26%, transparent) var(--gp-p, 0%)); }
+.gp-seek::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 16px; height: 16px; margin-top: -5.5px; border: 0; border-radius: 50%; background: var(--gp-accent, #ffd53e); transition: transform .12s; }
+.gp-seek:active::-webkit-slider-thumb { transform: scale(1.3); }
+.gp-seek::-moz-range-track { height: 5px; border-radius: 3px; background: color-mix(in srgb, var(--gp-ink, #f4f1e6) 26%, transparent); }
+.gp-seek::-moz-range-progress { height: 5px; border-radius: 3px; background: var(--gp-accent, #ffd53e); }
+.gp-seek::-moz-range-thumb { width: 16px; height: 16px; border: 0; border-radius: 50%; background: var(--gp-accent, #ffd53e); }
+.gp-pp:focus-visible, .gp-mute:focus-visible, .gp-fs:focus-visible, .gp-seek:focus-visible, .gp-snd:focus-visible, .gp-again:focus-visible, .gp-link:focus-visible { outline: 2px solid var(--gp-accent, #ffd53e); outline-offset: 2px; }
+@media (hover: hover) { .gp-pp:hover, .gp-mute:hover, .gp-fs:hover { background: color-mix(in srgb, var(--gp-ink, #f4f1e6) 12%, transparent); } }
+/* 狭い置き場(スマホ): バーを上の段に横いっぱい・ボタンと時間を下の段に(バーが 100px まで縮んで動かしにくかった・2026-11-15 375px で確認) */
+.gp { container-type: inline-size; }
+@container (max-width: 460px) {
+  .gp-bar { flex-wrap: wrap; row-gap: 0; padding: 2px 6px 4px; }
+  .gp-seek { order: -1; flex: 1 0 calc(100% - 16px); height: 30px; margin: 0 8px; }
+  .gp-tm { order: 1; text-align: left; margin-right: auto; padding-left: 6px; }
+  .gp-pp { order: 0; } .gp-mute { order: 2; } .gp-fs { order: 3; }
+}
+
+/* 帯の下の外への行き先(YouTube で見る など) */
+.gp-link { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 2px; padding: 13px 14px 14px; background: var(--gp-panel, #0d1d66); color: var(--gp-ink, #f4f1e6); text-decoration: none; font-size: 13px; font-weight: 900; letter-spacing: .05em; }
+.gp-link svg { width: 16px; height: 16px; flex: none; color: var(--gp-accent, #ffd53e); }
+
+/* 全画面(要素ごと= 字幕と札も一緒に大きくする) */
+.gp:fullscreen { display: flex; flex-direction: column; justify-content: center; align-items: center; background: #000; }
+.gp:fullscreen .gp-stage { height: calc(100% - 58px); width: auto; max-width: 100%; border-radius: 0; }
+.gp:fullscreen .gp-bar { width: min(100%, calc((100vh - 58px) * 9 / 16)); border-radius: 0; }
+.gp:fullscreen .gp-link { display: none; }
+
+@media (prefers-reduced-motion: reduce) { .gp-spin { animation-duration: 2.4s; } .gp-big, .gp-seek::-webkit-slider-thumb { transition: none; } }

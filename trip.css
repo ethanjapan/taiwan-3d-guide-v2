@@ -1,0 +1,173 @@
+/* 旅の実用の機能の見た目(行く前に・行きたいリスト・指さしの札・困った時)。色と字は index.html の 3 つの案の変数をそのまま使う */
+
+/* ============ 行く前に(畳んである段) ============ */
+.fold { background: var(--bg2); margin-bottom: 2px; }
+.trip .fold:first-of-type { border-radius: 0 var(--r) 0 0; } .trip .fold:last-of-type { border-radius: 0 0 0 var(--r); }
+.fh { display: grid; grid-template-columns: 42px 1fr 18px; align-items: center; width: 100%; padding: 16px 16px 17px 14px; }
+.fh em { font-style: normal; font-family: var(--num); font-weight: 900; font-size: 24px; line-height: 1; color: var(--sub); }
+.fh b { display: block; font-size: 17px; font-weight: 900; letter-spacing: .04em; }
+.fh .gist { display: block; font-family: var(--lab); font-size: 11.5px; font-weight: 700; letter-spacing: .06em; color: var(--dim); margin-top: 5px; line-height: 1.5; }
+.fh .gist > span { display: inline-block; }
+.fh s { display: block; width: 9px; height: 9px; border-right: 3px solid var(--sub); border-bottom: 3px solid var(--sub); transform: rotate(45deg); transition: transform .3s; justify-self: end; margin: -4px 3px 0 0; }
+.fold.unf .fh s { transform: rotate(-135deg); margin-top: 5px; }
+.fb { display: none; padding: 2px 14px 20px; }
+.fold.unf .fb { display: block; animation: fin .4s cubic-bezier(.2, .8, .2, 1) both; }
+@keyframes fin { from { opacity: 0; transform: translateY(-8px); } }
+.fb .lab { color: var(--dim); display: block; }
+.fb .hint { margin: 14px 0 0; }
+.fb p { margin: 0; }
+
+/* 行き方 */
+.gate { padding: 4px 0 14px; } .gate b { display: block; font-size: 21px; font-weight: 900; line-height: 1.35; margin-top: 4px; }
+.way { background: var(--lo); padding: 14px 14px 6px; margin-bottom: 6px; }
+.way .from { font-family: var(--lab); font-size: 11px; font-weight: 700; letter-spacing: .1em; color: var(--dim); }
+.way.best .from u { text-decoration: none; background: var(--hot); color: var(--on-hot); padding: 2px 7px 3px; margin-right: 8px; }
+.way .tm { display: block; font-family: var(--disp); font-weight: var(--dw); letter-spacing: var(--dls); font-size: 27px; line-height: 1.25; color: var(--sub); margin-top: 6px; }
+.way .by { display: block; font-size: 13.5px; font-weight: 900; margin-top: 2px; }
+.way .by small { font-family: var(--num); font-size: 14px; font-weight: 900; color: var(--dim); margin-left: 10px; letter-spacing: .04em; }
+.steps { list-style: none; margin: 10px 0 0; padding: 0; }
+.steps li { display: grid; grid-template-columns: 24px 1fr; padding: 8px 0 9px; border-top: 1px solid color-mix(in srgb, var(--dim) 28%, transparent); font-size: 13.5px; line-height: 1.7; font-weight: 500; }
+.steps em { font-style: normal; font-family: var(--num); font-weight: 900; color: var(--sub); font-size: 16px; line-height: 1.45; }
+.memo2 { padding: 14px 0 0; } .memo2 p { font-size: 13.5px; line-height: 1.8; font-weight: 500; margin-top: 4px; }
+.vcr { display: grid; grid-template-columns: 1fr auto auto; gap: 6px; align-items: center; padding: 9px 0; border-top: 1px solid color-mix(in srgb, var(--dim) 28%, transparent); }
+.vcr:first-of-type { margin-top: 6px; }
+.vcr b { font-family: "PingFang TC", var(--body); font-size: 14px; font-weight: 900; line-height: 1.4; } .vcr b small { display: block; font-family: var(--lab); font-size: 10.5px; color: var(--dim); font-weight: 700; letter-spacing: .08em; }
+.mini { display: inline-flex; align-items: center; gap: 7px; background: var(--lo); color: var(--ink); text-decoration: none; padding: 9px 11px 10px; font-size: 12px; font-weight: 900; letter-spacing: .05em; white-space: nowrap; }
+.mini s, .lnk s { display: block; width: 7px; height: 7px; border-top: 2.5px solid var(--sub); border-right: 2.5px solid var(--sub); transform: rotate(45deg); }
+.lnks { display: grid; gap: 2px; margin-top: 14px; }
+.lnk { display: flex; justify-content: space-between; align-items: center; background: var(--lo); color: var(--ink); text-decoration: none; padding: 12px 14px 13px; font-size: 13px; font-weight: 900; letter-spacing: .05em; }
+
+/* いつ行く */
+.mb { display: grid; grid-template-columns: repeat(12, 1fr); gap: 2px; margin: 4px 0 8px; }
+.mb i { font-style: normal; font-family: var(--num); font-weight: 900; font-size: 15px; text-align: center; padding: 9px 0 11px; background: var(--lo); color: var(--dim); }
+.mb i.ev { background: var(--sub); color: var(--on-sub); }
+.mb i.now { box-shadow: inset 0 -4px 0 var(--hot); }
+.mbk { display: flex; gap: 14px; font-family: var(--lab); font-size: 10.5px; font-weight: 700; letter-spacing: .08em; color: var(--dim); margin-bottom: 10px; }
+.mbk span { display: flex; align-items: center; gap: 6px; white-space: nowrap; } .mbk span::before { content: ""; width: 10px; height: 10px; background: var(--sub); } .mbk span.n::before { background: none; box-shadow: inset 0 -4px 0 var(--hot); }
+.evr { display: grid; grid-template-columns: 78px 1fr; column-gap: 10px; padding: 10px 0 11px; border-top: 1px solid color-mix(in srgb, var(--dim) 28%, transparent); }
+.evr > b { font-size: 14px; font-weight: 900; color: var(--sub); white-space: nowrap; line-height: 1.5; }
+.evr > span { font-size: 14px; font-weight: 900; line-height: 1.5; }
+.evr small { display: block; font-size: 11px; color: var(--dim); font-weight: 500; margin-top: 2px; }
+.evr.on > b::after { content: attr(data-now); display: table; background: var(--hot); color: var(--on-hot); font-size: 10px; padding: 1px 6px 2px; margin-top: 3px; }
+.yr { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; margin-top: 6px; }
+.yr div { background: var(--lo); padding: 8px 8px 9px; font-size: 12px; font-weight: 900; line-height: 1.4; } .yr div small { display: block; font-family: var(--lab); font-size: 10px; font-weight: 700; color: var(--dim); letter-spacing: .06em; white-space: nowrap; }
+.yr div.good { background: var(--ink); color: var(--lo); } .yr div.good small { color: var(--lo); opacity: .7; }
+
+/* 天気と服 */
+.wx { display: grid; grid-template-columns: auto 1fr; gap: 2px; margin-top: 4px; }
+.wx .nowt { background: var(--sub); color: var(--on-sub); padding: 12px 16px 12px 14px; }
+.wx .nowt small { display: block; font-family: var(--lab); font-size: 10.5px; font-weight: 700; letter-spacing: .1em; }
+.wx .nowt b { display: block; font-family: var(--num); font-weight: 900; font-size: 50px; line-height: 1.05; }
+.wx .nowt span { font-size: 13px; font-weight: 900; white-space: nowrap; }
+.wx .d3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2px; min-width: 0; }
+.wx .d3 > div { background: var(--lo); padding: 10px 6px 10px 8px; min-width: 0; overflow: hidden; }
+.wx .d3 small { display: block; font-family: var(--lab); font-size: 10.5px; font-weight: 700; color: var(--dim); letter-spacing: .04em; white-space: nowrap; }
+.wx .d3 b { display: block; font-family: var(--num); font-weight: 900; font-size: 21px; line-height: 1.3; white-space: nowrap; } .wx .d3 b i { font-style: normal; font-size: 13px; color: var(--dim); margin-left: 4px; }
+.wx .d3 span { display: block; font-size: 12px; font-weight: 900; white-space: nowrap; } .wx .d3 em { display: block; font-style: normal; font-family: var(--lab); font-size: 10.5px; font-weight: 700; color: var(--sub); margin-top: 2px; white-space: nowrap; }
+.fit { background: var(--lo); margin-top: 2px; padding: 14px 14px 16px; }
+.fit b { display: block; font-size: 17px; font-weight: 900; line-height: 1.5; margin-top: 4px; } .fit p { font-size: 13.5px; line-height: 1.8; font-weight: 500; margin-top: 6px; }
+.fb cite { display: block; font-style: normal; font-size: 10.5px; color: var(--dim); margin-top: 10px; line-height: 1.6; } .fb cite a { color: inherit; }
+
+/* モデルコース */
+.crs { background: var(--lo); padding: 14px 14px 16px; margin-bottom: 6px; }
+.crs .ch b { display: block; font-size: 18px; font-weight: 900; line-height: 1.4; }
+.crs .day { display: grid; grid-template-columns: 54px 1fr; column-gap: 8px; padding: 10px 0 2px; margin-top: 10px; border-top: 1px solid color-mix(in srgb, var(--dim) 28%, transparent); }
+.crs .day > em { font-style: normal; font-family: var(--lab); font-size: 11px; font-weight: 700; letter-spacing: .08em; color: var(--sub); padding-top: 3px; white-space: nowrap; }
+.crs .st { font-size: 14px; font-weight: 900; line-height: 1.45; margin-bottom: 9px; } .crs .st small { display: block; font-family: var(--lab); font-size: 10.5px; color: var(--dim); font-weight: 700; letter-spacing: .06em; }
+.crs .st.far { opacity: .62; }
+
+/* ============ 見どころと店につく操作 ============ */
+.acts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.wb, .ob { display: inline-flex; align-items: center; gap: 8px; background: var(--lo); color: var(--ink); padding: 10px 12px 11px; font-size: 12.5px; font-weight: 900; letter-spacing: .05em; white-space: nowrap; }
+.shop .wb, .shop .ob, .shop .mini { background: var(--bg); }
+.wb i { display: block; width: 12px; height: 12px; box-shadow: inset 0 0 0 2.5px var(--sub); }
+.wb.on { background: var(--sub); color: var(--on-sub); }
+.wb.on i { box-shadow: none; background: var(--on-sub); clip-path: polygon(0 52%, 18% 36%, 40% 60%, 82% 10%, 100% 26%, 40% 96%); }
+.ob i { display: block; width: 13px; height: 13px; background: var(--sub); clip-path: polygon(0 0, 100% 0, 100% 72%, 46% 72%, 22% 100%, 22% 72%, 0 72%); }
+.bestm { display: table; margin-top: 10px; font-size: 12px; font-weight: 900; line-height: 1.5; box-shadow: inset 3px 0 0 var(--sub); padding: 1px 0 2px 10px; } .bestm b { color: var(--sub); margin-right: 8px; white-space: nowrap; }
+.near { margin-top: 12px; } .near .lab { color: var(--dim); display: block; margin-bottom: 5px; }
+.near button { display: flex; align-items: baseline; gap: 10px; width: 100%; background: var(--bg2); padding: 10px 12px 11px; margin-bottom: 2px; font-family: "PingFang TC", var(--body); font-size: 14px; font-weight: 900; }
+.near button small { font-family: var(--body); font-size: 11.5px; color: var(--dim); font-weight: 700; }
+.spot.c .acts, .spot.c .bestm, .spot.c .near { grid-column: 1 / -1; }
+.flash { animation: flash 1.4s ease both; } @keyframes flash { 0%, 40% { box-shadow: inset 0 0 0 4px var(--sub); } 100% { box-shadow: inset 0 0 0 0 transparent; } }
+
+/* ============ 困った時 ============ */
+.tels { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+.tels a { background: var(--bg2); color: var(--ink); text-decoration: none; padding: 14px 14px 15px; }
+.tels a b { display: block; font-family: var(--num); font-weight: 900; font-size: 40px; line-height: 1; color: var(--sub); letter-spacing: .02em; }
+.tels a > span { display: block; font-size: 12.5px; font-weight: 900; margin-top: 6px; line-height: 1.5; }
+.tels a.w { grid-column: 1 / -1; } .tels a.w b { font-size: 30px; }
+.more2 { display: grid; gap: 2px; margin-top: 2px; }
+.more2 button { display: flex; justify-content: space-between; align-items: center; background: var(--ink); color: var(--lo); padding: 15px 16px; font-size: 14px; font-weight: 900; letter-spacing: .05em; }
+.more2 button s { display: block; width: 8px; height: 8px; border-top: 3px solid currentColor; border-right: 3px solid currentColor; transform: rotate(45deg); margin-right: 3px; }
+.more2 button + button { background: var(--bg2); color: var(--ink); }
+
+/* ============ 旅のメモ(行きたい・旅の基本・困った時) ============ */
+#memo { position: fixed; z-index: 21; right: 0; bottom: calc(16px + env(safe-area-inset-bottom)); display: flex; align-items: center; gap: 10px; background: var(--sub); color: var(--on-sub); padding: 12px 14px 13px 16px; font-size: 13px; font-weight: 900; letter-spacing: .08em; box-shadow: 0 10px 24px -8px rgba(0, 0, 0, .55); }
+#memo b { font-family: var(--num); font-weight: 900; font-size: 21px; line-height: 1; }
+#memo.bump { animation: bump .5s cubic-bezier(.2, 1.6, .3, 1); } @keyframes bump { 40% { transform: translateX(-10px) scale(1.08); } }
+.onmap #memo { left: 0; right: auto; bottom: auto; top: calc(113px + env(safe-area-inset-top)); background: var(--lo); color: var(--ink); font-family: var(--lab); font-size: 10.5px; letter-spacing: .12em; padding: 7px 10px 8px 14px; box-shadow: none; gap: 8px; }
+.onmap #memo b { color: var(--sub); font-size: 15px; }
+html.lock, html.lock body { overflow: hidden; }
+#sheet, #order { position: fixed; inset: 0; z-index: 40; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; transform: translateY(102%); visibility: hidden;
+                 transition: transform .45s cubic-bezier(.2, .8, .2, 1), visibility 0s .45s; }
+#sheet.on, #order.on { transform: none; visibility: visible; transition: transform .45s cubic-bezier(.2, .8, .2, 1), visibility 0s; }
+#sheet { background: var(--bg); color: var(--ink); }
+.sh-top { position: sticky; top: 0; z-index: 2; background: var(--lo); padding: calc(14px + env(safe-area-inset-top)) 16px 0; }
+.sh-top h2 { margin: 0; font-family: var(--disp); font-weight: var(--dw); letter-spacing: var(--dls); font-size: 32px; line-height: 1.2; }
+.sh-x { position: absolute; right: 6px; top: calc(8px + env(safe-area-inset-top)); width: 48px; height: 48px; }
+.sh-x::before, .sh-x::after { content: ""; position: absolute; left: 12px; top: 22px; width: 24px; height: 3px; background: currentColor; transform: rotate(45deg); } .sh-x::after { transform: rotate(-45deg); }
+.sh-tabs { display: grid; grid-template-columns: repeat(3, 1fr); margin: 12px -16px 0; }
+.sh-tabs button { text-align: center; padding: 12px 4px 11px; font-size: 13.5px; font-weight: 900; letter-spacing: .04em; color: var(--dim); border-bottom: 4px solid transparent; white-space: nowrap; }
+.sh-tabs button.on { color: var(--ink); border-color: var(--sub); }
+.sh-body { max-width: 560px; margin: 0 auto; padding: 22px 16px calc(70px + env(safe-area-inset-bottom)); }
+.sh-body .lead { font-size: 14px; line-height: 1.85; font-weight: 500; margin: 0 0 18px; }
+.sh-body h3 { margin: 30px 0 12px; font-family: var(--lab); font-size: 12px; font-weight: 700; letter-spacing: .2em; color: var(--dim); }
+.wg { margin-bottom: 30px; }
+.wg > h4 { margin: 0 0 8px; display: flex; align-items: baseline; gap: 12px; font-family: var(--disp); font-weight: var(--dw); letter-spacing: var(--dls); font-size: 40px; line-height: 1.1; }
+.wg > h4 small { font-family: var(--lab); font-size: 11px; font-weight: 700; letter-spacing: .12em; color: var(--dim); }
+.wi { display: grid; grid-template-columns: 1fr auto 40px; align-items: center; gap: 6px; background: var(--bg2); padding: 12px 4px 13px 14px; margin-bottom: 2px; }
+.wi .k { display: block; font-family: var(--lab); font-size: 10.5px; font-weight: 700; letter-spacing: .1em; color: var(--sub); }
+.wi b { display: block; font-family: "PingFang TC", var(--body); font-size: 16px; font-weight: 900; line-height: 1.4; margin-top: 2px; }
+.wi small { display: block; font-size: 11px; color: var(--dim); font-weight: 700; margin-top: 2px; }
+.wi .rm { position: relative; width: 40px; height: 40px; } .wi .rm::before, .wi .rm::after { content: ""; position: absolute; left: 12px; top: 19px; width: 16px; height: 2.5px; background: var(--dim); transform: rotate(45deg); } .wi .rm::after { transform: rotate(-45deg); }
+.wi .mini { background: var(--lo); }
+.dirs { display: grid; gap: 2px; margin-top: 6px; }
+.dirs a { display: flex; justify-content: space-between; align-items: center; background: var(--ink); color: var(--lo); text-decoration: none; padding: 14px 16px 15px; font-size: 13.5px; font-weight: 900; letter-spacing: .05em; }
+.dirs a s { display: block; width: 8px; height: 8px; border-top: 3px solid currentColor; border-right: 3px solid currentColor; transform: rotate(45deg); margin-right: 3px; }
+.cadd { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 10px; background: var(--bg2); padding: 13px 12px 14px 14px; margin-bottom: 2px; }
+.cadd b { display: block; font-size: 15px; font-weight: 900; line-height: 1.45; } .cadd small { display: block; font-family: var(--lab); font-size: 10.5px; color: var(--dim); font-weight: 700; letter-spacing: .08em; margin-top: 2px; }
+.cadd button, .crs .acts button { background: var(--sub); color: var(--on-sub); padding: 10px 12px 11px; font-size: 12.5px; font-weight: 900; white-space: nowrap; }
+.cadd button.done, .crs .acts button.done { background: var(--lo); color: var(--ink); }
+.irow { display: grid; grid-template-columns: 92px 1fr; column-gap: 10px; padding: 11px 0 12px; border-top: 1px solid color-mix(in srgb, var(--dim) 28%, transparent); }
+.irow > b { font-size: 13px; font-weight: 900; line-height: 1.6; color: var(--sub); } .irow > p { margin: 0; font-size: 13.5px; line-height: 1.8; font-weight: 500; }
+.irow a, .sh-body .lead a { color: var(--ink); }
+.ict { display: grid; gap: 2px; } .ict > div { background: var(--lo); padding: 12px 14px 13px; } .ict b { display: block; font-size: 15px; font-weight: 900; } .ict p { margin: 4px 0 0; font-size: 12.5px; line-height: 1.75; font-weight: 500; } .ict small { color: var(--dim); font-weight: 700; margin-right: 6px; white-space: nowrap; }
+.jp { background: var(--bg2); padding: 14px 14px 14px; margin-bottom: 2px; } .jp b { display: block; font-size: 15px; font-weight: 900; line-height: 1.5; } .jp p { margin: 4px 0 10px; font-size: 12.5px; line-height: 1.75; font-weight: 500; } .jp .acts { margin-top: 0; }
+.says { display: grid; gap: 2px; }
+.says button { display: block; width: 100%; background: var(--bg2); padding: 12px 14px 13px; } .says button b { display: block; font-size: 14px; font-weight: 900; line-height: 1.5; } .says button small { display: block; font-family: "PingFang TC", var(--body); font-size: 12px; color: var(--dim); font-weight: 700; margin-top: 2px; }
+
+/* ============ 指さしの札(店の人に見せる。どの配色でも明るい地に濃い字) ============ */
+#order { z-index: 45; background: var(--ink); color: var(--lo); display: flex; flex-direction: column; }
+.oc-top { display: flex; justify-content: space-between; align-items: center; padding: calc(12px + env(safe-area-inset-top)) 6px 0 16px; font-size: 12.5px; font-weight: 900; letter-spacing: .06em; }
+.oc-top .sh-x { position: relative; right: auto; top: auto; flex: 0 0 48px; }
+.oc-zh { flex: 1 0 auto; display: flex; flex-direction: column; justify-content: center; padding: 10px 18px 14px; font-family: "PingFang TC", "Noto Sans TC", "Hiragino Sans", sans-serif; font-weight: 900; }
+.oc-zh .l1 { font-size: 24px; line-height: 1.5; }
+.oc-zh .dish { display: block; font-size: min(15vw, 84px); line-height: 1.2; margin: 14px 0 12px; overflow-wrap: anywhere; }
+.oc-zh .dish i { font-style: normal; font-family: var(--num); white-space: nowrap; margin-left: .2em; color: var(--side); }
+.oc-zh .eat { font-size: 44px; line-height: 1.3; } .oc-zh .th { font-size: 26px; margin-top: 10px; }
+.oc-zh .one { font-size: min(11.5vw, 62px); line-height: 1.4; }
+.oc-zh .rd { font-family: var(--body); font-size: 13px; font-weight: 700; letter-spacing: .04em; opacity: .7; margin-top: 12px; line-height: 1.7; }
+.oc-ja { margin: 0 18px; padding: 12px 0 14px; border-top: 2px solid var(--lo); font-size: 13.5px; font-weight: 700; line-height: 1.75; }
+.oc-ja .lab { opacity: .65; display: block; margin-bottom: 2px; }
+.oc-ctl { display: grid; grid-template-columns: auto 1fr; gap: 6px; padding: 0 18px 14px; }
+.oc-ctl .qty { display: grid; grid-template-columns: 46px 40px 46px; align-items: center; background: var(--lo); color: var(--ink); }
+.oc-ctl .qty button { height: 48px; text-align: center; font-family: var(--num); font-size: 26px; font-weight: 900; } .oc-ctl .qty b { text-align: center; font-family: var(--num); font-size: 24px; }
+.oc-ctl .eatsw { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+.oc-ctl .eatsw button { text-align: center; background: color-mix(in srgb, var(--lo) 16%, transparent); font-size: 13.5px; font-weight: 900; height: 48px; } .oc-ctl .eatsw button.on { background: var(--lo); color: var(--ink); }
+.oc-more { background: var(--lo); color: var(--ink); padding: 14px 18px calc(22px + env(safe-area-inset-bottom)); }
+.oc-more .lab { color: var(--dim); display: block; margin-bottom: 8px; }
+.oc-more .row { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; margin: 0 -18px; padding: 0 18px; } .oc-more .row::-webkit-scrollbar { display: none; }
+.oc-more .row button { flex: 0 0 auto; background: var(--bg2); padding: 10px 12px 11px; font-size: 12.5px; font-weight: 900; white-space: nowrap; } .oc-more .row button.on { background: var(--sub); color: var(--on-sub); }
+
+@media (prefers-reduced-motion: reduce) { #sheet, #order { transition-duration: .01s; } .fold.unf .fb, #memo.bump, .flash { animation: none; } }
